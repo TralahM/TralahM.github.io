@@ -1,6 +1,5 @@
 ---
-layout: single
-title: About
+title: "About"
 permalink: /about/
 header:
     image: "/images/card.png"
