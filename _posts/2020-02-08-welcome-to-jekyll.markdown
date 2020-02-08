@@ -3,6 +3,9 @@ title:  "Markdown for Blogging"
 date:   2020-02-08 22:59:32 +0300
 categories: markdown blogging
 mathjax: true
+header:
+    image: "/images/card.png"
+excerpt: "Some Teaser for this post"
 ---
 
 
