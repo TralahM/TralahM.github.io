@@ -284,10 +284,12 @@ compress_html:
 # Defaults
 defaults:
   # _posts
-  - scope:
+  -
+
+    scope:
       path: ""
       type: posts
-      values:
+    values:
       layout: single
       author_profile: true
       read_time: true
@@ -295,10 +297,12 @@ defaults:
       share: true
       related: true
 
-  # _pages
-  - scope:
+    # _pages
+  -
+
+    scope:
       path: ""
       type: pages
-      values:
+    values:
       layout: single
       author_profile: true
