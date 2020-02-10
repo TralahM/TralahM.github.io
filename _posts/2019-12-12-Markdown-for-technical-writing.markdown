@@ -1,11 +1,10 @@
 ---
-title:  "Markdown for Blogging"
-date:   2020-02-08 22:59:32 +0300
+title:  "Markdown for Technical Writing"
 categories: markdown blogging
 mathjax: true
 header:
-    image: "/images/card.png"
-excerpt: "Some Teaser for this post"
+    image: "/images/mdblog.png"
+excerpt: "Using Markdown for Technical Writing "
 ---
 
 
