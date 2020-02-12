@@ -1,3 +1,6 @@
+<script type='text/javascript'async
+        src="https:cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 {% if site.footer_scripts %}
   {% for script in site.footer_scripts %}
     {% if script contains "://" %}
@@ -36,12 +39,6 @@
     {% endif %}
     <script src="{{ script_path }}"></script>
   {% endfor %}
-{% endif %}
-{% if page.mathjax %}
-<script type='text/javascript'async
-        src="https:cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-
-</script>
 {% endif %}
 <!-- <1!-- Latest compiled and minified JavaScript --1> -->
 <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
