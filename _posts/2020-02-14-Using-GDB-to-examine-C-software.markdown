@@ -52,14 +52,14 @@ $ ps -aux | grep memory_demo
 
 The result should be similar to :
 
-![image](/images/obtain_pid.png)
+<img src="/images/obtain_pid.png">
 
 In the linux filesystem the **/proc/** contains the runtime information
 associated with all running processes and thus you should find a
 directory in this directory with a name corresponding to the process id
 you obtained above.
 
-![image](/images/proc_pid.png)
+<img src="/images/proc_pid.png">
 
 Our interest is the *maps* file which contains the memory layout in
 virtual memory
@@ -68,4 +68,4 @@ virtual memory
 $ cat /proc/YOUR_PID/maps
 ```
 
-![image](/images/maps_file.png)
+<img src="/images/maps_file.png">
