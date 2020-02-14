@@ -12,7 +12,7 @@ examining the memory, stack and registers of a running process.
 The code is a very simple program to add two integers passed as command
 line arguments and prints a string with the result
 
-``` {.c}
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -38,7 +38,7 @@ main(int argc,char **argv){
 Compile using the command below and call the executable with some
 arguments..
 
-``` {.sourceCode .console}
+```console
 $ gcc -ggdb -o memory_demo memory_demo.c
 $ ./memory_demo 32 23
 ```
@@ -46,7 +46,7 @@ $ ./memory_demo 32 23
 In another separate window lets obtain the process id( **pid** ) of the
 program with
 
-``` {.sourceCode .console}
+``` console
 $ ps -aux | grep memory_demo
 ```
 
@@ -64,7 +64,7 @@ you obtained above.
 Our interest is the *maps* file which contains the memory layout in
 virtual memory
 
-``` bash
+``` console
 $ cat /proc/YOUR_PID/maps
 ```
 

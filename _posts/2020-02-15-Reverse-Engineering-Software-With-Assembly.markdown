@@ -44,7 +44,7 @@ engineer.
 
 -   LIFO data structure
 
-``` assembly
+```nasm
 push ebp
 mov esp,ebp
 sub esp,0x08
@@ -167,7 +167,7 @@ OPERAND TYPES
 
 __Function Prologue and Epilogue__
 
-``` assembly
+``` nasm
 push ebp
 mov ebp, esp
 sub esp, N
