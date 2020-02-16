@@ -4,16 +4,68 @@ layout: archive
 
 {{ content }}
 
+<section id="intro" class="intro">
+    <div id="cp_widget_065bb511-fb79-4885-870d-e1a32190eac8">...</div><script
+         type="text/javascript">
+         var cpo = []; cpo["_object"] ="cp_widget_065bb511-fb79-4885-870d-e1a32190eac8";
+         cpo["_fid"] = "AgJAxYew_eWA";
+         var _cpmp = _cpmp || []; _cpmp.push(cpo);
+         (function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+             cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+             var c = document.getElementsByTagName("script")[0];
+             c.parentNode.insertBefore(cp, c); })(); </script><noscript><span>ABOUT
+    US</span><span>TralahTek  is a technology oriented and driven company in Africa
+    providing tech solutions to people all over Africa helping them meet their
+    needs.</span><span>Trademark</span><span>Our Company
+    insignia</span><span>originaldate</span><span> 1/1/0001 6:00:00
+    AM</span><span>width</span><span> 480</span><span>height</span><span>
+    480</span><span>Our Banner</span><span>Our Company
+    The insignia to identify us from the crowd that
+    is.</span><span>originaldate</span><span> 1/1/0001 6:00:00
+    AM</span><span>width</span><span> 480</span><span>height</span><span>
+    480</span><span>Data Visualization and Presentation</span><span>We process and
+    prepare insightful reports from your data and help make informed
+    decisions.</span><span>originaldate</span><span> 1/1/0001 6:00:00
+    AM</span><span>width</span><span> 517</span><span>height</span><span>
+    609</span><span>Data Science and Analytics</span><span>We provide data
+    analytics services to help companies and individuals leverage the power of data
+    and gain insights therein. Give us your data and we'll tell you what we
+    find.</span><span>originaldate</span><span> 1/1/0001 6:00:00
+    AM</span><span>width</span><span> 1192</span><span>height</span><span>
+    580</span><span>Research and Innovation</span><span>We believe in scientific
+    research and its benefit to human life and productivity.
+    We aid you to conduct better research in your field of interest by providing
+    you with the data and or data collection services.
+</span><span>originaldate</span><span> 1/1/0001 6:00:00
+    AM</span><span>width</span><span> 1920</span><span>height</span><span>
+    1200</span><span>Information Systems</span><span>We develop fast, efficient and
+    secure information systems to help you collect, organize and retrieve data
+    concisely.
+    From geographical to human resource to asset information systems, we
+    will.</span><span>originaldate</span><span> 1/1/0001 6:00:00
+    AM</span><span>width</span><span> 1920</span><span>height</span><span>
+    1200</span><span>BlockChain Solutions</span><span>We help you leverage the
+    power of the blockchain technology to create an immutable distributed ledger of
+    records, from transactions to business documents.
+    A system you can trust.</span><span>originaldate</span><span> 1/1/0001 6:00:00
+    AM</span><span>width</span><span> 1920</span><span>height</span><span>
+    1200</span></noscript>
+             <div class="page-scroll">
+                 <a href="#service" class="btn btn-circle">
+                     <i class="fa fa-angle-double-down animated"></i>
+                 </a>
+             </div>
+</section>
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% if paginator %}
-  {% assign posts = paginator.posts %}
+{% assign posts = paginator.posts %}
 {% else %}
-  {% assign posts = site.posts %}
+{% assign posts = site.posts %}
 {% endif %}
 
 {% for post in posts %}
-  {% include archive-single.html %}
+{% include archive-single.html %}
 {% endfor %}
 
 {% include paginator.html %}
