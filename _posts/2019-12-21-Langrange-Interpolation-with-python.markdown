@@ -6,6 +6,7 @@ excerpt: "A look at the Langrange Interpolation Technique for finding missing va
 in equ-spaced data."
 header:
     image: "/images/lagrange.png"
+teaser: "/images/lagrange.png"
 ---
 
 ## Lagrange Interpolation
