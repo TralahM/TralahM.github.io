@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-    image: "/images/card.png"
+    image: "/images/headerme.png"
 ---
 <div class='intro container-fluid'>
 <p>
@@ -57,7 +57,7 @@ o.parentNode.insertBefore(s, o);
 </td>
 <td class='col-md-4'>
 <p> Computer Science and Mathematics  Degree from JKUAT (May 2016 - September 2019)</p>
-<img class="img-responsive" src="/images/jkuat-logo.png" width="250">
+<img class="img-responsive" src="/images/jkuat-logo.png" width="250"height="270">
 </td>
 </tr>
 <tr class='row'>
