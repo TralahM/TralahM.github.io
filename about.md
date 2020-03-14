@@ -22,7 +22,7 @@ I believe in collaboration in problem solving and its merits in yielding effecti
 It gives me great joy to be able to take seemingly not very useful data and extract actionable insights and tell a story thereof.
 </p>
 </div>
-## *Credentials and Accolades*
+## *Credentials*
 <table>
 <tr class='row'>
 <td class="col-md-4">
@@ -54,10 +54,6 @@ var o = document.getElementsByTagName('script')[0];
 o.parentNode.insertBefore(s, o);
 })();
 </script>
-</td>
-<td class='col-md-4'>
-<p> Computer Science and Mathematics  Degree from JKUAT (May 2016 - September 2019)</p>
-<img class="img-responsive" src="/images/jkuat-logo.png"height="270"/>
 </td>
 </tr>
 <tr class='row'>
