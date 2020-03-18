@@ -4,7 +4,7 @@ categories: markdown blogging
 mathjax: true
 header:
     image: "/images/mdblog.png"
-teaser: "/images/mdblog.png"
+    teaser: "/images/mdblog.png"
 excerpt: "Using Markdown for Technical Writing "
 ---
 

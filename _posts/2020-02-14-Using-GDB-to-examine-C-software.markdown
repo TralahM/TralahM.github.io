@@ -1,6 +1,6 @@
 ---
-title: "Examining Memory, Stacks,Registers using the GNU Debugger"
 categories: reverse-engineering debugging  programming C
+title: "Examining Memory, Stacks,Registers using the GNU Debugger"
 excerpt: "In this post we look at how a reverse engineer can begin reverse engineering by examining the memory, stack and registers of a running process."
 ---
 

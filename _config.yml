@@ -12,22 +12,22 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "plum" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "TralahM"
 title_separator          : "| "
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "The African Tek Nerd"
 name                     : "Tralah M Brian"
 description              : "My Data Science and Programming Portfolio"
-url                      : "https://tralahm.github.io"
+url                      : "https://tralahm.tralahtek.com"
 baseurl                  : ""
 repository               : "TralahM/TralahM.github.io"
 teaser                   : "/images/blogteaser.png"
 logo                     : "/images/logo2.png"
 masthead_title           : "TralahM"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus"
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Tralah M Brian"
   avatar           : # "/images/logo.png"
-  bio              : "Data Scientist, Programmer, Writer, Tutor, Chess Player"
+  bio              : "Data Scientist, Programmer, Writer, Pan-African, Chess Player"
   location         : "Nairobi,Kenya"
   email            : "briantralah@tralahtek.com"
   links:
@@ -293,7 +293,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments:  true
       share: true
       related: true
 
