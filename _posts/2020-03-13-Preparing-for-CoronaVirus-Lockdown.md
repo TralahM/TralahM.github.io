@@ -1,10 +1,10 @@
 ---
-title: "Preparing for a corona virus Lockdown"
+title: Preparing for a corona virus Lockdown
 categories: covid19 coronavirus health pandemic survival MOH
 excerpt: "We don’t realize just how social beings we are until that contact is reduced or diminished because we can't leave our homes."
 header:
-	image: "/images/lockdown.jpeg"
-	teaser: "/images/coronavirus.jpg"
+	image: /images/lockdown.jpeg
+	teaser: /images/coronavirus.jpg
 ---
 
 # How to Prepare for a Coronavirus Lockdown
