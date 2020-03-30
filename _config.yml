@@ -27,7 +27,7 @@ repository               : "TralahM/TralahM.github.io"
 teaser                   : "/images/TralahM.png"
 logo                     : "/images/logo2.png"
 masthead_title           : "TralahM"
-breadcrumbs              : true # true, false (default)
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus"
