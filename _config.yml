@@ -293,6 +293,7 @@ defaults:
           mathjax: true
           class: wide
           author_profile: true
+          analytics: true
   # _posts
   - scope:
       path: ""
