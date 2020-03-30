@@ -24,7 +24,7 @@ description              : "My Data Science and Programming Portfolio"
 url                      : "https://tralahm.tralahtek.com"
 baseurl                  : ""
 repository               : "TralahM/TralahM.github.io"
-teaser                   : "/images/TralahM.png"
+teaser                   : "/images/tekblogquote.png"
 logo                     : "/images/logo2.png"
 masthead_title           : "TralahM"
 breadcrumbs              : false # true, false (default)
