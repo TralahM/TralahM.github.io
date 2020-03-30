@@ -10,7 +10,7 @@ economics, energy engineering, environmental sciences,ecology, and sociology.
 We mainly discuss the aforementioned problems from the perspective of computer science."
 header:
     image: /images/urbancompute.jpg
-    teaser: /images/urban_computing.jpg
+    teaser: /images/urban_compute.jpg
 ---
 
 # Introduction
