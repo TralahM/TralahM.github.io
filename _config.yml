@@ -102,7 +102,6 @@ analytics:
   provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : "UA-137830513-1"
-    anonymize_ip         : false # true, false (default)
 
 
 # Site Author
@@ -180,7 +179,7 @@ exclude:
   - LICENSE
   - ".github/*"
   - PULL_REQUEST_TEMPLATE.md
-  - CODE_OF_CONDUCT.md 
+  - CODE_OF_CONDUCT.md
   - log
   - node_modules
   - package.json
