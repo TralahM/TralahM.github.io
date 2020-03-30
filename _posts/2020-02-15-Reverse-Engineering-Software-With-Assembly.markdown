@@ -5,9 +5,13 @@ excerpt: "
 So you have some program/software and you dont know exactly what it does, maybe
 the code is proprietary thus you cant read the code and figure it out, you want
 to inspect a piece of malicious software/virus."
+header:
+    image: /images/reverse_engineering.png
+    teaser: /images/reverse_engineering.png
 ---
+
 # WHY REVERSE ENGINEER?
-So you have some program/software and you dont know exactly what it does, maybe
+So you have some program/software and you don't know exactly what it does, maybe
 the code is proprietary thus you cant read the code and figure it out, you want
 to inspect a piece of malicious software/virus.
 Here is why you might want to do some RE:
