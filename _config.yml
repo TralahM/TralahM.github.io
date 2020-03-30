@@ -99,18 +99,18 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "UA-137830513-1"
+    anonymize_ip         : false # true, false (default)
 
 
 # Site Author
 author:
   name             : "Tralah M Brian"
   avatar           : "/images/TralahM.png"
-  bio              : "Data Scientist, Programmer, Writer, Pan-African, Chess Player"
-  location         : "Nairobi,Kenya"
+  bio              : "Computer Scientist, Programmer, Writer, African. Interests in computing, mathematics, science, philosophy, and chess."
+  location         : "Nairobi, Kenya, Africa"
   email            : "briantralah@tralahtek.com"
   links:
     - label: "Email"
@@ -130,7 +130,7 @@ author:
       url: "https://github.com/TralahM"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/tralahm"
 
 # Site Footer
 footer:
@@ -222,7 +222,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 6 # amount of posts to show
 paginate_path: /page:num/
 timezone: 'Africa/Nairobi'
 
@@ -293,7 +293,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments:  true
+      comments:  false
       share: true
       related: true
 
@@ -306,3 +306,4 @@ defaults:
     values:
       layout: single
       author_profile: true
+      share: true
