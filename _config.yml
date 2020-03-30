@@ -283,10 +283,16 @@ compress_html:
 
 # Defaults
 defaults:
+  # all
+  - scope:
+      path: ""
+      values:
+          layout: single
+          mathjax: true
+          class: wide
+          author_profile: true
   # _posts
-  -
-
-    scope:
+  - scope:
       path: ""
       type: posts
     values:
@@ -298,9 +304,7 @@ defaults:
       related: true
 
     # _pages
-  -
-
-    scope:
+  - scope:
       path: ""
       type: pages
     values:
