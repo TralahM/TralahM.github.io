@@ -47,14 +47,21 @@ Urban Computing connects unobtrusive and ubiquitous sensing technologies, advanc
 Urban Computing also helps us understand urban phenomena and even predict the future of cities.
 
 ## General Framework
+
+![General Framework Illustration](/images/urban-computing-connects.png)
+
 The general framework of urban computing is composed of four layers:
+
 * Urban sensing
 We constantly probe people's mobility(e.g, routing behaviour in a city's road network) using GPS sensors or their mobile phone signals.
 We also continually collect the social media people have posted on the internet.
+
 * Urban data management
 We organize the human mobility and social media data by some indexing structure incorporating spatio-temporal information and texts for supporting efficient data analytics
+
 * Data analytics
 We detect anomalies by identifying the locations where people's mobility significantly differs from its origin patterns.
+
 * Service provision
 The locations and descriptions of the anomalies are sent to drivers nearby so that they can choose a bypass as well as delivered to transportation authorities for dispersing traffic and diagnosing the anomaly.
 
@@ -123,22 +130,30 @@ The system continues the loop for an instant and unobtrusive detection of urban 
 
 ### Passive Crowd Sensing
 * Sensing City Dynamics with GPS-Equipped Vehicles
+
 * Data Acquisition through Ticketing Systems of Public Transportation
+
 * Data Acquisition through Wireless Communication Systems
+
 * Data Acquisition through Social Networking Services
 
 
 ### Passive Participatory Sensing
 * Human Crowdsensing
+
 * Human Crowdsourcing
 
 ## Urban Data Management Techniques
 
 ### Stream and Trajectory Data Management
 * Data reduction techniques for trajectories
+
 * Noise filtering techniques for trajectories
+
 * Techniques for querying and indexing trajectories
+
 * Techniques dealing with uncertainty of trajectories
+
 * Trajectory pattern Mining
 
 ### Graph Data Management
@@ -162,8 +177,8 @@ The system continues the loop for an instant and unobtrusive detection of urban 
 ## Future Directions
 1. Balanced Crowdsensing
 2. Skewed data distribution
-3. Managing and indexing multimode data sources
+3. Managing and indexing multi mode data sources
 4. Knowledge Fusion
-5. Exploratory and interacitve visualization for multiple data sources
+5. Exploratory and interactive visualization for multiple data sources
 6. Algorithm Integration
 7. Intervention-based analysis and prediction
