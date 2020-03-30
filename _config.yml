@@ -178,6 +178,9 @@ exclude:
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
+  - ".github/*"
+  - PULL_REQUEST_TEMPLATE.md
+  - CODE_OF_CONDUCT.md 
   - log
   - node_modules
   - package.json
