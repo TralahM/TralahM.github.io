@@ -24,7 +24,7 @@ description              : "My Data Science and Programming Portfolio"
 url                      : "https://tralahm.tralahtek.com"
 baseurl                  : ""
 repository               : "TralahM/TralahM.github.io"
-teaser                   : "/images/blogteaser.png"
+teaser                   : "/images/Tralah.png"
 logo                     : "/images/logo2.png"
 masthead_title           : "TralahM"
 breadcrumbs              : true # true, false (default)
@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Tralah M Brian"
-  avatar           : # "/images/logo.png"
+  avatar           : "/images/TralahM.png"
   bio              : "Data Scientist, Programmer, Writer, Pan-African, Chess Player"
   location         : "Nairobi,Kenya"
   email            : "briantralah@tralahtek.com"
