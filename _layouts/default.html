@@ -21,7 +21,19 @@
     {% include_cached masthead.html %}
 
     <div class="initial-content">
+        <!-- <p style="margin-top:10px; margin-bottom:0; padding-bottom:0; text-align:center; line-height:0"><a target="_blank" href="http://feeds.feedburner.com/~r/Tralahm/~6/1"><img src="http://feeds.feedburner.com/Tralahm.1.gif" alt="The African Tek Nerd" style="border:0"></a></p><p style="margin-top:5px; padding-top:0; font-size:x-small; text-align:center"><a href="https://feedburner.google.com/fb/a/headlineanimator/install?id=qmjemsp1lhecpqg277irs6su3c&amp;w=1" onclick="window.open(this.href, 'haHowto', 'width=520,height=600,toolbar=no,address=no,resizable=yes,scrollbars'); return false" target="_blank">&uarr; Grab this Headline Animator</a></p> -->
+        <!-- <br> -->
       {{ content }}
+    </div>
+    <div class="newsletter-container">
+        <p class="newsletter-text">Get new posts to your inbox</p>
+        <form class="newsletter-form" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=Tralahm', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+            <p>Enter your email address:</p><p>
+            <input class="newsletter-email" type="text" style="width:140px" name="email"/></p>
+            <input type="hidden" value="Tralahm" name="uri"/>
+            <input type="hidden" name="loc" value="en_US"/>
+            <input class="newsletter-submit" type="submit" value="Subscribe" />
+        </form>
     </div>
     <div class="initial-content">
         <!-- Start of banner code -->
