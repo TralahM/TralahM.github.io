@@ -3,7 +3,8 @@ title: "Preparing for a corona virus Lockdown"
 categories: covid19 coronavirus health
 excerpt: "We don’t realize just how social beings we are until that contact is reduced or diminished because we can't leave our homes."
 header:
-    image: "/images/coronavirus.jpg"
+    overlay_image: "/images/coronavirus.jpg"
+    overlay_filter: 0.5
     teaser: "/images/coronavirus.jpg"
 ---
 

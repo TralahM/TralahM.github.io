@@ -3,7 +3,8 @@ title:  "Markdown for Technical Writing"
 categories: markdown blogging
 mathjax: true
 header:
-    image: "/images/mdblog.png"
+    overlay_image: "/images/mdblog.png"
+    overlay_filter: 0.5
     teaser: "/images/mdblog.png"
 excerpt: "Using Markdown for Technical Writing "
 ---
