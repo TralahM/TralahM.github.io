@@ -2,12 +2,9 @@
 title: "Urban Computing: Solving Big Challenges in Big Cities with Big Data"
 categories: computing big-data technology
 excerpt: "
-In the article the term Urban Computing is formally coined and introduces its general framework, key research problems,methodologies, and applications.
 We explore this nascent area, therefore aid in generating quality research results and real systems than can eventually lead to greener and smarter cities.
-In addition, urban computing is a multidisciplinary research field, where computer sciences meet conventional city-related areas, such as civil engineering,transportation,
-economics, energy engineering, environmental sciences,ecology, and sociology.
 
-We mainly discuss the aforementioned problems from the perspective of computer science."
+We mainly discuss the mentioned problems from the perspective of computer science."
 header:
     overlay_image: /images/urbancompute.jpg
     overlay_filter: 0.5
