@@ -14,7 +14,7 @@ en: &DEFAULT_EN
   breadcrumb_separator       : "/"
   menu_label                 : "Toggle menu"
   search_label               : "Toggle search"
-  toc_label                  : "On this page"
+  toc_label                  : "Contents"
   ext_link_label             : "Direct link"
   less_than                  : "less than"
   minute_read                : "minute read"
@@ -23,7 +23,7 @@ en: &DEFAULT_EN
   tags_label                 : "Tags:"
   categories_label           : "Categories:"
   date_label                 : "Updated:"
-  comments_label             : "Leave a comment"
+  comments_label             : "Share your Thoughts"
   comments_title             : "Comments"
   more_label                 : "Learn more"
   related_label              : "You may also enjoy"
@@ -1555,7 +1555,7 @@ hi: &DEFAULT_HI
   back_to_top                : "शीर्ष पर वापस"
 hi-IN:
   <<: *DEFAULT_HI
-  
+
 # Catalan
 # --------------
 ca: &DEFAULT_CA
@@ -1607,7 +1607,7 @@ ca: &DEFAULT_CA
   back_to_top                : "Torna a dalt"
 ca-ES:
   <<: *DEFAULT_CA
-  
+
 # Another locale
 # --------------
 #
