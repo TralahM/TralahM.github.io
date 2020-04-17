@@ -1,20 +1,18 @@
 ---
 title: A Case for African Unification
 author: Tralah M Brian
-excerpt: ""
+excerpt: "Despite all the sacrifices paid over half a millennia through a history of prolonged African resistance, Africa's national liberation is still not settled.
+The national question cannot be entrusted to officialdom."
+toc_sticky: true
 header:
-    image_overlay: images/overlay.png
-    teaser: images/teaser.png
+    overlay_color: "#332"
+    overlay_filter: 0.5
+    actions:
+        - label: "Read More"
+          url: ""
 ---
 
 
-# Africa Agenda 2063
-We the people of Africa and her Diaspora, united in diversity, young and old, men and women, girls and boys from all walks of life,deeply conscious of history, express our deep appreciation to all generations of Pan-Africanists.
-In particular to the founders of the Organization of African Unity for having bequeathed us an Africa with exemplary success in the fight against slavery,colonialism, apartheid, and racial discrimination.
-We echo the Pan-African call that Africa must unite in order to realize its renaissance.
-Increasing agricultural production; investments in science, technology, research and innovation; gender equality, youth empowerment and the provision of basic services including health, nutrition, education, shelter, water and sanitation.
-Africa's stolen culture, heritage and artefacts will be fully repatriated and safeguarded.
-The continent will continue to oppose all forms of politicization of religion and religious extremism.
 
 # The case for African Unification
 Human existence itself demands that freedom is a necessary condition for that human existence.
@@ -61,7 +59,7 @@ Of the major political and economic consequences of colonialism the following re
 
 7. The post-colonial state  was seen more as a sign of enrichment and accumulation. It distorted political development in Africa, turning it into a major prize for political contest.
 
-![Economic Outcomes](economic_outcomes_colonialism.png)
+![Economic Outcomes](/images/economic_outcomes_colonialism.png)
 
 We must say with courage and anger that even if the heavens fall, Africa must have justice. That means reviving and positioning Pan-Africanism as the national emancipatory project to recompose Africa on a fresh basis.
 There is a need to build a united identity to a common form of oppression in order to thwart the plans of the current muscular, unilateralist and resurgent imperialism.
@@ -77,3 +75,16 @@ Who is Uniting? What is the Unity for? How does the Unity proceed?
 The AU remains subordinate to the overriding need of the heads of states to maintain their largely hollow sovereignties.
 
 The key challenge remains to this day: the creation of Africa as a sovereign entity.
+
+# Africa Agenda 2063
+<div class="notice">
+    We the people of Africa and her Diaspora, united in diversity, young and old, men and women, girls and boys from all walks of life,deeply conscious of history, express our deep appreciation to all generations of Pan-Africanists.
+
+    In particular to the founders of the Organization of African Unity for having bequeathed us an Africa with exemplary success in the fight against slavery,colonialism, apartheid, and racial discrimination.
+</div>
+
+We echo the Pan-African call that Africa must unite in order to realize its renaissance.
+* Increasing agricultural production; investments in science, technology, research and innovation; gender equality, youth empowerment and the provision of basic services including health, nutrition, education, shelter, water and sanitation.
+* Africa's stolen culture, heritage and artefacts will be fully repatriated and safeguarded.
+* The continent will continue to oppose all forms of politicization of religion and religious extremism.
+
