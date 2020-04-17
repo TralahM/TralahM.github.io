@@ -4,8 +4,8 @@ main:
     url: https://tralahm.tralahtek.com/
   - title: "About"
     url: https://tralahm.tralahtek.com/about/
-  - title: "Categories"
-    url: /categories/
+  - title: "Archives"
+    url: /archives/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
