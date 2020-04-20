@@ -1,11 +1,11 @@
 # main links
 main:
   - title: "Blog"
-    url: https://tralahm.tralahtek.com/
+    url: /
   - title: "About"
-    url: https://tralahm.tralahtek.com/about/
-  - title: "Archives"
-    url: /archives/
+    url: /about/
+  - title: "Categories"
+    url: /categories/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
