@@ -1,6 +1,6 @@
 ---
-title: The Implications of Corona Virus on Democracy and Civil Liberties
-categories: covid19 health technology
+title: The Implications of the use of Technology in fighting Covid19 on Democracy and Civil Liberties
+categories: covid19 health technology democracy
 tags: covid19 health technology
 author: Tralah M Brian
 excerpt: "Edward Snowden weighs in on the potential impacts of the use of technology in fighting the coronavirus pandemic and addresses himself to matters civil liberties post covid19.
