@@ -4,6 +4,7 @@
 
 .masthead {
   position: relative;
+  background-color: #363
   border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -34,7 +35,7 @@
     }
 
     a {
-      text-decoration: none;
+      text-decoration: uppercase;
     }
   }
 }
@@ -60,6 +61,7 @@
 
 .masthead__menu {
   float: left;
+  color: red;
   margin-left: 0;
   margin-right: 0;
   width: 100%;
