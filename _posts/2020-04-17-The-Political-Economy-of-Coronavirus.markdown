@@ -2,7 +2,7 @@
 title: The Political Economy of Coronavirus
 categories: covid19 coronavirus health politics economics
 author: Tralah M Brian
-excerpt: "Reknown scholar and economist David Ndii weighs in on the political economy of the pandemic and life after the virus and matters development moving forward."
+excerpt: "Renowned scholar and economist David Ndii weighs in on the political economy of the pandemic and life after the virus and matters development moving forward."
 header:
     teaser: /images/coronavirus.jpg
     video:
