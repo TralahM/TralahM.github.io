@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Tralah M Brian"
   avatar           : "/images/TralahM.png"
-  bio              : "Computer Scientist, Programmer, Writer, African. Interests in computing, mathematics, science, philosophy, and chess."
+  bio              : "Computer Scientist, Programmer, Writer, African. As our people say, a man who pays respect to the great paves way for his own greatness"
   location         : "Nairobi, Kenya, Africa"
   email            : "briantralah@tralahtek.com"
   links:
@@ -299,7 +299,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments:  false
+      comments:  true
       share: true
       related: true
       toc: true
