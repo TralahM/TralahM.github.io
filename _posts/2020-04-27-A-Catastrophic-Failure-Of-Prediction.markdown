@@ -5,7 +5,7 @@ excerpt: "How can we apply our judgment to the data—without succumbing to our 
 categories: technology science mathematics
 tags: technology science mathematics
 header:
-    image_overlay: /images/predictions.png
+    overlay_image: /images/predictions.png
     overlay_filter: 0.5
     teaser: /images/predictions.png
 ---
