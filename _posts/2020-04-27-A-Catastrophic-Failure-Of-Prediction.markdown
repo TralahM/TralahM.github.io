@@ -10,7 +10,6 @@ header:
     teaser: /images/predictions.png
 ---
 
-# Why so Many predictions fail, and why some don't
 
 
 ## More Information, More Problems
