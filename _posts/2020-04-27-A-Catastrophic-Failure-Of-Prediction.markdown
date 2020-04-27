@@ -8,9 +8,6 @@ header:
     image_overlay: /images/predictions.png
     overlay_filter: 0.5
     teaser: /images/predictions.png
-    # video:
-    # 	id: AXSID
-    # 	provider: youtube
 ---
 
 # Why so Many predictions fail, and why some don't

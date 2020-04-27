@@ -8,7 +8,6 @@ header:
     video:
         id: NzWq4TXP9rI
         provider: youtube
-
 ---
 
 # Take Away
