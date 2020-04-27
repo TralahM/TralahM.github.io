@@ -282,34 +282,25 @@ compress_html:
 
 # Defaults
 defaults:
-  # all
-  - scope:
-      path: ""
-      values:
-          layout: single
-          mathjax: true
-          class: wide
-          author_profile: true
-          analytics: true
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments:  true
-      share: true
-      related: true
-      toc: true
-      toc_label: "Contents"
+    # _posts
+    - scope:
+        path: ""
+        type: posts
+        values:
+            layout: single
+            author_profile: true
+            read_time: true
+            comments:  true
+            share: true
+            related: true
+            toc: true
+            toc_label: Contents
 
     # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      share: true
+    - scope:
+        path: ""
+        type: pages
+        values:
+            layout: single
+            author_profile: true
+            share: true
