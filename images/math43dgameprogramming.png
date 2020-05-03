@@ -1,0 +1,5192 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mathematics for 3D Game Programming and Computer Graphics, Third Edition | Eric Lengyel | download</title>
+<base href="/">
+
+                        <meta charset="utf-8">		                       
+                        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <meta name="title" content="Mathematics for 3D Game Programming and Computer Graphics, Third Edition | Eric Lengyel | download">
+			<meta name="description" content="Mathematics for 3D Game Programming and Computer Graphics, Third Edition | Eric Lengyel | download | B–OK. Download books for free. Find books">
+			<meta name="robots" content="index,all">
+			<meta name="distribution" content="global">
+			<meta http-equiv="cache-control" content="no-cache">
+			<meta http-equiv="pragma" content="no-cache">
+
+                        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+                        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+                        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+                        <link rel="manifest" href="/manifest.json">
+                        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+                        <meta name="apple-mobile-web-app-title" content="Z-Library">
+                        <meta name="application-name" content="Z-Library">
+                        <meta name="theme-color" content="#ffffff">
+
+                        <meta name="propeller" content="49c350d528ba144cace841cac74260ab">
+	
+<!-- CSS SET -->
+<!-- JS SET --> 
+<link REL="SHORTCUT ICON" HREF="/favicon.ico">
+        <link rel="search" type="application/opensearchdescription+xml" href="/search.xml" title="Search for books in the library B-OK.org" />
+
+                    <link rel="stylesheet" type="text/css" href="/resources/build/global.css?0.188" />
+            <script type="text/javascript" src="/resources/build/global.js?0.188"></script>
+        
+        <link rel="stylesheet" type="text/css" href="/resources/ext/bootstrap-tagsinput/bootstrap-tagsinput.css" />
+<link rel="stylesheet" type="text/css" href="/resources/ext/lightbox/jquery.lightbox-0.5.css" />
+        <script type="text/javascript" src="/resources/ext/typeahead.js"></script>
+<script type="text/javascript" src="/resources/ext/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
+<script type="text/javascript" src="/resources/ext/lightbox/jquery.lightbox-0.5.min.js"></script>
+
+        <script>
+            const CurrentUser = new User({"id":"3534268"})
+
+                        $(document).ready(function() {
+                CurrentUser.getDownloadedBooks().then(downloadedBooks => {
+                    $('.checkBookDownloaded').each(function(index, el) {
+                        if (dateDownloaded = downloadedBooks && downloadedBooks[parseInt(el.getAttribute('data-book_id'))]) {
+                            let date = new Date(dateDownloaded * 1000)
+                            let months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+                            $(el).addClass('bookDownloaded')
+                                .attr('title', 'Downloaded at ' + date.getDate() + ' ' + months[date.getMonth()] + ' ' + date.getFullYear())
+                        }
+                    })
+                })
+            })
+                    </script>
+    </head>
+
+    <body style="margin:0px;padding:0px;" class="books/details">
+        <table border="0" height="100%" width="100%" style="height:100%;" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr style="height:10px;">
+                    <td>
+                        <div class="container-fluid">
+                            <style>
+    div#colorBoxes ul li.active:nth-child(1)
+    {
+        border: 1px solid #378096;
+        box-shadow: 0 0 6px #7DBCCF;
+        border-top: 0px;
+
+    }
+
+    div#colorBoxes ul li.active:nth-child(2)
+    {
+        border: 1px solid #6e9b41;
+        box-shadow: 0 0 6px #a4e861;
+        border-top: 0px;
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-12">
+        <div id="colorBoxes" class="darkShadow">
+            <ul>
+                <li style="background: #49afd0;" class="active">
+                    <a href="/">
+                        <span class="hidden-xs">5,074,960</span>
+                        Books                    </a>
+                </li>
+
+                <li style="background: #8ecd51;" class="">
+                    <a href="http://booksc.xyz/?remix_userkey=f2d961752b5365c920ab83852b1fd298&remix_userid=3534268">
+                        <span class="hidden-xs">77,518,212</span>
+                        Articles                    </a>
+                </li>
+
+                <li style="background: #90a5a8;" class="hidden-xs"><a href="https://z-lib.org">ZLibrary Home</a></li>
+                <li style="background: #90a5a8;" class="visible-xs"><a href="https://z-lib.org">Home</a></li>
+            </ul>
+        </div>
+
+        <div role="navigation" class="navbar-default navbar-right" style="background-color: transparent;">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" onclick="setTimeout(function () {$('#main-menu-dropdown').click()}, 100)">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="clear: both;">
+                <ul class="nav navbar-nav navbar-right" style="">
+                                            <li><a href="/profile.php" id="mainUserLink">Tralah Brian</a></li>
+                    
+                    
+                    <li>
+                    <a href="/howtodonate.php" style="color:#8EB46A;">Donate</a>                    </li>
+                    <li class="dropdown">
+                        <a href="#" id="main-menu-dropdown" class="dropdown-toggle hidden-xs" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
+                            <span style="font-size: 120%;" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                                                    </a>
+                        <ul class="dropdown-menu">
+                                                        <li class="dropdown-header">Books</li>
+                                                            <li><a href="/book-add.php">Add book</a></li>
+                                <li><a href="/categories">Categories</a></li>
+                                <li><a href="/popular.php">Most Popular</a></li>
+                                                                                    <li><a href="/recently.php">Recently Added</a></li>
+                                                            <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Profile</li>
+                                <li><a href="/profile.php">Profile</a></li>
+                                <li><a href="/profileEdit.php">Edit profile</a></li>
+                                <li><a href="/users/saved_books.php">Saved books</a></li>
+                                                                    <li><a href="/users/uploads.php">Your uploads</a></li>
+                                    <li><a href="/users/recommended.php">Recommended books</a></li>
+                                                                <li><a href="/users/zalerts.php">ZAlerts</a></li>
+                                <li><a href="/users/dstats.php">Download history</a></li>
+                                <li><a href="/users/suggested-corrections.php">Suggested corrections</a></li>
+                                <li><a href="/logout.php">Logout</a></li>
+                                                        <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Z-Library Project</li>
+                            <li><a href="/top-zlibrarians.php">Top Z-Librarians</a></li>
+                            <li><a href="/blog/">Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script>
+        $(window).on("load", function () {
+            $('#mainUserLink').tooltip({
+                html: true,
+                placement: 'bottom',
+                title: '<div id="userDStatsSpinner">Loading...</div>',
+
+            }).on('inserted.bs.tooltip', function() {
+                // already loaded, do nothing
+                if (!$('#userDStatsSpinner').length) {
+                    return
+                }
+
+                const spinner = new ZLibrarySpinner('userDStatsSpinner', 'button').color('#ffffff')
+                const request = new Request('/papi/user/dstats')
+
+                return new ZLibraryResponse(request)
+                    .spinner(spinner)
+                    .disableNotify()
+                    .fetch()
+                    .then(data => {
+                        $('#mainUserLink').attr('title', 'Downloads: ' + data.dailyDownloads + '/' + data.dailyDownloadsLimit
+                                + '<br/>Will reset in ' + data.resetTime)
+                            .tooltip('fixTitle')
+                            .tooltip('show')
+                    })
+            })
+        });
+    </script>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="container" style="max-width: 1000px;padding-bottom: 40px;">
+                            <div class="row">
+                                <div class="col-md-12 itemFullText">
+                                    
+<style>
+    .adFixW iframe{
+        width:100%;
+    }
+</style>
+
+<div class="bcNav">
+    <a href="/" title="Ebook library B-OK.org">Main</a> <i></i>
+        Mathematics for 3D Game Programming and Computer Graphics, Third Edition</div>
+
+
+<div itemscope itemtype="http://schema.org/Book">
+    <div class="row cardBooks" style="overflow: hidden;">
+        <div class="col-sm-3">
+            <a href="https://dl181.zlibcdn.com/covers/books/fb/12/92/fb12928fdd50933db8f231ff20e2c796.jpg" class="lightbox details-book-cover checkBookDownloaded" data-book_id="1134865" itemprop="image">
+                <img src="https://dl181.zlibcdn.com/covers/books/fb/12/92/fb12928fdd50933db8f231ff20e2c796.jpg" alt="Book cover Mathematics for 3D Game Programming and Computer Graphics, Third Edition" />
+            </a>
+        </div>
+
+        <div class="col-sm-9">
+            <h1 itemprop="name" style="color: #000; line-height: 140%;" class="moderatorPanelToggler">
+                Mathematics for 3D Game Programming and Computer Graphics, Third Edition            </h1>
+
+            <i><a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Eric Lengyel">Eric Lengyel</a></i>
+
+                            <div style="padding:10px 0; font-size:10pt" id="bookDescriptionBox"  itemprop="reviewBody">
+                    This updated third edition illustrates the mathematical concepts that a game developer needs to develop 3D computer graphics and game engines at the professional level. It starts at a fairly   basic level in areas such as vector geometry and linear algebra, and  then progresses to more advanced topics in 3D programming such as  illumination and visibility determination. Particular attention is given   to derivations of key results, ensuring that the reader is not forced  to endure gaps in the theory. The book assumes a working knowledge of  trigonometry and calculus, but also includes sections that review the  important tools used from these disciplines, such as trigonometric  identities, differential equations, and Taylor series.The third edition expands upon topics that include projections, shadows, physics, cloth simulation, and numerical methods. All of the illustrations have been updated, and the shader code has been updated to the latest high-level shading language specifications.                </div>
+            
+            <div style="overflow: hidden; zoom: 1; margin-top: 30px;">
+                <div class="bookDetailsBox">
+                <div class="bookProperty property_categories">
+                    <div class="property_label">Categories:</div>
+                    <div class="property_value"><a href="Programming-Games-cat89" style="color:#000;">Computers\\Programming: Games</a></div>
+                </div>
+                <div class="bookProperty property_year">
+                    <div class="property_label">Year:</div>
+                    <div class="property_value">2011</div>
+                </div>
+                <div class="bookProperty property_edition">
+                    <div class="property_label">Edition:</div>
+                    <div class="property_value">3rd</div>
+                </div>
+                <div class="bookProperty property_publisher">
+                    <div class="property_label">Publisher:</div>
+                    <div class="property_value">Cengage</div>
+                </div>
+                <div class="bookProperty property_language">
+                    <div class="property_label">Language:</div>
+                    <div class="property_value">english</div>
+                </div>
+                <div class="bookProperty property_pages">
+                    <div class="property_label">Pages:</div>
+                    <div class="property_value"><span title="Pages paperback">566</span></div>
+                </div>
+                <div class="bookProperty property_isbn 10">
+                    <div class="property_label">ISBN 10:</div>
+                    <div class="property_value">1435458869</div>
+                </div>
+                <div class="bookProperty property_isbn 13">
+                    <div class="property_label">ISBN 13:</div>
+                    <div class="property_value">9781435458864</div>
+                </div>
+                <div class="bookProperty property__file">
+                    <div class="property_label">File:</div>
+                    <div class="property_value">PDF, 8.39 MB</div>
+                </div></div>            </div>
+        </div>
+    </div>
+
+    <div style="margin-top: 30px; margin-bottom: 15px;">
+        <div class="details-buttons-container pull-left">
+            <div class="book-details-button">
+                
+                <a href="#" id="dbx_1134865" class="btn btn-primary dlButton disabled" data-toggle="tooltip" data-autoopen="true" data-placement="top" title="Link deleted by legal owner (But you can use &lt;a href=&quot;/msgn/tor&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;TOR&lt;/a&gt; to download it anyway)">
+                    <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> Downloads unavailable
+                </a>            </div>
+
+                        
+            
+            <div class="book-details-button">
+                            <div class="btn-group book-tags-container">
+                    <a href="javascript://" id="btnUnsaveBook" class="btn btn-default hidden">
+                        Unsave
+                    </a>
+                    <a href="javascript://" id="btnSaveBook" class="btn btn-default">
+                        Save for later
+                    </a>
+
+                    <button type="button" id="btnSaveBookDropdown" class="btn btn-default dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu" style="width: 500px;">
+                        <li style="padding: 12px;">
+                            <span style="font-size: 90%; color:#888;">
+                                You can input up to 30 tags in order to
+                                organize your saved books.<br/>
+                                Only letters and space are allowed.
+                            </span>
+                            <br>
+                            <input type="text" id="inputTags" value="" />
+                        </li>
+                    </ul>
+                </div>
+                <script type="text/javascript">
+                    $(document).click(function (event) {
+                        $target = $(event.target);
+
+                        if (!$target.closest('.book-tags-container').length && !$target.closest('[data-role="remove"]').length) {
+                            $('.book-tags-container').removeClass('open');
+                        }
+                    })
+
+                    $('#btnSaveBookDropdown').on('click', function (event) {
+                        $(this).parent().addClass('open');
+                        $('.bootstrap-tagsinput input').focus();
+                    })
+                </script>
+                        </div>
+
+            
+                </div>
+        <div class="pull-right">
+                    <div id="suggestionDropdownContainer" style="position: relative; float: right;">
+                <span style="font-size: 90%; margin-left: 10px;float:right;line-height: 34px;">
+                    Wrong info? <a href="javascript://" class="plink">Suggest a correction</a>
+                    <span class="caret"></span>
+                </span>
+
+                <ul class="dropdown-menu" style="width: 250px; margin-top: -4px;">
+                    <li style="padding: 3px;"><a href="javascript://" id="btnOpenSuggestionModal">Suggest a correction</a></li>
+                    <li style="padding: 3px;"><a href="javascript://" id="btnOpenReportModal">Report a problem</a></li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+                $('#suggestionDropdownContainer').on('mouseover', function (event) {
+                    $('#suggestionDropdownContainer').addClass('open')
+                })
+                $('#suggestionDropdownContainer').on('mouseleave', function (event) {
+                    $('#suggestionDropdownContainer').removeClass('open')
+                })
+            </script>
+                </div>
+        <div style="clear: both;"></div>
+    </div>
+
+    <div class="cBox1" id="sentToEmailInfo" style="display:none;">
+        The file will be sent to your email address. It may take up to 1-5 minutes before you receive it.
+    </div>
+
+    <div class="cBox1" id="sentToEmailInfoKindle" style="display:none;">
+        The file will be sent to your Kindle account. It may takes up to 1-5 minutes before you received it.
+        <br/>Please note you need to add our email <b>km3534268@bookmail.org</b> to approved e-mail addresses.
+        <a target="blank" href="https://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=201974240">Read more</a>.
+    </div>
+
+    
+<div id="userpoll-container" class="userpoll-container hidden">
+    <div style="">Help us to improve our service. Please answer the single question: <b>what is your average book download speed?</b></div>
+    <ul class="userpoll-answers">
+        <li>
+            <div class="userpoll-spinner-container"></div>
+            <a href="javascript://" class="userpoll-answer" data-answer="1">Less than 50 kb/s</a>
+        </li>
+        <li>
+            <div class="userpoll-spinner-container"></div>
+            <a href="javascript://" class="userpoll-answer" data-answer="2">50-150 kb/s</a>
+        </li>
+        <li>
+            <div class="userpoll-spinner-container"></div>
+            <a href="javascript://" class="userpoll-answer" data-answer="3">150-500 kb/s</a>
+        </li>
+        <li>
+            <div class="userpoll-spinner-container"></div>
+            <a href="javascript://" class="userpoll-answer" data-answer="4">More than 500 kb/s</a>
+        </li>
+    </ul>
+    <a href="javascript://" id="btnUserpollHide" class="userpoll-answer" data-answer="0">Hide and never show</a>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.userpoll-answer').click(function(event) {
+            const $li = $(this).parents('li')
+            const spinner = new ZLibrarySpinner($li.find('.userpoll-spinner-container'), 'button').left('-13px')
+            $li.addClass('userpoll-no-list')
+            new ZLibraryResponse(new Request('/papi/user/userpoll-vote/' + $(this).data('answer')))
+                .spinner(spinner)
+                .success(response => {
+                    $li.removeClass('userpoll-no-list')
+                    $('.userpoll-answers').fadeOut('slow', function() {
+                        $('#userpoll-container').html('<div style="font-weight: bold; font-size: 13px; text-align: center; padding: 6px 0;">Thank you for your attention!</div>')
+                    })
+                })
+                .fetch()
+        })
+
+        $('#btnUserpollHide').click(function(event) {
+            $('#userpoll-container').fadeOut('fast', () => $('#userpoll-container').remove())
+        })
+
+        $('.dlButton').click(function(event) {
+            $('#userpoll-container')
+                .removeClass('hidden')
+                .animate()
+        })
+    })
+</script>
+
+<style>
+    .userpoll-container {
+        position: relative;
+        /*width: 612px;*/
+        /*height: 0;*/
+        padding: 14px 18px 12px;
+        margin-top: 30px;
+        border: 2px solid #49afd0;
+        border-radius: 10px;
+        overflow: hidden;
+        background: #fff;
+    }
+
+    .userpoll-container .userpoll-no-list {
+        list-style: none !important;
+    }
+
+    .userpoll-container #btnUserpollHide {
+        position: absolute;
+        right: 14px;
+        bottom: 14px;
+    }
+
+    .userpoll-answers {
+        position: relative;
+        margin-left: 52px;
+    }
+
+    .userpoll-answers li {
+        list-style: circle;
+        padding: 2px 0;
+    }
+
+    .userpoll-answers .userpoll-spinner-container {
+        position: absolute;
+        left: 0;
+        width: 16px;
+        height: 16px;
+    }
+
+    .userpoll-answers li:hover {
+        list-style: disc;
+    }
+</style>
+
+    
+    <div id="converterCurrentStatusesBoxContainer" class="cBox1" style="display:none; position: relative; padding-left: 28px;">
+        <div id="converterCurrentStatusesBox"></div>
+    </div>
+
+    </div>
+
+<div class="modal fade modal-fullscreen-md-down" id="form-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" style="width: 1100px;">
+        <div class="modal-content" id="form-modal-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+            const availableTags = [];
+            const CurrentBook = new Book({"id":"1134865","title":"Mathematics for 3D Game Programming and Computer Graphics, Third Edition"})
+            const tags = new TagsInput($('#inputTags'), CurrentUser, CurrentBook.id, availableTags)
+
+                            document.getElementById('btnOpenSuggestionModal').addEventListener('click', CurrentBook.suggestModal)
+                document.getElementById('btnOpenReportModal').addEventListener('click', CurrentBook.reportModal)
+            
+            $(function () {
+                $('#btnCheckOtherFormats').click(function() {
+                    if (CurrentBook.otherFormatsLoaded) {
+                        return
+                    }
+
+                    CurrentBook.checkOtherFormats()
+                    CurrentBook.otherFormatsLoaded = true
+                })
+
+                if ($('#btnCheckOtherFormats').data('check-formats') == 1) {
+                    const spinner = new ZLibrarySpinner('btnCheckOtherFormats')
+                        .length(3)
+                        .radius(2)
+                        .width(2)
+                        .start()
+                    CurrentBook.checkOtherFormats().then(() => spinner.stop())
+                    CurrentBook.otherFormatsLoaded = true
+                }
+
+                $('a.lightbox').lightBox({
+                    containerResizeSpeed: 1
+                });
+
+                // read more
+                var height = 300;
+                if ($('.termsCloud').height() > 0)
+                {
+                    height = height - $('.termsCloud').height();
+                }
+
+                if (height < 225) {
+                    height = 225; // min height
+                }
+
+                // prevent bad line-brake
+                height = Math.floor(height / parseFloat($('#bookDescriptionBox').css('line-height'))) * parseFloat($('#bookDescriptionBox').css('line-height')) + 10; //10 - padding-bottom of box
+
+                if ($('#bookDescriptionBox').height() > height)
+                {
+                    $('#bookDescriptionBox').css('overflow', 'hidden');
+                    $('#bookDescriptionBox').css('height', height);
+                    $('<div style="text-align:center; cursor:pointer;font-size: 12px; height:25px;" class="moreBtn"><div style="display:inline-block;border-top: 1px dashed #333; width:75%; margin-top: 15px;"><span style="display:inline-block;position:relative;top:-13px;padding:0 30px; background: #F6F6F6;">click to read more</span></div></div>').insertAfter("#bookDescriptionBox");
+                }
+
+                $('.moreBtn, #bookDescriptionBox').click(function () {
+                    $('#bookDescriptionBox').css('height', 'auto');
+                    $('#bookDescriptionBox').css('overflow', 'auto');
+                    $('.moreBtn').remove();
+                });
+
+                $('#btnSaveBook').click(function () {
+                    const siteMode = "book";
+
+                    CurrentUser
+                        .saveReadLater(CurrentBook.id)
+                        .then(response => {
+                            $('#btnSaveBook').addClass('hidden')
+                            $('#btnUnsaveBook').removeClass('hidden')
+                            ZLibraryNotify({url: '/users/saved_books.php'})
+                                .info('This ' + siteMode + ' was saved in your profile. Click here to see all saved ' + siteMode + 's')
+                        })
+                })
+
+                $('#btnUnsaveBook').click(function () {
+                    CurrentUser
+                        .deleteReadLater(CurrentBook.id)
+                        .then(response => {
+                            $('#btnSaveBook').removeClass('hidden')
+                            $('#btnUnsaveBook').addClass('hidden')
+                            tags.clear()
+                        })
+                })
+            });
+
+            // converter links
+            $('.converterLink').click(function (e) {
+                $('#converterCurrentStatusesBoxContainer').show();
+                $('#converterCurrentStatusesBox').html('Conversion is in progress. The link to download will appear here.<br/>');
+
+                $('#converterCurrentStatusesBoxContainer').css('padding-left', '28px');
+                const spinner = new ZLibrarySpinner('converterCurrentStatusesBoxContainer', 'button')
+                spinner.start()
+
+                $.RPC('ConvertationTools::rpcConvert', {'book_id': $(this).data('book-id'), 'convertTo': $(this).data('convert-to')}).done(function (e) {
+                    convertationStatusesAutoupdaterObserver(spinner);
+                }).fail(function (a, b) {
+                    $('#converterCurrentStatusesBox').html('<span class="error">' + b.errors.message() + '</span>');
+                    $('#converterCurrentStatusesBoxContainer').css('padding-left', '10px');
+                    spinner.stop()
+                });
+            });
+
+            $('.sendToEmailButton').click(function () {
+                $.RPC('sendToKindle', {'book_id': $(this).data('book_id'), 'mode': $(this).data('mode')}).done(function (e) {
+                    if (e.response.status) {
+                        //alert('Sent to ' + e.response.email);
+                    }
+                }).fail(function (a, b) {
+                    $('#sentToEmailInfo').html(b.errors.message());
+                    $('#sentToEmailInfoKindle').html(b.errors.message());
+                });
+
+                if ($(this).data('kindle'))
+                {
+                    $('#sentToEmailInfoKindle').show('slow');
+                } else {
+                    $('#sentToEmailInfo').show('slow');
+                }
+                $('#sendToEmailButtonBox').hide('slow');
+            });
+
+            $(document).on("click", ".sendToEmailAfterConversion", function () {
+                $.RPC('sendToKindle', {'book_id': $(this).data('book_id'), 'mode': 'kindle', 'convertedTo': $(this).data('format')})
+                        .done(function (e) {
+                        })
+                        .fail(function (a, b) {
+                            $('#sentToEmailInfo').html(b.errors.message());
+                            $('#sentToEmailInfoKindle').html(b.errors.message());
+                        });
+
+                $('#sentToEmailInfoKindle').show('slow');
+                $(this).replaceWith('[sent to kindle]');
+            });
+
+            //$('[data-toggle="tooltip"]').tooltip({'html': true});
+            $(window).on("load", function () {
+                $('[data-toggle="tooltip"]').tooltip({'html': true});
+                $('[data-autoopen="true"]').tooltip('show');
+                $('.btn-savebook-disabled').tooltip({
+                    'html': true,
+                    'trigger': 'manual',
+                });
+
+                $('.btn-savebook-disabled').mouseover(function () {
+                    $(this).tooltip('show')
+                });
+
+                $('.btn-savebook-disabled').click(function () {
+                    $(this).tooltip('hide')
+                });
+            });
+
+            var convertationStatusesAutoupdaterRuned = false;
+            function convertationStatusesAutoupdaterObserver(spinner)
+            {
+                if (convertationStatusesAutoupdaterRuned)
+                {
+                    return;
+                } else {
+                    convertationStatusesAutoupdaterRuned = true;
+                    convertationStatusesAutoupdater(spinner);
+                }
+            }
+
+            function convertationStatusesAutoupdater(spinner)
+            {
+                rpcUrl = '/rpc/ConvertationTools::getCurrentJobsStatuses?clear=1&gg_text_mode=1&bookId=' + CurrentBook.id;
+                $.ajaxSetup({cache: false}); // This part addresses an IE bug.  without it, IE will only load the first number and will never refresh
+
+
+                $.ajax({
+                    url: rpcUrl,
+                    datatype: 'html'
+                }).done(function (response) {
+                    $('#converterCurrentStatusesBox').html(response);
+                    if (response.search('progress') === -1)
+                    {
+                        if (spinner) {
+                            spinner.stop()
+                            $('#converterCurrentStatusesBoxContainer').css('padding-left', '10px');
+                        }
+                        convertationStatusesAutoupdaterRuned = false;
+                        return;
+                    }
+                    setTimeout(() => convertationStatusesAutoupdater(spinner), 15000);
+                }).error(function () {
+                    setTimeout(() => convertationStatusesAutoupdater(spinner), 15000);
+                });
+            }
+
+            if ($('#converterCurrentStatusesBox').html().length)
+            {
+                $('#converterCurrentStatusesBoxContainer').css('padding-left', '28px');
+                const spinner = new ZLibrarySpinner('converterCurrentStatusesBoxContainer', 'button')
+                spinner.start()
+
+                convertationStatusesAutoupdaterObserver(spinner);
+                $('#converterCurrentStatusesBoxContainer').show();
+            }
+
+            function iOSversion()
+            {
+                if (/iP(hone|od|ad)/.test(navigator.userAgent)) {
+                    const v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/)
+                    return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)]
+                }
+
+                return [];
+            }
+
+            if (iOSversion()[0] >= 13 && navigator.userAgent.match(/(iPod|iPhone|iPad)/) && navigator.userAgent.match(/AppleWebKit/)) {
+                // preload hint image
+                setTimeout(function() {
+                    new Image().src = "/img/safary-download-hint.png";
+                }, 2000);
+
+                $('.dlButton').click(function() {
+                    currentDomain = location.hostname.split('.').reverse()[1] + '.' + location.hostname.split('.').reverse()[0]
+
+                    document.cookie = "ios_download_tooltip=1; expires=Tue, 19 Jan 2038 03:14:07 GMT; domain=." + currentDomain + "; path=/"
+                    const iosNotify = $.notify('message', {
+                        template: '<div data-notify="container" class="col-xs-12 col-sm-3 alert" style="background: #fff; border: 1px solid #999;">' +
+                            '<span data-notify="message">' +
+                                '<img src="/img/safary-download-hint.png" style="width: 100%; margin-bottom: 8px;">' +
+                                'Hint for Safari iOS 13 users: all your downloads are hidden under the arrow icon to the right of the browser address bar.<br>' +
+                                '<div class="text-right"><a href="javascript://" id="btnIosNotifyClose" style="color: #337ab7;">Hide</a></div>' +
+                            '</span>' +
+                        '</div>',
+                        offset: 0,
+                        delay: 4000,
+                    })
+
+                    $('#btnIosNotifyClose').click(function() {
+                        document.cookie = 'ios_download_tooltip=10; expires=Tue, 19 Jan 2038 03:14:07 GMT; domain=.' + currentDomain + '; path=/'
+                        iosNotify.close()
+                    })
+                })
+            }
+
+            $(document).on('click', '.addDownloadedBook', function() {
+                CurrentUser.addDownloadedBook($(this).data('book_id'))
+            })
+</script>
+
+<h2 class="color1" style="margin-top:20px;">You may be interested in</h2>
+<div style="background: #49AFD0; height:2px; width: 100%; margin-bottom: 20px;">&nbsp;</div>
+<div id="bMosaicBox" style="display:none">
+        <div class="brick checkBookDownloaded" data-book_id="437121" style="width:14%;">
+            <a href="/book/437121/c789ff?dsource=recommend" title="Graphs, Networks and Algorithms">
+                <img src="https://dl181.zlibcdn.com/covers200/books/4c/de/c4/4cdec4f61b2a3525960b488962c14778.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="437434" style="width:14%;">
+            <a href="/book/437434/5d81c0?dsource=recommend" title="Geometric Algebra for Computer Graphics">
+                <img src="https://dl181.zlibcdn.com/covers200/books/7f/95/db/7f95db54fd1f7678060a0c9c1144b06a.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="437612" style="width:14%;">
+            <a href="/book/437612/054fae?dsource=recommend" title="Coding Theory - Algorithms, Architectures, and Applications">
+                <img src="https://dl181.zlibcdn.com/covers200/books/a6/70/b2/a670b2f075822838d1debe6e0951bc71.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="446393" style="width:14%;">
+            <a href="/book/446393/99bede?dsource=recommend" title="A Passion for Mathematics - Numbers, Puzzles, Madness, Religion, and the Quest for Reality">
+                <img src="https://dl181.zlibcdn.com/covers200/books/72/68/15/72681515bd2aa8ed99b7afddcc617505.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="510390" style="width:14%;">
+            <a href="/book/510390/5bf6d4?dsource=recommend" title="Physics For Game Programmers">
+                <img src="https://dl181.zlibcdn.com/covers200/books/80/ac/bb/80acbb51babc7b0393a652a1885546de.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="634655" style="width:14%;">
+            <a href="/book/634655/ea743c?dsource=recommend" title="AI for Game Developers">
+                <img src="https://dl181.zlibcdn.com/covers200/books/c3/6f/64/c36f646c76d9dbb468a8aabc2539e922.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="1310453" style="width:14%;">
+            <a href="/book/1310453/6485c7?dsource=recommend" title="Game mechanics : advanced game design">
+                <img src="https://dl181.zlibcdn.com/covers200/books/f7/e4/a7/f7e4a77f1db5ca7d161923c8d25d03d1.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="2040720" style="width:14%;">
+            <a href="/book/2040720/c9cfe4?dsource=recommend" title="Designing games: a guide to engineering experiences">
+                <img src="https://dl181.zlibcdn.com/covers200/books/15/b1/51/15b1510c13e16b9dbd1db2de6289645d.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="2072433" style="width:14%;">
+            <a href="/book/2072433/95cb87?dsource=recommend" title="Game Coding Complete, Fourth Edition">
+                <img src="https://dl181.zlibcdn.com/covers200/books/a6/0b/cf/a60bcf4692d23733815995839765e4f9.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="2074883" style="width:14%;">
+            <a href="/book/2074883/069978?dsource=recommend" title="Physics for Game Developers: Science, math, and code for realistic effects">
+                <img src="https://dl181.zlibcdn.com/covers200/books/13/7e/6d/137e6d8c514a9b82b217f4840a8d309c.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="2293789" style="width:14%;">
+            <a href="/book/2293789/bca8a0?dsource=recommend" title="Computer Graphics: Principles and Practice">
+                <img src="https://dl181.zlibcdn.com/covers200/books/71/33/2d/71332d5e6e0c464844e455372701a28f.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="2459320" style="width:14%;">
+            <a href="/book/2459320/3e028a?dsource=recommend" title="Black Art of 3D Game Programming: Writing Your Own High-Speed 3D Polygon Video Games in C">
+                <img src="https://dl181.zlibcdn.com/covers200/books/c6/f8/47/c6f847b78572d857abf5deb8974b657c.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="2572603" style="width:14%;">
+            <a href="/book/2572603/3342b3?dsource=recommend" title="Game AI Pro : Collected Wisdom of Game AI Professionals">
+                <img src="https://dl181.zlibcdn.com/covers200/books/c4/22/f8/c422f83c584d47f401524ee710bc99cb.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="2574667" style="width:14%;">
+            <a href="/book/2574667/29b940?dsource=recommend" title="The Indie Game Developer Handbook">
+                <img src="https://dl181.zlibcdn.com/covers200/books/9d/be/9e/9dbe9e56f474a143aa9504fe35223975.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="2582857" style="width:14%;">
+            <a href="/book/2582857/9c5069?dsource=recommend" title="Game Programming Patterns">
+                <img src="https://dl181.zlibcdn.com/covers200/books/05/b4/4d/05b44d6de78cf4f1d1e6098f83c2c4e3.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="2694405" style="width:14%;">
+            <a href="/book/2694405/8d2941?dsource=recommend" title="Game Engine Gems 3">
+                <img src="https://dl181.zlibcdn.com/covers200/books/b6/62/9e/b6629e43619a9416d0000e8eadeeb957.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="2708082" style="width:14%;">
+            <a href="/book/2708082/edf5aa?dsource=recommend" title="Beginning C++ Through Game Programming">
+                <img src="https://dl181.zlibcdn.com/covers200/books/fb/8c/15/fb8c1506f3878db2dc2706133249fb52.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="2748662" style="width:14%;">
+            <a href="/book/2748662/a36394?dsource=recommend" title="Programming Game AI by Example">
+                <img src="https://dl181.zlibcdn.com/covers200/books/da/ff/70/daff70b70d6e25f064c7643e0129f9db.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="3410961" style="width:14%;">
+            <a href="/book/3410961/3d09da?dsource=recommend" title="Physically Based Rendering, Third Edition: From Theory to Implementation">
+                <img src="https://dl181.zlibcdn.com/covers200/books/34/83/83/3483831e3dd9520f1eb4360c4caca4b9.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="3507545" style="width:14%;">
+            <a href="/book/3507545/d52234?dsource=recommend" title="Unity in Action: Multiplatform game development in C#">
+                <img src="https://dl181.zlibcdn.com/covers200/books/ea/82/39/ea82399e6da84be24b6a6a02f3ca59e7.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="3561877" style="width:14%;">
+            <a href="/book/3561877/51130f?dsource=recommend" title="Game Engine Architecture">
+                <img src="https://dl181.zlibcdn.com/covers200/books/39/ce/2c/39ce2c135360318e7dddb0caf8436012.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="3579684" style="width:14%;">
+            <a href="/book/3579684/87ee7e?dsource=recommend" title="Real-Time Rendering">
+                <img src="https://dl181.zlibcdn.com/covers200/books/00/e3/21/00e321284115574ddd4dd98e3b43bd0e.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="3583184" style="width:14%;">
+            <a href="/book/3583184/049203?dsource=recommend" title="Foundations of Game Engine Development, Volume 1: Mathematics">
+                <img src="https://dl181.zlibcdn.com/covers200/books/46/5c/df/465cdfb599fe30b9d4b8bc0d1a40574a.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="3595107" style="width:14%;">
+            <a href="/book/3595107/bf15d9?dsource=recommend" title="Create Computer Games: Design and Build Your Own Game">
+                <img src="https://dl181.zlibcdn.com/covers200/books/5a/db/05/5adb0519a8417d2c5ebc5082c442041b.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="3605412" style="width:14%;">
+            <a href="/book/3605412/7d5f5d?dsource=recommend" title="Game Programming in C++: Creating 3D Games (Game Design)">
+                <img src="https://dl181.zlibcdn.com/covers200/books/d3/9f/92/d39f921737e896db0d66f555f68f5ac8.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="3631959" style="width:14%;">
+            <a href="/book/3631959/69d7f7?dsource=recommend" title="Developing 2D Games with Unity: Independent Game Programming with C#">
+                <img src="https://dl181.zlibcdn.com/covers200/books/dc/c9/23/dcc92364d7772f6d500314e118a820b3.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="3677188" style="width:14%;">
+            <a href="/book/3677188/0b542a?dsource=recommend" title="Computer Graphics Through OpenGL: From Theory to Experiments">
+                <img src="https://dl181.zlibcdn.com/covers200/books/7c/57/d0/7c57d07ca24d815b5f884fe68323e2a1.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div>
+        <div class="brick checkBookDownloaded" data-book_id="5262992" style="width:14%;">
+            <a href="/book/5262992/36c2f2?dsource=recommend" title="C++ Game Development By Example: Learn to build games and graphics with SFML, OpenGL, and Vulkan using C++ programming">
+                <img src="https://dl181.zlibcdn.com/covers200/books/3f/99/89/3f9989329d7bce6d943de16ccc159a89.jpg" class="bMosaicCover bgrid-item item" width="100%"/>
+            </a>
+        </div></div>    <script type="text/javascript" src="/resources/ext/freewall.js"></script>
+<script>
+    $(function () {
+        $('#bMosaicBox').css('display', 'block');
+
+        var wall = new Freewall('#bMosaicBox');
+        wall.reset({
+            selector: '.brick',
+            keepOrder: true,
+            //animate: true,
+            cellW: $($('.brick')[0]).outerWidth(),
+            cellH: 'auto',
+            gutterX: 8,
+            gutterY: 8,
+            fixSize: false,
+            onResize: function () {
+                wall.fitWidth();
+            }
+        });
+
+        wall.container.find('img').load(function () {
+            wall.fitWidth();
+        });
+
+        wall.fitWidth();
+    });
+</script>
+<div style="background: #49AFD0; height:2px; width: 100%; margin:40px 0 40px 0;">&nbsp;</div>
+
+
+<div id="jscommentsRootBox">
+    <div class="jscommentsFormBox">
+        <div style="width:65%; float:left;">
+            <form id="jscommentsForm" target="uploader" action="rpc.php" method="POST">
+                <input type="hidden" name="book_id" value="1134865">
+                <input type="hidden" name="action" value="addReview">
+                <input type="hidden" name="rx" value="0">
+                <input id="jscommentsNamefield" name="name" type="textfield" placeholder="Your Name" value="Tralah Brian" onchange="if (this.value) {
+                            $(this).removeClass('error');
+                        }"/>
+                <textarea id="jscommentsTextarea" name="text" placeholder="Write a Review"  onchange="if (this.value) {
+                            $(this).removeClass('error');}"></textarea>
+                <br clear="all" />
+                <a href="#" id="jscommentsButton" onclick="onReviewSubmit(); return false;" style="position: relative;">
+                    Post a Review
+                </a>
+            </form>
+        </div>
+        <div style="width:35%; float:left;" class="jscommentsFormHelp">
+            <div style="padding:10px 0 0 20px;  border-left:1px solid #ccc;">
+                You can write a book review and share your experiences. Other readers will always be interested in your opinion of the books you've read. Whether you've loved the book or not, if you give your honest and detailed thoughts then people will find new books that are right for them.
+            </div>
+        </div>
+    </div>
+    <div id="jscommentsCommentsBox"></div>
+</div>
+
+<script>
+    $('#jscommentsForm')[0].rx.value = 12;
+    const postCommentSpinner = new ZLibrarySpinner($('#jscommentsButton'));
+
+    function onReviewSubmit()
+    {
+        $('#jscommentsForm')[0].submit();
+        $('#jscommentsButton').data('originaltxt', $('#jscommentsButton')[0].innerHTML);
+        $('#jscommentsNamefield').attr("disabled", "disabled");
+        $('#jscommentsTextarea').attr("disabled", "disabled");
+        postCommentSpinner.start()
+    }
+
+    function onReviewSubmitFailure()
+    {
+        $('#jscommentsButton').text($('#jscommentsButton').data('originaltxt'));
+        $('#jscommentsNamefield').removeAttr("disabled");
+        $('#jscommentsTextarea').removeAttr("disabled");
+        postCommentSpinner.stop();
+    }
+</script><div style="display: none;">
+<div id="searchResultBox"><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" data-book_id="1134866" itemscope itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">1</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td class="itemCover">
+                    <div class="checkBookDownloaded itemCoverWrapper" data-book_id="1134866">
+                        <a href="/book/1134866/490a10"><img class="cover lazy" alt="" data-src="https://dl181.zlibcdn.com/covers100/books/68/74/ca/6874ca803b98da9f5b5f8ad51b8e9611.jpg" data-srcset="https://dl181.zlibcdn.com/covers100/books/68/74/ca/6874ca803b98da9f5b5f8ad51b8e9611.jpg 1x, https://dl181.zlibcdn.com/covers200/books/68/74/ca/6874ca803b98da9f5b5f8ad51b8e9611.jpg 2x" /></a>
+                    </div>
+                </td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name">
+                                    <a href="/book/1134866/490a10" style="text-decoration: underline;">Mastering Celtx</a>
+                                </h3>
+                                <div title="Publisher" style="color: #333; font-size: 10pt;margin-bottom:10px;"><a href="/s/?q=Cengage">Cengage</a></div>
+                                <div class="authors"><a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Terry Borst">Terry Borst</a></div>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td colspan="99" style="vertical-align: bottom;">
+                                <div class="tags-container"></div>
+                                
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <div class="property_label">Year:</div>
+                    <div class="property_value">2011</div>
+                </div>
+                <div class="bookProperty property_language">
+                    <div class="property_label">Language:</div>
+                    <div class="property_value">english</div>
+                </div>
+                <div class="bookProperty property__file">
+                    <div class="property_label">File:</div>
+                    <div class="property_value">PDF, 9.12 MB</div>
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" data-book_id="1134864" itemscope itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">2</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td class="itemCover">
+                    <div class="checkBookDownloaded itemCoverWrapper" data-book_id="1134864">
+                        <a href="/book/1134864/2ff272"><img class="cover lazy" alt="" data-src="https://dl181.zlibcdn.com/covers100/books/89/78/c4/8978c40fc9f0cfba2b40db879fe9a10b.jpg" data-srcset="https://dl181.zlibcdn.com/covers100/books/89/78/c4/8978c40fc9f0cfba2b40db879fe9a10b.jpg 1x, https://dl181.zlibcdn.com/covers200/books/89/78/c4/8978c40fc9f0cfba2b40db879fe9a10b.jpg 2x" /></a>
+                    </div>
+                </td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name">
+                                    <a href="/book/1134864/2ff272" style="text-decoration: underline;">Picture Yourself Playing Cello: Step-by-Step Instruction for Playing the Cello</a>
+                                </h3>
+                                <div title="Publisher" style="color: #333; font-size: 10pt;margin-bottom:10px;"><a href="/s/?q=Cengage">Cengage</a></div>
+                                <div class="authors"><a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Jim Aikin">Jim Aikin</a></div>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td colspan="99" style="vertical-align: bottom;">
+                                <div class="tags-container"></div>
+                                
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <div class="property_label">Year:</div>
+                    <div class="property_value">2011</div>
+                </div>
+                <div class="bookProperty property_language">
+                    <div class="property_label">Language:</div>
+                    <div class="property_value">english</div>
+                </div>
+                <div class="bookProperty property__file">
+                    <div class="property_label">File:</div>
+                    <div class="property_value">PDF, 8.11 MB</div>
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div><center></center></div><script>
+    $(function () {
+        $(".lazy").Lazy({
+            effect: "fadeIn",
+            effectTime: 1000,
+            beforeLoad: function(element) {
+                $(element).css({"border-width": "0px"});
+            },
+            afterLoad: function(element) {
+                $(element).css({"border-width": "1px"});
+            }
+        });
+    });
+</script><pre>Mathematics for
+3D Game Programming
+and Computer Graphics
+Third Edition
+Eric Lengyel
+
+Course Technology PTR
+A part of Cengage Learning
+
+Australia • Brazil • Japan • Korea • Mexico • Singapore • Spain • United Kingdom • United States
+
+Mathematics for 3D Game Programming
+and Computer Graphics, Third Edition
+By Eric Lengyel
+Publisher and General Manager,
+Course Technology PTR:
+Stacy L. Hiquet
+Associate Director of Marketing:
+Sarah Panella
+Manager of Editorial Services:
+Heather Talbot
+Marketing Manager:
+Jordan Castellani
+
+© 2012 Course Technology, a part of Cengage Learning.
+ALL RIGHTS RESERVED. No part of this work covered by the copyright
+herein may be reproduced, transmitted, stored, or used in any form or by
+any means graphic, electronic, or mechanical, including but not limited to
+photocopying, recording, scanning, digitizing, taping, Web distribution,
+information networks, or information storage and retrieval systems, except
+as permitted under Section 107 or 108 of the 1976 United States Copyright
+Act, without the prior written permission of the publisher.
+
+For product information and technology assistance, contact us at
+Cengage Learning Customer &amp; Sales Support, 1-800-354-9706
+For permission to use material from this text or product,
+submit all requests online at cengage.com/permissions
+Further permissions questions can be emailed to
+permissionrequest@cengage.com
+
+Senior Acquisitions Editor:
+Emi Smith
+Cover Designer:
+Mike Tanamachi
+Proofreader:
+Mike Beady
+
+All trademarks are the property of their respective owners.
+All images © Cengage Learning unless otherwise noted.
+Library of Congress Control Number: 2011924487
+ISBN-13: 978-1-4354-5886-4
+ISBN-10: 1-4354-5886-9
+eISBN-10: 1-4354-5887-7
+Course Technology, a part of Cengage Learning
+20 Channel Center Street
+Boston, MA 02210
+USA
+Cengage Learning is a leading provider of customized learning solutions
+with office locations around the globe, including Singapore, the United
+Kingdom, Australia, Mexico, Brazil, and Japan. Locate your local office at:
+inter; national.cengage.com/region
+Cengage Learning products are represented in Canada by Nelson
+Education, Ltd.
+For your lifelong learning solutions, visit courseptr.com
+Visit our corporate website at cengage.com
+
+Printed in China
+1 2 3 4 5 6 7 13 12 11
+
+Contents
+
+Preface
+What’s New in the Third Edition
+Contents Overview
+Website and Code Listings
+Notational Conventions
+Chapter 1
+The Rendering Pipeline
+1.1 Graphics Processors
+1.2 Vertex Transformation
+1.3 Rasterization and Fragment Operations
+
+xiii
+xiii
+xiv
+xvii
+xvii
+1
+1
+4
+6
+
+Chapter 2
+Vectors
+2.1 Vector Properties
+2.2 The Dot Product
+2.3 The Cross Product
+2.4 Vector Spaces
+Chapter 2 Summary
+Exercises for Chapter 2
+
+11
+11
+15
+19
+26
+29
+30
+
+Chapter 3
+3.1
+3.2
+3.3
+3.4
+3.5
+3.6
+
+31
+31
+34
+40
+47
+54
+58
+
+Matrices
+Matrix Properties
+Linear Systems
+Matrix Inverses
+Determinants
+Eigenvalues and Eigenvectors
+Diagonalization
+
+iii
+
+iv
+
+Contents
+
+Chapter 3 Summary
+Exercises for Chapter 3
+Chapter 4
+Transforms
+4.1 Linear Transformations
+4.1.1 Orthogonal Matrices
+4.1.2 Handedness
+4.2 Scaling Transforms
+4.3 Rotation Transforms
+4.3.1 Rotation About an Arbitrary Axis
+4.4 Homogeneous Coordinates
+4.4.1 Four-Dimensional Transforms
+4.4.2 Points and Directions
+4.4.3 Geometrical Interpretation of the w Coordinate
+4.5 Transforming Normal Vectors
+4.6 Quaternions
+4.6.1 Quaternion Mathematics
+4.6.2 Rotations with Quaternions
+4.6.3 Spherical Linear Interpolation
+Chapter 4 Summary
+Exercises for Chapter 4
+Chapter 5
+Geometry for 3D Engines
+5.1 Lines in 3D Space
+5.1.1 Distance Between a Point and a Line
+5.1.2 Distance Between Two Lines
+5.2 Planes in 3D Space
+5.2.1 Intersection of a Line and a Plane
+5.2.2 Intersection of Three Planes
+5.2.3 Transforming Planes
+5.3 The View Frustum
+5.3.1 Field of View
+5.3.2 Frustum Planes
+5.4 Perspective-Correct Interpolation
+5.4.1 Depth Interpolation
+5.4.2 Vertex Attribute Interpolation
+5.5 Projections
+5.5.1 Perspective Projections
+5.5.2 Orthographic Projections
+
+62
+64
+67
+67
+68
+70
+70
+71
+74
+75
+76
+77
+78
+78
+80
+80
+82
+86
+89
+91
+93
+93
+93
+94
+97
+98
+99
+101
+102
+103
+106
+107
+108
+110
+111
+112
+116
+
+v
+
+5.5.3 Extracting Frustum Planes
+5.6 Reflections and Oblique Clipping
+Chapter 5 Summary
+Exercises for Chapter 5
+
+118
+120
+126
+129
+
+Chapter 6
+Ray Tracing
+6.1 Root Finding
+6.1.1 Quadratic Polynomials
+6.1.2 Cubic Polynomials
+6.1.3 Quartic Polynomials
+6.1.4 Newton’s Method
+6.1.5 Refinement of Reciprocals and Square Roots
+6.2 Surface Intersections
+6.2.1 Intersection of a Ray and a Triangle
+6.2.2 Intersection of a Ray and a Box
+6.2.3 Intersection of a Ray and a Sphere
+6.2.4 Intersection of a Ray and a Cylinder
+6.2.5 Intersection of a Ray and a Torus
+6.3 Normal Vector Calculation
+6.4 Reflection and Refraction Vectors
+6.4.1 Reflection Vector Calculation
+6.4.2 Refraction Vector Calculation
+Chapter 6 Summary
+Exercises for Chapter 6
+
+131
+131
+131
+132
+135
+136
+139
+140
+141
+143
+144
+145
+147
+148
+149
+150
+151
+153
+154
+
+Chapter 7
+Lighting and Shading
+7.1 RGB Color
+7.2 Light Sources
+7.2.1 Ambient Light
+7.2.2 Directional Light Sources
+7.2.3 Point Light Sources
+7.2.4 Spot Light Sources
+7.3 Diffuse Reflection
+7.4 Specular Reflection
+7.5 Texture Mapping
+7.5.1 Standard Texture Maps
+7.5.2 Projective Texture Maps
+7.5.3 Cube Texture Maps
+7.5.4 Filtering and Mipmaps
+
+157
+157
+158
+158
+159
+159
+160
+161
+162
+164
+166
+167
+169
+171
+
+vi
+
+Contents
+
+7.6 Emission
+7.7 Shading Models
+7.7.1 Calculating Normal Vectors
+7.7.2 Gouraud Shading
+7.7.3 Blinn-Phong Shading
+7.8 Bump Mapping
+7.8.1 Bump Map Construction
+7.8.2 Tangent Space
+7.8.3 Calculating Tangent Vectors
+7.8.4 Implementation
+7.9 A Physical Reflection Model
+7.9.1 Bidirectional Reflectance Distribution Functions
+7.9.2 Cook-Torrance Illumination
+7.9.3 The Fresnel Factor
+7.9.4 The Microfacet Distribution Function
+7.9.5 The Geometrical Attenuation Factor
+7.9.6 Implementation
+Chapter 7 Summary
+Exercises for Chapter 7
+Chapter 8
+Visibility Determination
+8.1 Bounding Volume Construction
+8.1.1 Principal Component Analysis
+8.1.2 Bounding Box Construction
+8.1.3 Bounding Sphere Construction
+8.1.4 Bounding Ellipsoid Construction
+8.1.5 Bounding Cylinder Construction
+8.2 Bounding Volume Tests
+8.2.1 Bounding Sphere Test
+8.2.2 Bounding Ellipsoid Test
+8.2.3 Bounding Cylinder Test
+8.2.4 Bounding Box Test
+8.3 Spatial Partitioning
+8.3.1 Octrees
+8.3.2 Binary Space Partitioning Trees
+8.4 Portal Systems
+8.4.1 Portal Clipping
+8.4.2 Reduced View Frustums
+
+174
+175
+175
+176
+177
+178
+178
+180
+180
+185
+187
+187
+191
+192
+195
+198
+200
+205
+209
+211
+211
+212
+215
+217
+218
+220
+221
+221
+222
+226
+228
+230
+230
+232
+235
+236
+238
+
+vii
+
+Chapter 8 Summary
+Exercises for Chapter 8
+
+240
+244
+
+Chapter 9
+Polygonal Techniques
+9.1 Depth Value Offset
+9.1.1 Projection Matrix Modification
+9.1.2 Offset Value Selection
+9.1.3 Implementation
+9.2 Decal Application
+9.2.1 Decal Mesh Construction
+9.2.2 Polygon Clipping
+9.3 Billboarding
+9.3.1 Unconstrained Quads
+9.3.2 Constrained Quads
+9.3.3 Polyboards
+9.4 Polygon Reduction
+9.5 T-Junction Elimination
+9.6 Triangulation
+Chapter 9 Summary
+Exercises for Chapter 9
+
+245
+245
+246
+247
+248
+249
+250
+252
+254
+254
+257
+258
+260
+264
+267
+274
+277
+
+Chapter 10 Shadows
+10.1 Shadow Casting Set
+10.2 Shadow Mapping
+10.2.1 Rendering the Shadow Map
+10.2.2 Rendering the Main Scene
+10.2.3 Self-Shadowing
+10.3 Stencil Shadows
+10.3.1 Algorithm Overview
+10.3.2 Infinite View Frustums
+10.3.3 Silhouette Determination
+10.3.4 Shadow Volume Construction
+10.3.5 Determining Cap Necessity
+10.3.6 Rendering Shadow Volumes
+10.3.7 Scissor Optimization
+Chapter 10 Summary
+Exercises for Chapter 10
+
+279
+279
+281
+281
+283
+284
+286
+286
+291
+294
+299
+303
+307
+309
+314
+315
+
+viii
+
+Contents
+
+Chapter 11 Curves and Surfaces
+11.1 Cubic Curves
+11.2 Hermite Curves
+11.3 Bézier Curves
+11.3.1 Cubic Bézier Curves
+11.3.2 Bézier Curve Truncation
+11.3.3 The de Casteljau Algorithm
+11.4 Catmull-Rom Splines
+11.5 Cubic Splines
+11.6 B-Splines
+11.6.1 Uniform B-Splines
+11.6.2 B-Spline Globalization
+11.6.3 Nonuniform B-Splines
+11.6.4 NURBS
+11.7 Bicubic Surfaces
+11.8 Curvature and Torsion
+Chapter 11 Summary
+Exercises for Chapter 11
+
+317
+317
+320
+322
+322
+326
+327
+329
+331
+334
+335
+340
+342
+345
+348
+350
+355
+357
+
+Chapter 12 Collision Detection
+12.1 Plane Collisions
+12.1.1 Collision of a Sphere and a Plane
+12.1.2 Collision of a Box and a Plane
+12.1.3 Spatial Partitioning
+12.2 General Sphere Collisions
+12.3 Sliding
+12.4 Collision of Two Spheres
+Chapter 12 Summary
+Exercises for Chapter 12
+
+361
+361
+362
+364
+366
+366
+371
+372
+376
+378
+
+Chapter 13 Linear Physics
+13.1 Position Functions
+13.2 Second-Order Differential Equations
+13.2.1 Homogeneous Equations
+13.2.2 Nonhomogeneous Equations
+13.2.3 Initial Conditions
+13.3 Projectile Motion
+13.4 Resisted Motion
+
+379
+379
+381
+381
+385
+388
+390
+394
+
+ix
+
+13.5 Friction
+Chapter 13 Summary
+Exercises for Chapter 13
+
+396
+400
+402
+
+Chapter 14 Rotational Physics
+14.1 Rotating Environments
+14.1.1 Angular Velocity
+14.1.2 The Centrifugal Force
+14.1.3 The Coriolis Force
+14.2 Rigid Body Motion
+14.2.1 Center of Mass
+14.2.2 Angular Momentum and Torque
+14.2.3 The Inertia Tensor
+14.2.4 Principal Axes of Inertia
+14.2.5 Transforming the Inertia Tensor
+14.3 Oscillatory Motion
+14.3.1 Spring Motion
+14.3.2 Pendulum Motion
+Chapter 14 Summary
+Exercises for Chapter 14
+
+405
+405
+405
+407
+408
+410
+410
+413
+414
+422
+426
+430
+430
+434
+436
+438
+
+Chapter 15 Fluid and Cloth Simulation
+15.1 Fluid Simulation
+15.1.1 The Wave Equation
+15.1.2 Approximating Derivatives
+15.1.3 Evaluating Surface Displacement
+15.1.4 Implementation
+15.2 Cloth Simulation
+15.2.1 The Spring System
+15.2.2 External Forces
+15.2.3 Implementation
+Chapter 15 Summary
+Exercises for Chapter 15
+
+443
+443
+443
+447
+450
+453
+457
+457
+459
+459
+461
+462
+
+Chapter 16 Numerical Methods
+16.1 Trigonometric Functions
+16.2 Linear Systems
+16.2.1 Triangular Systems
+16.2.2 Gaussian Elimination
+
+463
+463
+465
+465
+467
+
+x
+
+Contents
+
+16.2.3 LU Decomposition
+16.2.4 Error Reduction
+16.2.5 Tridiagonal Systems
+16.3 Eigenvalues and Eigenvectors
+16.4 Ordinary Differential Equations
+16.4.1 Euler’s Method
+16.4.2 Taylor Series Method
+16.4.3 Runge-Kutta Method
+16.4.4 Higher-Order Differential Equations
+Chapter 16 Summary
+Exercises for Chapter 16
+
+470
+477
+479
+483
+490
+490
+492
+493
+495
+496
+498
+
+Appendix A Complex Numbers
+A.1 Definition
+A.2 Addition and Multiplication
+A.3 Conjugates and Inverses
+A.4 The Euler Formula
+
+499
+499
+499
+500
+501
+
+Appendix B Trigonometry Reference
+B.1 Function Definitions
+B.2 Symmetry and Phase Shifts
+B.3 Pythagorean Identities
+B.4 Exponential Identities
+B.5 Inverse Functions
+B.6 Laws of Sines and Cosines
+
+505
+505
+506
+507
+507
+508
+509
+
+Appendix C Coordinate Systems
+C.1 Cartesian Coordinates
+C.2 Cylindrical Coordinates
+C.3 Spherical Coordinates
+C.4 Generalized Coordinates
+
+513
+513
+514
+516
+520
+
+Appendix D Taylor Series
+D.1 Derivation
+D.2 Power Series
+D.3 The Euler Formula
+
+523
+523
+525
+526
+
+Appendix E Answers to Exercises
+Chapter 2
+
+529
+529
+
+xi
+
+Chapter 3
+Chapter 4
+Chapter 5
+Chapter 6
+Chapter 7
+Chapter 8
+Chapter 9
+Chapter 10
+Chapter 11
+Chapter 12
+Chapter 13
+Chapter 14
+Chapter 15
+Chapter 16
+Index
+
+529
+530
+530
+530
+531
+531
+531
+531
+532
+532
+532
+533
+534
+534
+535
+
+This page intentionally left blank
+
+Preface
+This book illustrates mathematical techniques that a software engineer would
+need to develop a professional-quality 3D graphics engine. Particular attention is
+paid to the derivation of key results in order to provide a complete exposition of
+the subject and to encourage a deep understanding of the mechanics behind the
+mathematical tools used by game programmers.
+Most of the material in this book is presented in a manner that is independent
+of the underlying 3D graphics system used to render images. We assume that the
+reader is familiar with the basic concepts needed to use a 3D graphics library and
+understands how models are constructed out of vertices and polygons. However,
+the book begins with a short review of the rendering pipeline as it is implemented
+in the OpenGL library. When it becomes necessary to discuss a topic in the context of a 3D graphics library, OpenGL is the one that we choose due to its availability across multiple platforms.
+Each chapter ends with a summary of the important equations and formulas
+derived within the text. The summary is intended to serve as a reference tool so
+that the reader is not required to wade through long discussions of the subject
+matter in order to find a single result. There are also several exercises at the end
+of each chapter. The answers to exercises requiring a calculation are given in
+Appendix E.
+
+What’s New in the Third Edition
+The following list highlights the major changes and additions in the third edition.
+Many minor additions and enhancements have also been made, including updates
+to almost all of the figures in the book.
+■
+
+A discussion of oblique near plane clipping has been added to the view frustum topics covered in Chapter 5.
+xiii
+
+xiv
+
+Preface
+
+■
+
+Chapter 10 now begins with a discussion of shadow casting set determination
+before going into discussions of shadow generation techniques.
+
+■
+
+In addition to the stencil shadow algorithm, the shadow mapping technique is
+now covered in Chapter 10.
+
+■
+
+The discussion of the inertia tensor in Chapter 14 has been expanded.
+
+■
+
+Chapter 15 has been expanded to include an introduction to cloth simulation
+in addition to its discussion of fluid surface simulation.
+
+■
+
+A fast method for calculating the sine and cosine functions has been added to
+the beginning of the numerical methods coverage in Chapter 16.
+
+Contents Overview
+Chapter 1: The Rendering Pipeline. This is a preliminary chapter that provides
+an overview of the rendering pipeline in the context of the OpenGL library.
+Many of the topics mentioned in this chapter are examined in higher detail elsewhere in the book, so mathematical discussions are intentionally avoided here.
+Chapter 2: Vectors. This chapter begins the mathematical portion of the book
+with a thorough review of vector quantities and their properties. Vectors are of
+fundamental importance in the study of 3D computer graphics, and we make extensive use of operations such as the dot product and cross product throughout
+the book.
+Chapter 3: Matrices. An understanding of matrices is another basic necessity of
+3D game programming. This chapter discusses elementary concepts such as matrix representation of linear systems as well as more advanced topics, including
+eigenvectors and diagonalization, which are required later in the book. For completeness, this chapter goes into a lot of detail to prove various matrix properties,
+but an understanding of those details is not essential when using matrices later in
+the book, so the uninterested reader may skip over the proofs.
+Chapter 4: Transforms. In Chapter 4, we investigate matrices as a tool for performing transformations such as translations, rotations, and scales. We introduce
+the concept of four-dimensional homogeneous coordinates, which are widely
+used in 3D graphics systems to move between different coordinate spaces. We
+also study the properties of quaternions and their usefulness as a transformation
+tool.
+
+Contents Overview
+
+Chapter 5: Geometry for 3D Engines. It is at this point that we begin to see
+material presented in the previous three chapters applied to practical applications
+in 3D game programming and computer graphics. After analyzing lines and
+planes in 3D space, we introduce the view frustum and its relationship to the virtual camera. This chapter includes topics such as field of view, perspectivecorrect interpolation, and projection matrices.
+Chapter 6: Ray Tracing. Ray tracing methods are useful in many areas of game
+programming, including light map generation, line-of-sight determination, and
+collision detection. This chapter begins with analytical and numerical rootfinding techniques, and then presents methods for intersecting rays with common
+geometrical objects. Finally, calculation of reflection and refraction vectors is
+discussed.
+Chapter 7: Lighting and Shading. Chapter 7 discusses a wide range of topics
+related to illumination and shading methods. We begin with an enumeration of
+the different types of light sources and then proceed to simple reflection models.
+Later, we inspect methods for adding detail to rendered surfaces using texture
+maps, gloss maps, and bump maps. The chapter closes with a detailed explanation of the Cook-Torrance physical illumination model.
+Chapter 8: Visibility Determination. The performance of a 3D engine is heavily dependent on its ability to determine what parts of a scene are visible. This
+chapter presents methods for constructing various types of bounding volumes and
+subsequently testing their visibility against the view frustum. Large-scale visibility determination enabled through spatial partitioning and the use of portal systems is also examined.
+Chapter 9: Polygonal Techniques. Chapter 9 presents several techniques involving the manipulation of polygonal models. The first topic covered is decal
+application to arbitrary surfaces and includes a related method for performing
+vertex depth offset. Other topics include billboarding techniques used for various
+special effects, a polygon reduction technique, T-junction elimination, and polygon triangulation.
+Chapter 10: Shadows. This chapter discusses shadow-casting sets and the two
+prominent methods for generating shadows in a real-time application, shadow
+mapping and stencil shadows. The presentation of the stencil shadow algorithm is
+particularly detailed because it draws on several smaller geometric techniques.
+
+xv
+
+xvi
+
+Preface
+
+Chapter 11: Curves and Surfaces. In this chapter, we examine of a broad variety of cubic curves, including Bézier curves and B-splines. We also discuss how
+concepts pertaining to two-dimensional curves are extended to three-dimensional
+surfaces.
+Chapter 12: Collision Detection. Collision detection is necessary for interaction
+between different objects in a game universe. This chapter presents general
+methods for determining whether moving objects collide with the static environment and whether they collide with each other.
+Chapter 13: Linear Physics. At this point in the book, we begin a two-chapter
+survey of various topics in classical physics that pertain to the motion that objects
+are likely to exhibit in a 3D game. Chapter 13 begins with a discussion of position functions as solutions to second-order differential equations. We then investigate projectile motion both through empty space and through a resistive medium, and close with a look at frictional forces.
+Chapter 14: Rotational Physics. Chapter 14 continues the treatment of physics
+with a rather advanced exposition on rotation. We first study the forces experienced by an object in a rotating environment. Next, we examine rigid body motion and derive the relationship between angular velocity and angular momentum
+through the inertia tensor. Also included is a discussion of the oscillatory motion
+exhibited by springs and pendulums.
+Chapter 15: Fluid and Cloth Simulation. We continue with the theme of physical simulation by presenting a physical model for fluid motion based on the twodimensional wave equation and cloth motion based on a spring-damper system.
+Chapter 16: Numerical Methods. The book finishes with an examination of
+numerical techniques for calculating trigonometric functions and solving three
+particular types of problems. We first discuss effective methods for finding the
+solutions to linear systems of any size. Next, we present an iterative technique for
+determining the eigenvalues and eigenvectors of a 3  3 symmetric matrix. Finally, we study methods for approximating the solutions to ordinary differential
+equations.
+Appendix A: Complex Numbers. Although not used extensively, complex
+numbers do appear in a few places in the text. Appendix A reviews the concept
+of complex numbers and discusses the properties that are used elsewhere in the
+book.
+
+Website and Code Listings
+
+Appendix B: Trigonometry Reference. Appendix B reviews the trigonometric
+functions and quickly derives many formulas and identities that are used
+throughout this book.
+Appendix C: Coordinate Systems. Appendix C provides a brief overview of
+Cartesian coordinates, cylindrical coordinates, and spherical coordinates. These
+coordinate systems appear in several places throughout the book, but are used
+most extensively in Chapter 14.
+Appendix D: Taylor Series. The Taylor series of various functions are employed in a number of places throughout the book. Appendix D derives the Taylor series and reviews power series representations for many common functions.
+Appendix E: Answers to Exercises. This appendix contains the answer to every
+exercise in the book having a solution that can be represented by a mathematical
+expression.
+
+Website and Code Listings
+The official website for this book can be found at the following address:
+http://www.mathfor3dgameprogramming.com/
+All of the code listings in the book can be downloaded from this website. Some
+of the listings make use of simple structures such as Triangle and Edge or
+mathematical classes such as Vector3D and Matrix3D. The source code for
+these can also be found on the website.
+The language used for all code that is intended to run on the CPU is standard
+C++. Vertex shaders and fragment shaders that are intended to run on the GPU
+use the OpenGL Shading Language (GLSL).
+
+Notational Conventions
+We have been careful to use consistent notation throughout this book. Scalar
+quantities are always represented by italic Roman or Greek letters. Vectors, matrices, and quaternions are always represented by bold letters. A single component of a vector, matrix, or quaternion is a scalar quantity, so it is italic. For example, the x component of the vector v is written v x . These conventions and other
+notational standards used throughout the book are summarized in the table on the
+next page.
+
+xvii
+
+xviii
+
+Preface
+
+Quantity/Operation
+
+Notation/Examples
+
+Scalars
+
+Italic letters: x, t, A, , 
+
+Angles
+
+Italic Greek letters: , , 
+
+Vectors
+
+Boldface letters: V, P, x, ω
+
+Quaternions
+
+Boldface letters: q, q 1, q 2
+
+Matrices
+
+Boldface letters: M, P
+
+RGB Colors
+
+Script letters: , , , 
+
+Magnitude of a vector
+
+Double bar: P
+
+Conjugate of a complex number z or a
+quaternion q
+
+Overbar: z , q
+
+Transpose of a matrix
+
+Superscript T: M T
+
+Determinant of a matrix
+
+det M or single bars: M
+d
+Dot notation: x  t   x  t 
+dt
+n!
+n
+k   k! n  k !
+
+
+ 
+
+Time derivative
+Binomial coefficient
+Floor of x
+
+ x 
+
+Ceiling of x
+
+ x 
+
+Fractional part of x
+
+frac  x 
+
+Sign of x
+
+Closed interval
+
+if x  0
+1,
+
+sgn  x   0, if x  0
+1, if x  0
+
+ a, b   x | a  x  b
+
+Interval closed at one end and open at
+the other end
+
+ a, b    x | a  x  b
+ a, b    x | a  x  b
+
+ a, b    x | a  x  b
+
+Set of real numbers
+
+
+
+Set of complex numbers
+
+
+
+Set of quaternions
+
+
+
+Open interval
+
+Chapter
+
+1
+
+The Rendering Pipeline
+This chapter provides a preliminary review of the rendering pipeline. It covers
+general functions, such as vertex transformation and primitive rasterization,
+which are performed by modern 3D graphics hardware. Readers who are familiar
+with these concepts may safely skip ahead. We intentionally avoid mathematical
+discussions in this chapter and instead provide pointers to other parts of the book
+where each particular portion of the rendering pipeline is examined in greater
+detail.
+
+1.1 Graphics Processors
+A typical scene that is to be rendered as 3D graphics is composed of many separate objects. The geometrical forms of these objects are each represented by a set
+of vertices and a particular type of graphics primitive that indicates how the vertices are connected to produce a shape. Figure 1.1 illustrates the ten types of
+graphics primitive defined by the OpenGL library. Graphics hardware is capable
+of rendering a set of individual points, a series of line segments, or a group of
+filled polygons. Most of the time, the surface of a 3D model is represented by a
+list of triangles, each of which references three points in a list of vertices.
+The usual modern 3D graphics board possesses a dedicated Graphics Processing Unit (GPU) that executes instructions independently of the Central Processing Unit (CPU). The CPU sends rendering commands to the GPU, which
+then performs the rendering operations while the CPU continues with other tasks.
+This is called asynchronous operation. When geometrical information is submitted to a rendering library such as OpenGL, the function calls used to request the
+rendering operations typically return a significant amount of time before the GPU
+has finished rendering the graphics. The lag time between the submission of a
+rendering command and the completion of the rendering operation does not normally cause problems, but there are cases when the time at which drawing com1
+
+2
+
+1. The Rendering Pipeline
+
+0
+
+2
+
+1
+3
+
+Points
+
+0
+
+1
+
+2
+
+5
+
+4
+
+3
+
+4
+3
+2
+
+0
+
+3
+
+1
+
+2
+
+0
+
+Line Strip
+
+Lines
+
+0
+
+5
+
+4
+
+2
+
+5
+
+0
+
+4
+
+0
+
+1
+
+Line Loop
+
+5
+
+4
+1
+2
+
+4
+3
+
+1
+
+3
+
+0
+
+2
+1
+
+4
+5
+
+Quads
+
+5
+
+1
+
+Triangle Strip
+
+Triangles
+
+0
+
+3
+
+6
+
+3
+
+2
+
+1
+
+4
+6
+
+7
+6
+
+2
+
+Triangle Fan
+
+0
+
+2
+
+6
+
+3
+1
+
+3
+
+5
+
+Quad Strip
+
+7
+
+4
+
+5
+
+Polygon
+
+Figure 1.1. The OpenGL library defines ten types of graphics primitive. The numbers
+indicate the order in which the vertices are specified for each primitive type.
+
+pletes needs to be known. There exist OpenGL extensions that allow the program
+running on the CPU to determine when a particular set of rendering commands
+have finished executing on the GPU. Such synchronization has the tendency to
+slow down a 3D graphics application, so it is usually avoided whenever possible
+if performance is important.
+An application communicates with the GPU by sending commands to a rendering library, such as OpenGL, which in turn sends commands to a driver that
+knows how to speak to the GPU in its native language. The interface to OpenGL
+is called a Hardware Abstraction Layer (HAL) because it exposes a common set
+
+1.1 Graphics Processors
+
+3
+
+of functions that can be used to render a scene on any graphics hardware that
+supports the OpenGL architecture. The driver translates the OpenGL function
+calls into code that the GPU can understand. A 3D graphics driver usually implements OpenGL functions directly to minimize the overhead of issuing rendering commands. The block diagram shown in Figure 1.2 illustrates the communications that take place between the CPU and GPU.
+A 3D graphics board has its own memory core, which is commonly called
+VRAM (Video Random Access Memory). The GPU may store any information in
+VRAM, but there are several types of data that can almost always be found in the
+graphics board’s memory when a 3D graphics application is running. Most importantly, VRAM contains the front and back image buffers. The front image
+buffer contains the exact pixel data that is visible in the viewport. The viewport is
+the area of the display containing the rendered image and may be a subregion of
+a window, the entire contents of a window, or the full area of the display. The
+
+CPU
+
+Main Memory
+
+Application
+Rendering commands
+Vertex data
+Texture data
+Shader parameters
+
+OpenGL or
+DirectX
+
+Graphics
+Driver
+Command buffer
+Video Memory
+GPU
+
+Image
+Buffers
+
+Depth/stencil
+Buffer
+
+Texture
+Maps
+
+Vertex
+Buffers
+
+Figure 1.2. The communications that take place between the CPU and GPU.
+
+4
+
+1. The Rendering Pipeline
+
+back image buffer is the location to which the GPU actually renders a scene. The
+back buffer is not visible and exists so that a scene can be rendered in its entirety
+before being shown to the user. Once an image has been completely rendered, the
+front and back image buffers are exchanged. This operation is called a buffer
+swap and can be performed either by changing the memory address that represents the base of the visible image buffer or by copying the contents of the back
+image buffer to the front image buffer. The buffer swap is often synchronized
+with the refresh frequency of the display to avoid an artifact known as tearing.
+Tearing occurs when a buffer swap is performed during the display refresh interval, causing the upper and lower parts of a viewport to show data from different
+image buffers.
+Also stored in VRAM is a block of data called the depth buffer or z-buffer.
+The depth buffer stores, for every pixel in the image buffer, a value that represents how far away the pixel is or how deep the pixel lies in the image. The depth
+buffer is used to perform hidden surface elimination by only allowing a pixel to
+be drawn if its depth is less than the depth of the pixel already in the image buffer. Depth is measured as the distance from the virtual camera through which we
+observe the scene being rendered. The name z-buffer comes from the convention
+that the z axis points directly out of the display screen in the camera’s local coordinate system. (See Section 5.3.)
+An application may request that a stencil buffer be created along with the
+image buffers and the depth buffer. The stencil buffer contains an integer mask
+for each pixel in the image buffer that can be used to enable or disable drawing
+on a per-pixel basis. The operations that can be performed in the stencil buffer
+are described in Section 1.3, later in this chapter. An advanced application of the
+stencil buffer used to generate real-time shadows is discussed in Chapter 10.
+For the vast majority of 3D rendering applications, the usage of VRAM is
+dominated by texture maps. Texture maps are images that are applied to the surface of an object to give it greater visual detail. In advanced rendering applications, texture maps may contain information other than a simple pixel image. For
+instance, a bump map contains vectors that represent varying slopes at different
+locations on an object’s surface. Texture mapping details, including the process
+of bump mapping, are discussed in detail in Chapter 7.
+
+1.2 Vertex Transformation
+Geometrical data is passed to the graphics hardware in the context of a threedimensional space. One of the jobs performed by the graphics hardware is to
+
+1.2 Vertex Transformation
+
+5
+
+transform this data into geometry that can be drawn into a two-dimensional
+viewport. There are several different coordinate systems associated with the rendering pipeline—their relationships are shown in Figure 1.3. The vertices of a
+model are typically stored in object space, a coordinate system that is local to the
+particular model and used only by that model. The position and orientation of
+each model are often stored in world space, a global coordinate system that ties
+all of the object spaces together. Before an object can be rendered, its vertices
+must be transformed into camera space (also called eye space), the space in
+which the x and y axes are aligned to the display and the z axis is parallel to the
+viewing direction. (See Section 5.3.) It is possible to transform vertices from object space directly into camera space by concatenating the matrices representing
+the transformations from object space to world space and from world space to
+camera space. The product of these transformations is called the model-view
+transformation.
+Once a model’s vertices have been transformed into camera space, they undergo a projection transformation that has the effect of applying perspective so
+that geometry becomes smaller as the distance from the camera increases. (Pro-
+
+World
+Space
+
+Object
+Space
+
+Camera
+Space
+Model-view
+transformation
+
+Projection
+Homogeneous
+Clip Space
+Viewport transformation
+Window
+Space
+
+Figure 1.3. The coordinate spaces appearing in the rendering pipeline. Vertex positions
+are submitted to the graphics library in object space and are eventually transformed into
+window space for primitive rasterization.
+
+6
+
+1. The Rendering Pipeline
+
+jections are discussed in Section 5.5.) The projection is performed in fourdimensional homogeneous coordinates, described in Section 4.4, and the space in
+which the vertices exist after projection is called homogeneous clip space. Homogeneous clip space is so named because it is in this space that graphics primitives are clipped to the boundaries of the visible region of the scene, ensuring that
+no attempt is made to render any part of a primitive that falls outside the
+viewport.
+In homogeneous clip space, vertices have normalized device coordinates.
+The term normalized pertains to the fact that the x, y, and z coordinates of each
+vertex fall in the range  1,1, but reflect the final positions in which they will
+appear in the viewport. The vertices must undergo one more transformation,
+called the viewport transformation, that maps the normalized coordinates to the
+actual range of pixel coordinates covered by the viewport. The z coordinate is
+usually mapped to the floating-point range  0,1, but this is subsequently scaled to
+the integer range corresponding to the number of bits per pixel utilized by the
+depth buffer. After the viewport transformation, vertex positions are said to lie in
+window space.
+A graphics processor usually performs several per-vertex calculations in addition to the transformation from object space to window space. For instance, the
+OpenGL lighting model determines the color and intensity of light reaching each
+vertex and then calculates how much of that is reflected toward the camera. The
+reflected color assigned to each vertex is interpolated over the area of a graphics
+primitive in the manner described in Section 5.4.2. This process is called pervertex lighting. More-advanced graphics applications may perform per-pixel
+lighting to achieve highly detailed lighting interactions at every pixel covered by
+a graphics primitive. Per-vertex and per-pixel lighting are discussed in Sections 7.7 and 7.8.
+Each vertex may also carry with it one or more sets of texture coordinates.
+Texture coordinates may be explicitly specified by an application or automatically generated by the GPU. When a graphics primitive is rendered, the texture coordinates are interpolated over the area of the primitive and used to look up colors in a texture map. These colors are then combined with other interpolated data
+at each pixel to determine the final color that appears in the viewport.
+
+1.3 Rasterization and Fragment Operations
+Once a model’s vertices have been clipped and transformed into window space,
+the GPU must determine what pixels in the viewport are covered by each
+
+1.3 Rasterization and Fragment Operations
+
+7
+
+graphics primitive. The process of filling in the horizontal spans of pixels belonging to a primitive is called rasterization. The GPU calculates the depth, interpolated vertex colors, and interpolated texture coordinates for each pixel. This information, combined with the location of the pixel itself, is called a fragment.
+The process through which a graphics primitive is converted to a set of fragments is illustrated in Figure 1.4. An application may specify that face culling be
+performed as the first stage of this process. Face culling applies only to polygonal
+graphics primitives and removes either the polygons that are facing away from
+the camera or those that are facing toward the camera. Ordinarily, face culling is
+employed as an optimization that skips polygons facing away from the camera
+(backfacing polygons) since they correspond to the unseen far side of a model.
+A graphics application specifies how the fragment data is used to determine
+the final color and final depth of each pixel during rasterization. This process is
+called fragment shading or pixel shading. The final color may simply be given by
+the product of an interpolated vertex color and a value fetched from a texture
+map, or it may be the result of a complex per-pixel lighting calculation. The final
+depth is ordinarily just the unaltered interpolated depth, but advanced 3D
+graphics hardware allows an application to replace the depth with the result of an
+arbitrary calculation.
+Figure 1.5 illustrates the operations performed for each fragment generated
+during rasterization. Most of these operations determine whether a fragment
+should be drawn to the viewport or discarded altogether. Although these operations occur logically after fragment shading, most GPUs perform as many tests as
+possible before performing fragment shading calculations to avoid spending time
+figuring out the colors of fragments that will ultimately be discarded.
+
+Graphics
+primitives
+Face
+Culling
+
+Rasterization
+
+Fragments
+Fragment
+Shading
+
+Fragment
+Operations
+
+Figure 1.4. A graphics primitive is converted to a set of fragments during rasterization.
+After shading, fragments undergo the operations shown in Figure 1.5.
+
+8
+
+1. The Rendering Pipeline
+
+Fragment
+
+Pixel
+Ownership Test
+
+Stencil
+Test
+
+Scissor
+Test
+
+Depth
+Test
+
+Alpha
+Test
+
+Blending
+
+Image
+buffer
+
+Figure 1.5. Operations performed before a fragment is written to the image buffer.
+
+The first fragment operation performed, and the only one that cannot be disabled, is the pixel ownership test. The pixel ownership test simply determines
+whether a fragment lies in the region of the viewport that is currently visible on
+the display. A possible reason that the pixel ownership test fails is that another
+window is obscuring a portion of the viewport. In this case, fragments falling
+behind the obscuring window are not drawn.
+Next, the scissor test is performed. An application may specify a rectangle in
+the viewport, called the scissor rectangle, to which rendering should be restricted. Any fragments falling outside the scissor rectangle are discarded. A particular
+application of the scissor rectangle in the context of the stencil shadow algorithm
+is discussed in Section 10.3.7.
+If the scissor test passes, a fragment undergoes the alpha test. When the final
+color of a fragment is calculated, an application may also calculate an alpha value that usually represents the degree of transparency associated with the fragment. The alpha test compares the final alpha value of a fragment to a constant
+value that is preset by the application. The application specifies what relationship
+between the two values (such as less than, greater than, or equal to) causes the
+test to pass. If the relationship is not satisfied, then the fragment is discarded.
+After the alpha test passes, a fragment moves on to the stencil test. The stencil test reads the value stored in the stencil buffer at a fragment’s location and
+compares it to a value previously specified by the application. The stencil test
+passes only if a specific relationship is satisfied (e.g., the stencil value is equal to
+
+1.3 Rasterization and Fragment Operations
+
+a particular value); otherwise, the stencil test fails, and the fragment is discarded.
+An application is able to specify actions to be taken in the stencil buffer when the
+stencil test passes or fails. Additionally, if the stencil test passes, the value in the
+stencil buffer may be affected in a way that depends on the result of the depth test
+(described next). For instance, an application may choose to increment the value
+in the stencil buffer if the stencil test passes and the depth test fails. This functionality is used extensively by one of the shadow-rendering techniques described
+in Chapter 10.
+The final test undergone by a fragment is the depth test. The depth test compares the final depth associated with a fragment to the value currently residing in
+the depth buffer. If the fragment’s depth does not satisfy an application-specified
+relationship with the value in the depth buffer, then the fragment is discarded.
+Normally, the depth test is configured so that a fragment passes the depth test
+only if its depth is less than or equal to the value in the depth buffer. When the
+depth test passes, the depth buffer is updated with the depth of the fragment to
+facilitate hidden surface removal for subsequently rendered primitives.
+Once the pixel ownership test, scissor test, alpha test, stencil test, and depth
+test have all passed, a fragment’s final color is blended into the image buffer. The
+blending operation calculates a new color by combining the fragment’s final color and the color already stored in the image buffer at the fragment’s location. The
+fragment’s alpha value and the alpha value stored in the image buffer may also
+be used to determine the color that ultimately appears in the viewport. The blending operation may be configured to simply replace the previous color in the image buffer, or it may produce special visual effects such as transparency.
+
+9
+
+This page intentionally left blank
+
+Chapter
+
+2
+
+Vectors
+Vectors are of fundamental importance in any 3D game engine. They are used to
+represent points in space, such as the locations of objects in a game or the vertices of a triangle mesh. They are also used to represent spatial directions, such as
+the orientation of the camera or the surface normals of a triangle mesh. Understanding how to manipulate vectors is an essential skill of the successful 3D programmer.
+Throughout this book, we encounter vectors of various types, usually representing two-dimensional, three-dimensional, or four-dimensional quantities. For
+now, we make no distinction between vectors representing points and vectors
+representing directions, nor do we concern ourselves with how vectors are transformed from one coordinate system to another. These topics are extremely important in 3D engine development, however, and are addressed in Chapter 4.
+
+2.1 Vector Properties
+We assume that the reader possesses a basic understanding of vectors, but it is
+beneficial to provide a quick review of properties that are used extensively
+throughout this book. Although more abstract definitions are possible, we usually
+restrict ourselves to vectors defined by n-tuples of real numbers, where n is typically 2, 3, or 4. An n-dimensional vector V can be written as
+
+V = V1 ,V 2 , ,V n ,
+
+(2.1)
+
+where the numbers Vi are called the components of the vector V. We have used
+numbered subscripts here, but the components will usually be labeled with the
+name of the axis to which they correspond. For instance, the components of a
+three-dimensional point P could be written as Px, Py , and Pz .
+11
+
+12
+
+2. Vectors
+
+The vector V in Equation (2.1) may also be represented by a matrix having a
+single column and n rows:
+V1 
+V 
+2
+V =  .
+
+ 
+V n 
+
+(2.2)
+
+We treat this column vector as having a meaning identical to that of the commaseparated list of components written in Equation (2.1). Vectors are normally expressed in these forms, but we sometimes need to express vectors as a matrix
+consisting of a single row and n columns. We write row vectors as the transpose
+of their corresponding column vectors:
+V T = [V1 V 2  V n ].
+
+(2.3)
+
+A vector may be multiplied by a scalar to produce a new vector whose components retain the same relative proportions. The product of a scalar a and a vector V is defined as
+
+aV = Va = aV1 , aV 2 , , aV n .
+
+(2.4)
+
+In the case that a = −1, we use the slightly simplified notation −V to represent the
+negation of the vector V.
+Vectors add and subtract componentwise. Thus, given two vectors P and Q,
+we define the sum P + Q as
+P + Q = P1 + Q1 , P2 + Q 2 , , Pn + Q n .
+
+(2.5)
+
+The difference between two vectors, written P − Q, is really just a notational simplification of the sum P + ( −Q ).
+With the above definitions in hand, we are now ready to examine some fundamental properties of vector arithmetic.
+Theorem 2.1. Given any two scalars a and b, and any three vectors P, Q, and
+R, the following properties hold.
+(a) P + Q = Q + P
+(b) ( P + Q ) + R = P + ( Q + R )
+
+2.1 Vector Properties
+
+13
+
+(c) ( ab ) P = a ( bP )
+(d) a ( P + Q ) = aP + aQ
+(e) ( a + b ) P = aP + bP
+Using the associative and commutative properties of the real numbers, these
+properties are easily verified through direct computation.
+The magnitude of an n-dimensional vector V is a scalar denoted by V and is
+given by the formula
+V =
+
+n
+
+V
+
+i
+
+2
+
+.
+
+(2.6)
+
+i =1
+
+The magnitude of a vector is also sometimes called the norm or the length of a
+vector. A vector having a magnitude of exactly one is said to have unit length, or
+may simply be called a unit vector. When V represents a three-dimensional point
+or direction, Equation (2.6) can be written as
+
+V = V x2 + V y2 + V z2 .
+
+(2.7)
+
+A vector V having at least one nonzero component can be resized to unit
+length through multiplication by 1 V . This operation is called normalization and
+is used often in 3D graphics. It should be noted that the term to normalize is in no
+way related to the term normal vector, which refers to a vector that is perpendicular to a surface at a particular point.
+The magnitude function given in Equation (2.6) obeys the following rules.
+Theorem 2.2. Given any scalar a and any two vectors P and Q, the following
+properties hold.
+(a)
+(b)
+(c)
+(d)
+
+P ≥0
+P = 0 if and only if P = 0,0, ,0
+aP = a P
+P+Q ≤ P + Q
+
+Proof.
+(a) This follows from the fact that the radicand in Equation (2.6) is a sum of
+squares, which cannot be less than zero.
+
+14
+
+2. Vectors
+
+P+Q
+
+Q
+
+P
+Figure 2.1. The triangle inequality states that P + Q ≤ P + Q . Geometrically, this
+follows from the fact that the length of one side of a triangle can be no longer than the
+sum of the lengths of the other two sides.
+
+(b) Suppose that P = 0,0, ,0 . Then the radicand in Equation (2.6) evaluates to
+zero, so P = 0. Conversely, if we assume P = 0, then each component of P
+must be zero, since otherwise the sum in Equation (2.6) would be a positive
+number.
+(c) Evaluating Equation (2.6), we have the following.
+aP =
+
+n
+
+a
+
+2
+
+Pi 2
+
+i =1
+
+n
+
+= a 2  Pi 2
+i =1
+
+=a
+
+n
+
+P
+
+i
+
+2
+
+i =1
+
+=a P
+
+(2.8)
+
+(d) This is known as the triangle inequality since a geometric proof can be given
+if we treat P and Q as two sides of a triangle. As shown in Figure 2.1, P + Q
+forms the third side of the triangle, which cannot have a length greater than
+the sum of the other two sides. 
+We will be able to give an algebraic proof of the triangle inequality after introducing the dot product in the next section.
+
+2.2 The Dot Product
+
+15
+
+2.2 The Dot Product
+The dot product of two vectors, also known as the scalar product or inner product, is one of the most heavily used operations in 3D graphics because it supplies
+a measure of the difference between the directions in which the two vectors
+point.
+Definition 2.3. The dot product of two n-dimensional vectors P and Q, written
+as P ⋅ Q, is the scalar quantity given by the formula
+n
+
+P ⋅ Q =  Pi Qi .
+
+(2.9)
+
+i =1
+
+This definition states that the dot product of two vectors is given by the sum of
+the products of each component. In three dimensions, we have
+P ⋅ Q = Px Q x + Py Q y + Pz Q z.
+
+(2.10)
+
+The dot product P ⋅ Q may also be expressed as the matrix product
+
+P T Q = [ P1
+
+P2
+
+ Q1 
+Q 
+2
+ Pn ]  ,
+  
+ 
+Q n 
+
+(2.11)
+
+which yields a 1×1 matrix (i.e., a scalar) whose single entry is equal to the sum in
+Equation (2.9).
+Now for an important theorem that reveals the ubiquitous utility of the dot
+product.
+Theorem 2.4. Given two n-dimensional vectors P and Q, the dot product P ⋅ Q
+satisfies the equation
+P ⋅ Q = P Q cos α ,
+
+(2.12)
+
+where α is the planar angle between the lines connecting the origin to the points
+represented by P and Q.
+
+16
+
+2. Vectors
+
+P
+
+P−Q
+α
+Q
+
+Figure 2.2. The dot product is related to the angle between two vectors by the equation
+P ⋅ Q = P Q cos α .
+
+Proof. Let α be the angle between the vectors P and Q, as shown in Figure 2.2.
+By the law of cosines (see Appendix B, Section B.6), we know
+P − Q 2 = P 2 + Q 2 − 2 P Q cos α .
+
+(2.13)
+
+This expands to
+n
+
+n
+
+n
+
+i =1
+
+i =1
+
+i =1
+
+ ( Pi − Qi ) 2 =  Pi 2 +  Qi2 − 2 P Q cos α.
+
+(2.14)
+
+All the Pi 2 and Qi2 terms cancel, and we are left with
+n
+
+ −2 P Q
+i
+
+i
+
+= −2 P Q cos α.
+
+(2.15)
+
+i =1
+
+Dividing both sides by −2 gives us the desired result. 
+A couple of important facts follow immediately from Theorem 2.4. The first
+is that two vectors P and Q are perpendicular if and only if P ⋅ Q = 0. This follows
+from the fact that the cosine function is zero at an angle of 90 degrees. Vectors
+whose dot product yields zero are called orthogonal. We define the zero vector,
+0 ≡ 0,0,,0 , to be orthogonal to every vector P, since 0 ⋅ P always equals zero.
+
+2.2 The Dot Product
+
+17
+
+Q
+
+Q
+
+P
+
+Q
+
+Q
+Q
+P ⋅Q &gt; 0
+
+Q
+
+P ⋅Q &lt; 0
+
+Figure 2.3. The sign of the dot product tells us whether two vectors lie on the same side
+or on opposite sides of a plane.
+
+The second fact is that the sign of the dot product tells us how close two vectors are to pointing in the same direction. Referring to Figure 2.3, we can consider the plane passing through the origin and perpendicular to a vector P. Any vector lying on the same side of the plane as P yields a positive dot product with P,
+and any vector lying on the opposite side of the plane from P yields a negative
+dot product with P.
+Several additional properties of the dot product are presented by the following theorem.
+Theorem 2.5. Given any scalar a and any three vectors P, Q, and R, the following properties hold.
+(a)
+(b)
+(c)
+(d)
+(e)
+
+P ⋅Q = Q ⋅P
+
+( aP ) ⋅ Q = a ( P ⋅ Q )
+P ⋅ (Q + R ) = P ⋅ Q + P ⋅ R
+P⋅P = P 2
+P ⋅Q ≤ P Q
+
+Proof. Parts (a), (b), and (c) are easily verified using the associative and commutative properties of the real numbers. Part (d) follows directly from the definition
+of P given in Equation (2.6) and the definition of the dot product given in Equation (2.9). Part (e) is implied by Theorem 2.4 since cos α ≤ 1. 
+
+18
+
+2. Vectors
+
+We use the notation P 2 when we take the dot product of a vector P with itself. Thus, by part (d) of Theorem 2.5, we can say that P ⋅ P , P 2 , and P 2 all have
+identical meanings. We use italics instead of boldface in the expression P 2 because it is a scalar quantity.
+Part (e) of Theorem 2.5 is known as the Cauchy-Schwarz inequality and
+gives us a tool that we can use to provide the following algebraic proof of the
+triangle inequality.
+Proof of Theorem 2.2(d). (Triangle Inequality) Beginning with P + Q 2 , we can
+calculate
+
+P + Q 2 = ( P + Q ) ⋅ ( P + Q)
+= P 2 + Q 2 + 2P ⋅ Q
+≤ P2 + Q2 + 2 P Q
+= ( P + Q )2,
+
+(2.16)
+
+where Theorem 2.5(e) has been used to attain the inequality. Taking square roots,
+we arrive at the desired result. 
+The situation often arises in which we need to decompose a vector P into
+components that are parallel and perpendicular to another vector Q. As shown in
+Figure 2.4, if we think of the vector P as the hypotenuse of a right triangle, then
+the perpendicular projection of P onto the vector Q produces the side adjacent to
+the angle α between P and Q.
+Basic trigonometry tells us that the length of the side adjacent to α is given
+by P cos α. Theorem 2.4 gives us a way to calculate the same quantity without
+knowing the angle α :
+P ⋅Q
+.
+(2.17)
+Q
+To obtain a vector that has this length and is parallel to Q, we simply multiply by
+the unit vector Q Q . We now have the following formula for the projection of P
+onto Q, which we denote by proj Q P.
+P cos α =
+
+proj Q P =
+
+P ⋅Q
+Q
+Q 2
+
+(2.18)
+
+2.3 The Cross Product
+
+19
+
+P
+
+α
+
+Q
+
+P ⋅Q
+Q
+
+Figure 2.4. The length of the projection of the vector P onto the vector Q is given by
+P ⋅ Q Q because P ⋅ Q = P Q cos α .
+
+The perpendicular component of P with respect to Q, denoted by perp Q P, is
+simply the vector left over when we subtract away the parallel component given
+by Equation (2.18) from the original vector P:
+
+perp Q P = P − proj Q P
+=P−
+
+P ⋅Q
+Q.
+Q 2
+
+(2.19)
+
+The projection of P onto Q is a linear transformation of P and can thus be
+expressed as a matrix-vector product. In three dimensions, proj Q P can be computed using the alternative formula
+ Q x2
+1 
+proj Q P =
+Q xQ y
+Q 2
+ Q x Q z
+
+Q xQ y
+Q y2
+Q yQz
+
+Q x Q z   Px 
+ 
+Q y Q z   Py .
+Q z2   Pz 
+
+(2.20)
+
+2.3 The Cross Product
+The cross product of two three-dimensional vectors, also known as the vector
+product, returns a new vector that is perpendicular to both of the vectors being
+multiplied together. This property has many uses in computer graphics, one of
+
+20
+
+2. Vectors
+
+which is a method for calculating a surface normal at a particular point given two
+distinct tangent vectors.
+Definition 2.6. The cross product of two 3D vectors P and Q, written as P × Q,
+is a vector quantity given by the formula
+P × Q = Py Q z − Pz Q y , Pz Q x − Px Q z , Px Q y − Py Q x .
+
+(2.21)
+
+A commonly used tool for remembering this formula is to calculate cross products by evaluating the pseudodeterminant
+i
+P × Q = Px
+Qx
+
+j
+Py
+Qy
+
+k
+Pz ,
+Qz
+
+(2.22)
+
+where i, j, and k are unit vectors parallel to the x, y, and z axes:
+i = 1,0,0
+j = 0,1,0
+k = 0,0,1 .
+
+(2.23)
+
+We call the right side of Equation (2.22) a pseudodeterminant because the top
+row of the matrix consists of vectors, whereas the remaining entries are scalars.
+Nevertheless, the usual method for evaluating a determinant does produce the
+correct value for the cross product, as shown below.
+i
+Px
+Qx
+
+j
+Py
+Qy
+
+k
+Pz = i ( Py Q z − Pz Q y ) − j ( Px Q z − Pz Q x ) + k ( Px Q y − Py Q x )
+Qz
+
+(2.24)
+
+The cross product P × Q can also be expressed as a linear transformation derived
+from P that operates on Q as follows.
+ 0
+P × Q =  Pz
+
+ − Py
+
+− Pz
+0
+Px
+
+Py   Q x 
+− Px  Q y 
+ 
+0   Q z 
+
+(2.25)
+
+2.3 The Cross Product
+
+21
+
+As mentioned previously, the cross product P × Q produces a vector that is
+perpendicular to both of the vectors P and Q. This fact is summarized by the following theorem.
+Theorem 2.7. Let P and Q be any two 3D vectors. Then ( P × Q ) ⋅ P = 0 and
+
+( P × Q ) ⋅ Q = 0.
+
+Proof. Applying the definitions of the cross product and the dot product, we have
+the following for ( P × Q ) ⋅ P:
+
+( P × Q ) ⋅ P = Py Q z − Pz Q y , Pz Q x − Px Q z , Px Q y − Py Q x ⋅ P
+= Px Py Q z − Px Pz Q y + Py Pz Q x − Px Py Q z + Px Pz Q y − Py Pz Q x
+= 0.
+
+(2.26)
+
+The fact that ( P × Q ) ⋅ Q = 0 is proven in a similar manner. 
+The same result arises when we consider the fact that given any three 3D vectors
+P, Q, and R, the expression ( P × Q ) ⋅ R may be evaluated by calculating the
+determinant
+Px
+( P × Q) ⋅ R = Qx
+Rx
+
+Py
+Qy
+Ry
+
+Pz
+Qz .
+Rz
+
+(2.27)
+
+If any one of the vectors P, Q, or R can be expressed as a linear combination of
+the other two vectors, then this determinant evaluates to zero. This includes the
+cases in which R = P or R = Q.
+Like the dot product, the cross product has trigonometric significance.
+Theorem 2.8. Given two 3D vectors P and Q, the cross product P × Q satisfies
+the equation
+P × Q = P Q sin α ,
+
+(2.28)
+
+where α is the planar angle between the lines connecting the origin to the points
+represented by P and Q.
+
+22
+
+2. Vectors
+
+Proof. Squaring P × Q , we have
+P × Q 2 = Py Q z − Pz Q y , Pz Q x − Px Q z , Px Q y − Py Q x
+
+2
+
+= ( Py Q z − Pz Q y ) 2 + ( Pz Q x − Px Q z ) 2 + ( Px Q y − Py Q x ) 2
+= ( Py2 + Pz2 ) Q x2 + ( Px2 + Pz2 ) Q y2 + ( Px2 + Py2 ) Q z2
+− 2 Px Q x Py Q y − 2 Px Q x Pz Q z − 2 Py Q y Pz Q z .
+
+(2.29)
+
+By adding and subtracting Px2Q x2 + Py2Q y2 + Pz2Q z2 on the right side of this equation, we can write
+P × Q 2 = ( Px2 + Py2 + Pz2 )( Q x2 + Q y2 + Q z2 )
+− ( Px Q x + Py Q y + Pz Q z ) 2
+= P
+
+2
+
+Q 2 − (P ⋅ Q) 2 .
+
+(2.30)
+
+Replacing the dot product with the right side of Equation (2.12), we have
+P×Q
+
+2
+
+= P
+
+2
+
+Q
+
+2
+
+= P
+
+2
+
+Q
+
+2
+
+= P
+
+2
+
+Q 2 sin 2 α .
+
+− P
+
+2
+
+Q 2 cos 2 α
+
+(1 − cos 2 α )
+(2.31)
+
+Taking square roots proves the theorem. 
+As shown in Figure 2.5, Theorem 2.8 demonstrates that the magnitude of the
+cross product P × Q is equal to the area of the parallelogram whose sides are
+formed by the vectors P and Q. As a consequence, the area A of an arbitrary triangle whose vertices are given by the points V1, V2, and V3 can be calculated using the formula
+A=
+
+1
+( V2 − V1 ) × ( V3 − V1 ) .
+2
+
+(2.32)
+
+We know that any nonzero result of the cross product must be perpendicular
+to the two vectors being multiplied together, but there are two possible directions
+that satisfy this requirement. It turns out that the cross product follows a pattern
+called the right hand rule. As shown in Figure 2.6, if the fingers of the right hand
+
+2.3 The Cross Product
+
+23
+
+P
+
+P sin α
+
+α
+Q
+Figure 2.5. This parallelogram has base width Q and height P sin α. The product of
+these two lengths is equal to P × Q and gives the area of the parallelogram.
+
+P
+
+P×Q
+
+Q
+Q
+P
+P×Q
+Figure 2.6. The right hand rule provides a way for determining in which direction the
+cross product points. When the vectors P and Q are interchanged, their cross product is
+negated.
+
+are aligned with a vector P, and the palm is facing in the direction of a vector Q,
+then the thumb points along the direction of the cross product P × Q.
+The unit vectors i, j, and k, which point in the directions of the positive x, y,
+and z axes, respectively, behave as follows. If we order the axes in a circular
+fashion so that i precedes j, j precedes k, and k precedes i, then the cross product
+of two of these vectors in order yields the third vector as follows.
+
+i× j =k
+j× k = i
+k×i = j
+
+(2.33)
+
+24
+
+2. Vectors
+
+The cross product of two of the vectors in reverse order yields the negation of
+the third vector as follows.
+
+j × i = −k
+k × j = −i
+
+(2.34)
+
+i × k = −j
+Several additional properties of the cross product are presented by the following theorem.
+Theorem 2.9. Given any two scalars a and b, and any three 3D vectors P, Q,
+and R, the following properties hold.
+(a)
+(b)
+(c)
+(d)
+(e)
+(f)
+
+Q × P = −(P × Q)
+( aP ) × Q = a ( P × Q )
+P × (Q + R ) = P × Q + P × R
+P × P = 0 = 0,0,0
+( P × Q) ⋅ R = ( R × P ) ⋅ Q = (Q × R ) ⋅ P
+P × ( Q × P ) = P × Q × P = P 2Q − ( P ⋅ Q ) P
+
+Proof. Parts (a) through (d) follow immediately from the definition of the cross
+product and the associative and commutative properties of the real numbers. Part
+(e) can be directly verified using Equation (2.27). For part (f), we first observe
+that
+P × ( Q × P ) = P × −( P × Q)
+= − [ −( P × Q ) × P ]
+= P × Q × P.
+
+(2.35)
+
+Direct computation of the x component gives us
+
+( P × Q × P ) x = ( Py Q z − Pz Q y , Pz Q x − Px Q z , Px Q y − Py Q x × P ) x
+= ( Pz Q x − Px Q z ) Pz − ( Px Q y − Py Q x ) Py
+= ( Py2 + Pz2 ) Q x − ( Py Q y + Pz Q z ) Px ,
+
+(2.36)
+
+which isn’t quite what we need, but we can add and subtract a Px2 Q x term to
+achieve our desired result, as follows:
+
+2.3 The Cross Product
+
+25
+
+( Py2 + Pz2 ) Q x − ( Py Q y + Pz Q z ) Px
+= ( Py2 + Pz2 ) Q x + Px2Q x − ( Py Q y + Pz Q z ) Px − Px2Q x
+= ( Px2 + Py2 + Pz2 ) Q x − ( Px Q x + Py Q y + Pz Q z ) Px
+= P 2Q x − ( P ⋅ Q ) Px .
+
+(2.37)
+
+The y and z components can be checked in a similar manner. 
+By part (a) of Theorem 2.9, the cross product is not a commutative operation.
+Because reversing the order of the vectors has the effect of negating the product,
+the cross product is labeled anticommutative. Additionally, it is worth noting that
+the cross product is not an associative operation. That is, given any three 3D vectors P, Q, and R, it may be true that ( P × Q ) × R ≠ P × ( Q × R ) . As an example, let
+P = 1,1,0 , Q = 0,1,1 , and R = 1,0,1 . First calculating ( P × Q ) × R, we have
+i
+
+j k
+
+P × Q = 1 1 0 = 1, −1,1
+0 1 1
+i
+
+j
+
+k
+
+( P × Q ) × R = 1 −1 1 = −1,0,1 .
+1
+
+0
+
+(2.38)
+
+1
+
+Now calculating P × ( Q × R ), we have
+i
+
+j k
+
+Q × R = 0 1 1 = 1,1, −1
+1 0 1
+i
+
+j
+
+k
+
+P × ( Q × R ) = 1 1 0 = −1,1,0 ,
+1 1 −1
+which yields a different result.
+
+(2.39)
+
+26
+
+2. Vectors
+
+2.4 Vector Spaces
+The vectors we have dealt with so far belong to sets called vector spaces. An examination of vector spaces allows us to introduce concepts that are important for
+our study of matrices in Chapter 3.
+Definition 2.10. A vector space is a set V, whose elements are called vectors,
+for which addition and scalar multiplication are defined, and the following
+properties hold.
+(a) V is closed under addition. That is, for any elements P and Q in V, the
+sum P + Q is an element of V.
+(b) V is closed under scalar multiplication. That is, for any real number a
+and any element P in V, the product aP is an element of V.
+(c) There exists an element in V called 0 such that for any element P in V,
+P + 0 = 0 + P = P.
+(d) For every element P in V, there exists an element Q in V such that
+P + Q = 0.
+(e) Addition is associative. That is, for any elements P, Q, and R in V,
+( P + Q ) + R = P + ( Q + R ).
+(f) Scalar multiplication is associative. That is, for any real numbers a and
+b, and any element P in V, ( ab ) P = a ( bP ).
+(g) Scalar multiplication distributes over vector addition. That is, for any
+real number a, and any elements P and Q in V, a ( P + Q ) = aP + aQ.
+(h) Addition of scalars distributes over scalar multiplication. That is, for
+any real numbers a and b, and any element P in V, ( a + b ) P = aP + bP.
+Many of the properties required of vector spaces are mentioned in Section
+2.1 and are easily shown to be satisfied for vectors having the form of n-tuples of
+real numbers. We denote the vector space consisting of all such n-tuples by  n .
+For instance, the vector space consisting of all 3D vectors is denoted by  3.
+Every vector space can be generated by linear combinations of a subset of
+vectors called a basis for the vector space. Before we can define exactly what a
+basis is, we need to know what it means for a set of vectors to be linearly
+independent.
+
+2.4 Vector Spaces
+
+27
+
+Definition 2.11. A set of n vectors {e 1 , e 2 , , e n } is linearly independent if
+there do not exist real numbers a1 , a 2 ,, a n, where at least one of the a i is not
+zero, such that
+a1e 1 + a 2e 2 +  + a n e n = 0 .
+
+(2.40)
+
+Otherwise, the set {e 1 , e 2 , , e n } is called linearly dependent.
+An n-dimensional vector space is one that can be generated by a set of n linearly independent vectors. Such a generating set is called a basis, whose formal
+definition follows.
+Definition 2.12. A basis  for a vector space V is a set of n linearly independent vectors  = {e 1 , e 2 , , e n } for which, given any element P in V, there exist
+real numbers a1 , a 2 ,, a n such that
+P = a1e 1 + a 2 e 2 +  + a n e n.
+
+(2.41)
+
+Every basis of an n-dimensional vector space has exactly n vectors in it. For instance, it is impossible to find a set of four linearly independent vectors in  3,
+and a set of two linearly independent vectors is insufficient to generate the entire
+vector space.
+There are an infinite number of choices for a basis of any of the vector spaces
+n
+ . We assign special terms to those that have certain properties.
+Definition 2.13. A basis  = {e 1 , e 2 , , e n } for a vector space is called orthogonal if for every pair ( i, j ) with i ≠ j , we have e i ⋅ e j = 0.
+The fact that the dot product between two vectors is zero actually implies that the
+vectors are linearly independent, as the following theorem demonstrates.
+Theorem 2.14. Given two nonzero vectors e 1 and e 2, if e 1 ⋅ e 2 = 0, then e 1 and
+e 2 are linearly independent.
+Proof. We suppose that e 1 and e 2 are not linearly independent and arrive at a contradiction. If e 1 and e 2 are linearly dependent, then there exist scalars a1 and a 2
+
+28
+
+2. Vectors
+
+such that a1e1 + a 2e 2 = 0. Note that a 2 cannot be zero since it would require that a1
+also be zero. Thus, we can write e 2 = − ( a1 a 2 ) e 1. But then e 1 ⋅ e 2 = − ( a1 a 2 ) e12
+≠ 0, a contradiction. 
+This theorem shows that if we can find any n orthogonal vectors in a vector space
+V, then they form a basis for V.
+A more specific term is given to a basis whose elements all have unit length.
+For convenience, we introduce the Kronecker delta symbol δ ij, which is defined
+as
+1, if i = j ;
+δ ij ≡ 
+0, if i ≠ j .
+
+(2.42)
+
+Definition 2.15. A basis  = {e 1 , e 2 , , e n } for a vector space is called orthonormal if for every pair ( i, j ) we have e i ⋅ e j = δ ij .
+The set {i, j, k} is obviously an orthonormal basis for  3. A slightly less trivial
+example of an orthonormal basis for  3 is given by the three vectors 22 , 22 ,0 ,
+− 22 , 22 ,0 , and 0,0,1 .
+There is a simple method by which a linearly independent set of n vectors
+can be transformed into an orthogonal basis for  n . The basic idea is to subtract
+away the projection of each vector onto the vectors preceding it in the set. Whatever vector is left over must then be orthogonal to its predecessors. The exact
+procedure is as follows.
+Algorithm 2.16. Gram-Schmidt Orthogonalization. Given a set of n linearly
+independent vectors  = {e 1 , e 2 , , e n }, this algorithm produces a set  ′ =
+{e′1 , e′2 ,, e′n } such that e′i ⋅ e′j = 0 whenever i ≠ j .
+A. Set e′1 = e1.
+B. Begin with the index i = 2.
+C. Subtract the projection of e i onto the vectors e′1 , e′2 ,, e′i −1 from e i and
+store the result in e′i. That is,
+e i ⋅ e′k
+e′k .
+2
+k =1 e′k
+i −1
+
+e′i = e i − 
+
+D. If i &lt; n, increment i and loop to step C.
+
+(2.43)
+
+Chapter 2 Summary
+
+29
+
+Chapter 2 Summary
+Dot Products
+The dot product between two n-dimensional vectors P and Q is a scalar defined
+by
+n
+
+P ⋅ Q =  Pi Qi = P1Q1 + P2 Q2 +  + Pn Qn.
+i =1
+
+The dot product is related to the angle α between the vectors P and Q by the formula
+P ⋅ Q = P Q cos α .
+Vector Projections
+The projection of a vector P onto a vector Q is given by
+
+projQ P =
+
+P ⋅Q
+Q,
+Q2
+
+and the component of P that is perpendicular to Q is given by
+
+perp Q P = P − proj Q P
+=P−
+
+P ⋅Q
+Q.
+Q 2
+
+Cross Products
+The cross product between two 3D vectors P and Q is a 3D vector defined by
+P × Q = Py Q z − Pz Q y , Pz Q x − Px Q z , Px Q y − Py Q x .
+
+This can also be written as the matrix-vector product
+ 0
+P × Q =  Pz
+
+ − Py
+
+− Pz
+0
+Px
+
+Py   Q x 
+− Px   Q y  .
+ 
+0  Q z 
+
+The magnitude of the cross product is related to the angle α between the vectors
+P and Q by the formula
+
+30
+
+2. Vectors
+
+P × Q = P Q sin α .
+Gram-Schmidt Orthogonalization
+A basis  = {e 1 , e 2 , , e n } for an n-dimensional vector space can be orthogonalized by constructing a new set of vectors  ′ = {e′1 , e′2 , , e′n } using the formula
+e i ⋅ e′k
+e′k .
+2
+k =1 e′k
+i −1
+
+e′i = e i − 
+
+Exercises for Chapter 2
+1.
+
+Let P = 2, 2,1 and Q = 1, −2,0 . Calculate the following.
+(a) P ⋅ Q
+(b) P × Q
+(c) proj P Q
+
+2.
+
+Orthogonalize the following set of vectors.
+e1 =
+
+2
+2
+
+,
+
+2
+2
+
+,0
+
+e 2 = −1,1, −1
+e 3 = 0, −2, −2
+
+3.
+
+Calculate the area of the triangle whose vertices lie at the points 1, 2,3 ,
+−2, 2, 4 , and 7, −8,6 .
+
+4.
+
+Show that ( V ⋅ W ) 2 + V × W 2 = V 2W 2 for any two vectors V and W.
+
+5.
+
+Prove that for any three 3D vectors P, Q, and R,
+P × Q × R = ( P ⋅ R ) Q − ( Q ⋅ R ) P.
+
+6.
+
+Prove that for any two vectors P and Q,
+P −Q ≥ P − Q ,
+and show that this implies the extended triangle inequality,
+P − Q ≤ P+Q ≤ P + Q .
+
+Chapter
+
+3
+
+Matrices
+
+In a 3D graphics engine, calculations can be performed in a multitude of different
+Cartesian coordinate spaces. Moving from one coordinate space to another requires the use of transformation matrices. We casually referred to matrices at various places in Chapter 2; and in this chapter, we acknowledge the importance of
+matrices in 3D graphics programming by presenting a more formal exposition of
+their properties. The process of transforming points and direction vectors from
+one coordinate space to another is described in Chapter 4.
+
+3.1 Matrix Properties
+An n × m matrix M is an array of numbers having n rows and m columns. If
+n = m, then we say that the matrix M is square. We write M ij to refer to the entry
+of M that resides at the i-th row of the j-th column. As an example, suppose that
+F is a 3 × 4 matrix. Then we could write
+
+ F11
+F =  F21
+
+ F31
+
+F12
+
+F13
+
+F22
+F32
+
+F23
+F33
+
+F14 
+F24 .
+
+F34 
+
+(3.1)
+
+The entries for which i = j are called the main diagonal entries of the matrix. A
+square matrix whose only nonzero entries appear on the main diagonal is called a
+diagonal matrix.
+The transpose of an n × m matrix M, which we denote by M T , is an m × n
+matrix for which the ( i, j ) entry is equal to M ji (i.e., M ijT = M ji ). The transpose of
+the matrix F in Equation (3.1) is
+31
+
+32
+
+3. Matrices
+ F11
+F
+12
+FT = 
+ F13
+
+ F14
+
+F21
+F22
+F23
+F24
+
+F31 
+F32 
+.
+F33 
+
+F34 
+
+(3.2)
+
+As with vectors (which can be thought of as n × 1 matrices), scalar multiplication is defined for matrices. Given a scalar a and an n × m matrix M, the product
+aM is given by
+ aM 11
+ aM
+21
+aM = M a = 
+ 
+
+ aM n1
+
+aM 12
+aM 22
+
+aM n 2
+
+ aM 1m 
+ aM 2 m 
+.
+
+ 
+
+ aM nm 
+
+(3.3)
+
+Also in a manner similar to vectors, matrices add entrywise. Given two n × m matrices F and G, the sum F + G is given by
+ F11 + G11
+F + G
+21
+21
+F+G = 
+
+
+
+ Fn1 + G n1
+
+F12 + G12
+F22 + G 22
+
+Fn 2 + G n 2
+
+ F1m + G1m 
+ F2 m + G 2 m 
+.
+
+
+
+
+ Fnm + G nm 
+
+(3.4)
+
+Two matrices F and G can be multiplied together, provided that the number
+of columns in F is equal to the number of rows in G. If F is an n × m matrix and
+G is an m × p matrix, then the product FG is an n × p matrix whose ( i, j ) entry is
+given by
+m
+
+( FG ) ij =  Fik G kj .
+
+(3.5)
+
+k =1
+
+Another way of looking at this is that the ( i, j ) entry of FG is equal to the dot
+product of the i-th row of F and the j-th column of G.
+There is an n × n matrix called the identity matrix, denoted by I n , for which
+MI n = I n M = M for any n × n matrix M. The identity matrix has the form
+1
+0
+In = 
+
+
+0
+
+0
+1
+
+0
+
+
+
+
+
+
+0
+0
+.
+
+
+1
+
+(3.6)
+
+3.1 Matrix Properties
+
+33
+
+We usually drop the subscript n and denote the identity matrix simply by I, since
+the size of the matrix can be inferred from the context.
+Several additional properties of matrices are given by the two theorems that
+follow.
+Theorem 3.1. Given any two scalars a and b and any three n × m matrices F,
+G, and H, the following properties hold.
+(a)
+(b)
+(c)
+(d)
+(e)
+
+F+G =G +F
+
+(F + G ) + H = F + (G + H )
+a ( bF ) = ( ab ) F
+a ( F + G ) = a F + aG
+( a + b ) F = a F + bF
+
+As with vectors, these properties are easily verified through direct computation
+using the associative and commutative properties of the real numbers.
+Theorem 3.2. Given any scalar a, an n × m matrix F, an m × p matrix G, and a
+p × q matrix H, the following properties hold.
+(a)
+(b)
+(c)
+
+( aF ) G = a ( FG )
+( FG ) H = F ( GH )
+( FG ) T = G T F T
+
+Proof.
+(a) Using the definition for matrix multiplication given by Equation (3.5), the
+( i, j ) entry of ( aF ) G is
+m
+
+[( aF ) G ] ij =  ( aF ) ik G kj
+k =1
+m
+
+=  a ( Fik G kj )
+k =1
+
+m
+
+= a  Fik G kj
+k =1
+
+= a ( FG ) ij .
+
+(3.7)
+
+34
+
+3. Matrices
+
+(b) Again using Equation (3.5), the ( i, j ) entry of ( FG ) H is
+p
+
+[( FG ) H ] ij =  ( FG ) ik H kj
+k =1
+p
+
+ m
+
+=    Fil G lk H kj
+
+k =1  l =1
+p
+m
+
+
+=  Fil   Glk H kj 
+ k =1
+
+l =1
+m
+
+=  Fil ( GH ) lj
+l =1
+
+= [ F ( GH )] ij .
+
+(3.8)
+
+(c) Applying Equation (3.5), and reversing the indexes whenever a transpose
+operation is added or removed, we have for the ( i, j ) entry of ( FG ) T
+
+( FG ) ijT = ( FG ) ji
+m
+
+=  F jk G ki
+k =1
+m
+
+=  FkjT GikT
+k =1
+
+= ( G T F T ) ij . 
+
+(3.9)
+
+3.2 Linear Systems
+Matrices provide a compact and convenient way to represent systems of linear
+equations. For instance, the linear system given by the equations
+3x + 2 y − 3z = −13
+4x − 3y + 6z = 7
+x − z = −5
+
+(3.10)
+
+can be represented in matrix form as
+ 3 2 −3  x   −13
+ 4 −3 6   y  =  7 .
+
+  
+
+1 0 −1  z   −5 
+
+(3.11)
+
+3.2 Linear Systems
+
+35
+
+The matrix preceding the vector x, y, z of unknowns is called the coefficient
+matrix, and the column vector on the right side of the equals sign is called the
+constant vector. Linear systems for which the constant vector is nonzero (like the
+example above) are called nonhomogeneous. Linear systems for which every entry of the constant vector is zero are called homogeneous.
+Finding solutions to a system of linear equations can be achieved by performing elementary row operations on the matrix formed by concatenating the
+coefficient matrix and the constant vector.
+
+Definition 3.3. An elementary row operation is one of the following three operations that can be performed on a matrix.
+(a) Exchange two rows.
+(b) Multiply a row by a nonzero scalar.
+(c) Add a multiple of one row to another row.
+For the example given by Equation (3.11), the augmented matrix formed by concatenating the coefficient matrix and constant vector is
+ 3 2 −3 −13
+ 4 −3 6
+7 .
+
+
+1 0 −1 −5 
+
+(3.12)
+
+Elementary row operations modify the augmented matrix representation of a
+linear system in such a way that the solution to the system is not affected, but it
+becomes much easier to calculate. When solving a linear system using elementary row operations, our goal is to transform the coefficient matrix into its reduced form, defined as follows.
+
+Definition 3.4. A matrix is in reduced form if and only if it satisfies the following conditions.
+(a) For every nonzero row, the leftmost nonzero entry, called the leading
+entry, is 1.
+(b) Every nonzero row precedes every row of zeros. That is, all rows of
+zeros reside at the bottom of the matrix.
+
+36
+
+3. Matrices
+
+(c) If a row’s leading entry resides in column j, then no other row has a
+nonzero entry in column j.
+(d) For every pair of nonzero rows i1 and i 2 such that i 2 &gt; i1, the columns j1
+and j 2 containing those rows’ leading entries must satisfy j 2 &gt; j1.
+This definition tells us that the leading entries of a matrix in reduced form move
+to the right as we move downward through its rows. Furthermore, any column
+containing a leading entry of a row has a 1 at that location and zeros everywhere
+else.
+
+Example 3.5. The following matrix is in reduced form.
+1
+0
+
+0
+
+0
+
+0 −3
+1 2
+0 0
+0 0
+
+0
+0
+
+1
+
+0
+
+(3.13)
+
+1
+0
+
+0
+
+0
+
+0
+0
+2
+0
+
+3
+0
+
+0
+
+1
+
+(3.14)
+
+However, the matrix
+0
+1
+0
+0
+
+is not in reduced form because the leading entry of the third row does not fall to
+the right of the leading entry of the second row. Furthermore, the fourth column, which contains the leading entry of the fourth row, is not zero everywhere
+else. 
+Algorithm 3.6 describes which elementary row operations to apply to the
+augmented matrix representation of a linear system in order to transform its coefficient matrix into its reduced form.
+
+Algorithm 3.6. This algorithm transforms an n × ( n + 1) augmented matrix M
+representing a linear system into its reduced form. At each step, M refers to the
+current state of the matrix, not the original state.
+
+3.2 Linear Systems
+
+37
+
+A. Set the row i equal to 1.
+B. Set the column j equal to 1. We will loop through columns 1 to n.
+C. Find the row k with k ≥ i for which M kj has the largest absolute value. If
+no such row exists for which M kj ≠ 0 , then skip to step H.
+D. If k ≠ i , then exchange rows k and i using elementary row operation (a)
+under Definition 3.3.
+E. Multiply row i by 1 M ij . This sets the ( i, j ) entry of M to 1 using elementary row operation (b).
+F. For each row r, where 1 ≤ r ≤ n and r ≠ i , add − M rj times row i to row r.
+This step clears each entry above and below row i in column j to 0 using
+elementary row operation (c).
+G. Increment i.
+H. If j &lt; n , increment j and loop to step C.
+The procedure performed by steps C and D is known as pivoting. In addition
+to its ability to remove zeros from the main diagonal, pivoting is absolutely essential for numerical stability. The following example demonstrates the application of Algorithm 3.6 to the nonhomogeneous linear system given by Equation
+(3.11). After the augmented coefficient matrix is reduced, the solution to the system becomes obvious.
+
+Example 3.7. Solve the nonhomogeneous linear system
+ 3 2 −3  x   −13
+ 4 −3 6   y  =  7 .
+
+  
+
+ 1 0 −1  z   −5 
+
+(3.15)
+
+Solution. We first form the augmented matrix
+ 3 2 −3 −13
+ 4 −3 6
+7 .
+
+
+1 0 −1 −5 
+
+(3.16)
+
+We must now pivot (using steps C and D) so that the row containing the largest
+entry in the first column appears in the first row. We therefore exchange the first
+two rows. To produce a leading entry of 1, we then multiply the first row by 14 , as
+follows.
+
+38
+
+3. Matrices
+1 − 34
+Exchange rows 1 and 2
+⎯⎯⎯⎯⎯⎯⎯
+→ 3 2
+Multiply new row 1 by 14
+
+1 0
+
+
+−3 −13
+
+−1 −5 
+3
+2
+
+7
+4
+
+(3.17)
+
+Applying step F of Algorithm 3.6, we now eliminate the other nonzero entries in
+the first column.
+1 − 34
+Add − 3 × row 1 to row 2
+⎯⎯⎯⎯⎯⎯⎯
+→  0 174
+Add −1 × row 1 to row 3
+
+ 0 34
+
+3
+2
+15
+2
+5
+2
+
+−
+−
+
+
+− 
+
+− 
+7
+4
+73
+4
+27
+4
+
+(3.18)
+
+Moving to the second row, we multiply by 174 to obtain a leading entry of 1.
+1 − 34
+Multiply row 2 by
+⎯⎯⎯⎯⎯⎯→ 0 1
+
+0 34
+4
+17
+
+3
+2
+30
+17
+5
+2
+
+−
+−
+
+
+− 
+
+− 
+7
+4
+73
+17
+27
+4
+
+(3.19)
+
+Again applying step F, we eliminate the other nonzero entries in the second column.
+1 0 173
+30
+⎯⎯⎯⎯⎯⎯⎯→  0 1 − 17
+
+20
+ 0 0 − 17
+Add 34 × row 2 to row 1
+Add − 34 × row 2 to row 3
+
+25
+− 17
+
+73 
+− 17
+
+60
+
+− 17
+
+(3.20)
+
+Finally, we apply the same steps to the third row, as follows.
+1 0 173
+30
+⎯⎯⎯⎯⎯⎯⎯
+→ 0 1 − 17
+
+0 0 1
+Multiply row 3 by − 17
+20
+
+25
+− 17
+
+73 
+− 17
+
+3 
+
+1 0 0 −2 
+0 1 0 1 
+⎯⎯⎯⎯⎯⎯⎯→
+30 × row 3 to row 2
+Add 17
+
+
+0 0 1 3 
+3 × row 3 to row 1
+Add − 17
+
+(3.21)
+
+The coefficient matrix has now been completely transformed into its reduced
+form. The reduced augmented matrix represents the equation
+
+3.2 Linear Systems
+
+39
+
+1 0 0   x   −2
+0 1 0   y  =  1  ,
+
+   
+0 0 1   z   3 
+
+(3.22)
+
+from which the solution to the original system is immediate:
+
+x = −2
+y =1
+z = 3. 
+
+(3.23)
+
+In the previous example, we found that the reduced form of the coefficient
+matrix was equal to the identity matrix. In such a case, the corresponding linear
+system has exactly one solution. When the reduced coefficient matrix has one or
+more rows of zeros, however, the corresponding system may have no solution at
+all, or may have infinitely many solutions. If the entry in the constant vector corresponding to a row of zeros in the coefficient matrix is not zero, then the system
+has no solution because that row equates zero to a nonzero number. In the remaining case that the entry in the constant vector is zero, there are infinitely
+many solutions to the linear system that must be expressed in terms of arbitrary
+constants. The number of arbitrary constants is equal to the number of rows of
+zeros, and arbitrary constants are assigned to variables corresponding to columns
+of the reduced coefficient matrix that do not contain a leading entry.
+
+Example 3.8. Solve the following homogeneous linear system.
+
+2 x + y + 3z = 0
+y−z=0
+x + 3y − z = 0
+
+(3.24)
+
+Solution. The augmented matrix representation of this system is given by
+2 1 3 0
+ 0 1 −1 0  .
+
+
+1 3 −1 0 
+Using Algorithm 3.6 to calculate the reduced form gives us the matrix
+
+(3.25)
+
+40
+
+3. Matrices
+
+1 0 2 0 
+0 1 −1 0 .
+
+
+0 0 0 0 
+
+(3.26)
+
+Since this matrix has a row of zeros, we can assign an arbitrary value to the variable corresponding to the third column since it does not contain a leading entry;
+in this case we set z = a . The first two rows then represent the equations
+x + 2a = 0
+y − a = 0,
+
+(3.27)
+
+so the solution to the system can be written as
+ x
+ −2 
+ y  = a  1 . 
+ 
+ 
+ z 
+ 1 
+
+(3.28)
+
+Homogeneous linear systems always have at least one solution—the zero
+vector. Nontrivial solutions exist only when the reduced form of the coefficient
+matrix possesses at least one row of zeros.
+
+3.3 Matrix Inverses
+An n × n matrix M is invertible if there exists a matrix, which we denote by M −1,
+such that MM −1 = M −1M = I . The matrix M −1 is called the inverse of M. Not
+every matrix has an inverse, and those that do not are called singular. An example of a singular matrix is any one that has a row or column consisting of all
+zeros.
+
+Theorem 3.9. A matrix possessing a row or column consisting entirely of zeros
+is not invertible.
+Proof. Suppose every entry in row r of an n × n matrix F is 0. For any n × n matrix G, the ( r , r ) entry of the product FG is given by Σ nk =1 Frk G kr. Since each of
+the Frk is 0, the ( r , r ) entry of FG is 0. Since the inverse of F would need to produce a 1 in the ( r , r ) entry, F cannot have an inverse. A similar argument proves
+the theorem for a matrix possessing a column of zeros. 
+
+3.3 Matrix Inverses
+
+41
+
+Using this theorem, we will be able to show later in this section that any matrix possessing a row that is a linear combination of the other rows of the matrix
+is singular. The same is true for the columns of a matrix due to the following fact.
+
+Theorem 3.10. A matrix M is invertible if and only if M T is invertible.
+Proof. Assume M is invertible. Then M −1 exists, so we can write
+M T ( M −1 ) T = ( M −1M ) T = I T = I
+
+(3.29)
+
+( M −1 ) T M T = ( MM −1 ) T = I T = I .
+
+(3.30)
+
+and
+
+Therefore, ( M −1 ) T is the inverse of M T . Similarly, if we assume that M T is invertible, then ( M T ) −1 exists, so we can write
+
+M ( M T ) −1  T = ( M T ) −1M T  T = I T = I
+
+(3.31)
+
+( M T ) −1  T M = M T ( M T ) −1  T = I T = I.
+
+(3.32)
+
+and
+
+Therefore, ( M T ) −1  T is the inverse of M. 
+Before proceeding to a method for calculating inverses, we make one more
+observation.
+
+Theorem 3.11. If F and G are n × n invertible matrices, then the product FG is
+−1
+invertible, and ( FG ) = G −1F −1.
+Proof. We can verify this theorem through direct computation using the fact that
+matrix multiplication is associative:
+G −1F −1 ( FG ) = G −1 ( F −1F ) G = G −1G = I . 
+
+(3.33)
+
+42
+
+3. Matrices
+
+A method similar to that used to transform a matrix into its reduced form (see
+Algorithm 3.6) can also be used to calculate the inverse of a matrix. To find the
+ by concatenatinverse of an n × n matrix M, we first construct an n × 2n matrix M
+ing the identity matrix to the right of M, as shown below.
+ M 11
+
+ =  M 21
+M
+ 
+
+ M n1
+
+M 12
+M 22
+
+M n2
+
+ M 1n
+ M 2n
+
+
+ M nn
+
+1
+0
+
+0
+
+0
+1
+
+0
+
+
+
+
+
+
+0
+0
+
+
+
+1
+
+(3.34)
+
+ until the left side
+Performing elementary row operations on the entire matrix M
+n × n matrix becomes the identity matrix I n yields the inverse of M in the right
+side n × n matrix. This process is known as Gauss-Jordan elimination and is illustrated in Algorithm 3.12.
+
+Algorithm 3.12. Gauss-Jordan Elimination. This algorithm calculates the inverse of an n × n matrix M.
+ given in Equation (3.34). ThroughA. Construct the augmented matrix M
+
+out this algorithm, M refers to the current state of the augmented matrix, not the original state.
+B. Set the column j equal to 1. We will loop through columns 1 to n.
+C. Find the row i with i ≥ j such that M ij has the largest absolute value. If
+no such row exists for which M ij ≠ 0, then M is not invertible.
+D. If i ≠ j , then exchange rows i and j using elementary row operation (a)
+under Definition 3.3. This is the pivot operation necessary to remove
+zeros from the main diagonal and to provide numerical stability.
+ to 1 using eleE. Multiply row j by 1 M jj . This sets the ( j , j ) entry of M
+mentary row operation (b).
+F. For each row r where 1 ≤ r ≤ n and r ≠ j, add −M rj times row j to row r.
+This step clears each entry above and below row j in column j to 0 using
+elementary row operation (c).
+G. If j &lt; n , increment j and loop to step C.
+
+The implementation of Algorithm 3.12 is straightforward and has the benefit
+that it can determine whether a matrix is invertible. The following example
+demonstrates the inner workings of the algorithm.
+
+3.3 Matrix Inverses
+
+43
+
+Example 3.13. Calculate the inverse of the 3 × 3 matrix M given by
+2 3 8
+M =  6 0 −3 .
+
+
+ −1 3 2 
+
+(3.35)
+
+Solution. Concatenating the identity matrix to M, we have
+ 2 3 8 1 0 0
+ =  6 0 −3 0 1 0  .
+M
+
+
+ −1 3 2 0 0 1 
+
+(3.36)
+
+We now apply steps C through F of the algorithm for j = 1.
+ 1 0 − 12
+Exchange rows 1 and 2
+⎯⎯⎯⎯⎯⎯⎯
+→2 3 8
+Multiply new row 1 by 16
+
+ −1 3 2
+1 0 − 12
+Add − 2 × row 1 to row 2
+⎯⎯⎯⎯⎯⎯⎯
+→ 0 3 9
+Add row 1 to row 3
+
+0 3 32
+
+0 16 0 
+1 0 0
+
+0 0 1 
+0 16 0 
+1 − 13 0 
+
+0 16 1 
+
+(3.37)
+
+Applying the same steps for j = 2 gives us the following.
+1 0 − 12 0 16
+Multiply row 2 by
+⎯⎯⎯⎯⎯⎯→ 0 1 3 13 − 91
+
+0 3 32 0 61
+1
+1 0 − 12 0
+6
+Add − 3 × row 2 to row 3
+1
+⎯⎯⎯⎯⎯⎯⎯
+→ 0 1 3
+− 19
+3
+
+15
+1
+0 0 − 2 −1 2
+1
+3
+
+0
+0
+
+1 
+0
+0
+
+1 
+
+Finally, we apply the algorithm for j = 3.
+1 0 − 12
+⎯⎯⎯⎯⎯⎯⎯
+→ 0 1 3
+
+0 0 1
+2
+Multiply row 3 by − 15
+
+0
+
+1
+6
+
+1
+3
+2
+15
+
+−
+−
+
+1
+9
+1
+15
+
+0 
+0 
+
+− 152 
+
+(3.38)
+
+44
+
+3. Matrices
+
+1 0 0 151
+Add × row 3 to row 1
+⎯⎯⎯⎯⎯⎯⎯
+→ 0 1 0 − 151
+Add − 3 × row 3 to row 2
+
+0 0 1 152
+1
+2
+
+2
+15
+4
+45
+1
+15
+
+−
+
+− 151 
+2 
+5 
+− 152 
+
+(3.39)
+
+The right side 3 × 3 matrix is now equal to the inverse of M:
+
+M
+
+−1
+
+ 3 6 −3
+1 
+=
+−3 4 18  . 
+
+
+45
+ 6 −3 −6 
+
+(3.40)
+
+To understand why Algorithm 3.12 supplies the inverse of a matrix, we need
+the following theorem.
+
+Theorem 3.14. Let M′ be the n × n matrix resulting from the performance of an
+elementary row operation on the n × n matrix M. Then M′ = EM , where E is
+the n × n matrix resulting from the same elementary row operation performed
+on the identity matrix.
+Proof. We shall give separate proofs for each of the three elementary row operations listed in Definition 3.3.
+(a) Let E be equal to the identity matrix after rows r and s have been exchanged.
+Then the entries of E are given by
+δ ij , if i ≠ r and i ≠ s ;
+
+E ij = δ sj , if i = r ;
+δ , if i = s ,
+ rj
+
+(3.41)
+
+where δ ij is the Kronecker delta symbol defined by Equation (2.42). The entries of the product EM are then given by
+ M ij , if i ≠ r and i ≠ s ;
+
+( EM ) ij =  E ik M kj =  M sj , if i = r ;
+k =1
+ M , if i = s .
+ rj
+n
+
+Thus, rows r and s of the matrix M have been exchanged.
+
+(3.42)
+
+3.3 Matrix Inverses
+
+45
+
+(b) Let E be equal to the identity matrix after row r has been multiplied by a scalar a. Then the entries of E are given by
+
+δ ij , if i ≠ r ;
+E ij = 
+aδ ij , if i = r .
+
+(3.43)
+
+The entries of the product EM are then given by
+
+ M ij ,
+
+n
+
+if i ≠ r ;
+
+( EM ) ij =  E ik M kj = 
+aM ij , if i = r .
+k =1
+
+(3.44)
+
+Thus, row r of the matrix M has been multiplied by a.
+(c) Let E be equal to the identity matrix after row r has been multiplied by a scalar a and added to row s. Then the entries of E are given by
+
+if i ≠ s ;
+δ ij ,
+E ij = 
+δ ij + aδ rj , if i = s .
+
+(3.45)
+
+The entries of the product EM are then given by
+n
+
+if i ≠ s ;
+ M ij ,
+ M ij + aM rj , if i = s .
+
+( EM ) ij =  E ik M kj = 
+k =1
+
+(3.46)
+
+Thus, row r of the matrix M has been multiplied by a and added to row s. 
+The matrix E that represents the result of an elementary row operation performed on the identity matrix is called an elementary matrix. If we have to apply
+k elementary row operations to transform a matrix M into the identity matrix,
+then
+
+I = E k E k −1 E1M ,
+
+(3.47)
+
+where the matrices E1 , E 2 ,, E k are the elementary matrices corresponding to
+the same k row operations applied to the identity matrix. This actually shows that
+the product E k E k −1 E1 is equal to the inverse of M, and it is exactly what we
+get when we apply the k row operations to the identity matrix concatenated to the
+matrix M in Equation (3.34).
+
+46
+
+3. Matrices
+
+If a matrix M is singular, then finding elementary matrices E1 , E 2 ,, E k that
+satisfy Equation (3.47) is impossible. This is true because singular matrices are
+exactly those whose rows form a linearly dependent set, as the following theorem
+states.
+
+Theorem 3.15. An n × n matrix M is invertible if and only if the rows of M
+form a linearly independent set of vectors.
+Proof. Let the rows of M be denoted by R 1T , R T2 , , R Tn . We prove this theorem
+in two parts.
+(a) We prove that if M is invertible, then the rows of M form a linearly independent set of vectors by proving the contrapositive, which states that if the
+rows of M form a linearly dependent set of vectors, then M must be singular.
+So assume that the rows of M are linearly dependent. Then there exists a row
+r that can be written as a linear combination of k other rows of the matrix as
+follows.
+R Tr = a1R Ts1 + a 2 R Ts 2 +  + a k R Ts k
+
+(3.48)
+
+The values of a i are scalars, and the values of si index k rows in the matrix M other than row r. Let the n × n matrix E i be equal to the elementary
+matrix representing the addition of a i times row si to row r. Then we can
+write
+
+M = E k E k −1 E1M′,
+
+(3.49)
+
+where M′ is equal to M, except that row r has been replaced by all zeros. By
+Theorem 3.9, the matrix M′ is singular, and thus M is singular.
+(b) Now assume that the rows of M form a linearly independent set of vectors.
+We first observe that performing elementary row operations on a matrix does
+not alter the property of linear independence within the rows. Running
+through Algorithm 3.12, if step C fails, then rows j through n of the matrix at
+that point form a linearly dependent set since the number of columns for
+which the rows R Tj through R Tn have at least one nonzero entry is less than the
+number of rows itself. This is a contradiction, so step C of the algorithm cannot fail, and M must be invertible. 
+
+3.4 Determinants
+
+47
+
+This theorem tells us that every singular matrix can be written as a product of
+elementary matrices and a matrix that has a row of zeros. With the introduction
+of determinants in the next section, this fact allows us to devise a test for
+singularity.
+
+3.4 Determinants
+The determinant of a square matrix is a scalar quantity derived from the entries of
+the matrix. The determinant of a matrix M is denoted by det M. When displaying
+the entries of a matrix, we replace the brackets on the left and right of the matrix
+with vertical bars to indicate that we are evaluating the determinant. For example,
+the determinant of a 3 × 3 matrix M is written as
+
+M 11
+det M = M 21
+M 31
+
+M 12
+M 22
+M 32
+
+M 13
+M 23 .
+M 33
+
+(3.50)
+
+The value of the determinant of an n × n matrix is given by a recursive formula. For notational convenience, let the symbol M {i , j} denote the ( n − 1) × ( n − 1)
+matrix whose entries consist of the original entries of M after deleting the i-th
+row and the j-th column. For example, suppose that M is the following 3 × 3
+matrix.
+1 2 3
+M = 4 5 6
+
+
+7 8 9 
+
+(3.51)
+
+Then M {2,3} is the following 2 × 2 matrix.
+1 2 
+M {2,3} = 
+
+7 8 
+
+(3.52)
+
+The formula for the determinant is recursive and can be expressed in terms of the
+following definition.
+
+Definition 3.16. Let M be an n × n matrix. We define the cofactor C ij ( M ) of the
+matrix entry M ij as follows.
+
+C ij ( M ) ≡ ( −1) i + j det M {i , j}
+
+(3.53)
+
+48
+
+3. Matrices
+
+Using cofactors, a method for calculating the determinant of an n × n matrix
+can be expressed as follows. First, define the determinant of a 1×1 matrix to be
+the entry of the matrix itself. Then the determinant of an n × n matrix M is given
+by both the formula
+n
+
+det M =  M ik C ik ( M )
+
+(3.54)
+
+i =1
+
+and the formula
+n
+
+det M =  M kj C kj ( M ),
+
+(3.55)
+
+j =1
+
+where k is an arbitrarily chosen constant such that 1 ≤ k ≤ n. Remarkably, both
+formulas give the same value for the determinant regardless of the choice of k.
+The determinant of M is given by the sum along any row or column of products
+of entries of M and their cofactors.
+An explicit formula for the determinant of a 2 × 2 matrix is easy to extract
+from Equations (3.54) and (3.55):
+a b
+= ad − bc .
+c d
+
+(3.56)
+
+We also give an explicit formula for the determinant of a 3 × 3 matrix. The following is written as one would evaluate Equation (3.55) with k = 1.
+a11
+a 21
+a 31
+
+a12
+a 22
+a 32
+
+a13
+a 22
+a 23 = a11
+a 32
+a 33
+
+a 23
+a 21
+− a12
+a 33
+a 31
+
+a 23
+a 21
++ a13
+a 33
+a 31
+
+a 22
+a 32
+
+= a11 ( a 22 a 33 − a 23 a 32 ) − a12 ( a 21a 33 − a 23 a 31 )
++ a13 ( a 21a 32 − a 22 a 31 )
+
+(3.57)
+
+Clearly, the determinant of the identity matrix I n is 1 for any n since choosing k = 1 reduces Equation (3.55) to det I n = I 11 det I n −1.
+We can derive some useful information from studying how elementary row
+operations (see Definition 3.3) affect the determinant of a matrix. This provides a
+way of evaluating determinants that is usually more efficient than direct application of Equations (3.54) and (3.55).
+
+3.4 Determinants
+
+49
+
+Theorem 3.17. Performing elementary row operations on a matrix has the following effects on the determinant of that matrix.
+(a) Exchanging two rows negates the determinant.
+(b) Multiplying a row by a scalar a multiplies the determinant by a.
+(c) Adding a multiple of one row to another row has no effect on the
+determinant.
+
+Proof.
+(a) We prove this by induction. The operation does not apply to 1×1 matrices,
+but for a 2 × 2 matrix, we can observe the result through direct computation.
+c d
+a b
+= cb − ad = − ( ad − cb ) = −
+a b
+c d
+
+(3.58)
+
+Now, for an n × n matrix, we can assume that the result is true for all matrices up to size ( n − 1) × ( n − 1). Let G represent the result of exchanging
+rows r and s of a matrix F. Choosing another row k such that k ≠ r and k ≠ s,
+evaluation of Equation (3.55) gives us
+n
+
+n
+
+j =1
+
+j =1
+
+det G =  G kj C kj ( G ) =  ( −1) k + j G kj det G {k , j} .
+
+(3.59)
+
+Since G {k , j} is an ( n − 1) × ( n − 1) matrix, we know by induction that det G {k , j}
+= − det F {k , j} for each j. Thus, det G = − det F.
+(b) Let G represent the result of multiplying row k of a matrix F by the scalar a.
+Then evaluation of Equation (3.55) gives us
+n
+
+det G =  G kj C kj ( G )
+j =1
+n
+
+=  aFkj C kj ( F ) .
+j =1
+
+Thus, det G = a det F. 
+Before we can prove part (c), we need the following corollary to part (a).
+
+(3.60)
+
+50
+
+3. Matrices
+
+Corollary 3.18. The determinant of a matrix having two identical rows is zero.
+Proof. Suppose the matrix M has two identical rows. If we exchange these rows,
+then no change has been made to the matrix, but the determinant has been negated. So det M = − det M, and we must therefore have det M = 0 . 
+Proof of Theorem 3.17(c). Let G represent the result of adding the scalar a times
+row r of a matrix F to row k of F. Then evaluating Equation (3.55) gives us
+n
+
+det G =  G kj C kj ( G )
+j =1
+n
+
+=  ( Fkj + aFrj ) C kj ( F )
+j =1
+
+n
+
+= det F + a  Frj C kj ( F ) .
+
+(3.61)
+
+j =1
+
+The sum Σ kj =1 Frj C kj ( F ) is equivalent to the determinant of the matrix F with the
+entries in row k replaced by the entries of row r. Since this matrix has two identical rows, its determinant is zero by Corollary 3.18. Therefore, det G = det F. 
+Since elementary matrices are representative of elementary row operations
+performed on the identity matrix, we can deduce their determinants from Theorem 3.17. An elementary matrix that represents an exchange of rows has a determinant of −1, an elementary matrix that represents a row multiplied by a scalar a
+has a determinant of a, and an elementary matrix that represents a multiple of one
+row added to another row has a determinant of 1. These are the exact numbers by
+which the determinant of any matrix is multiplied when the corresponding elementary row operations are performed on them. We can therefore conclude that
+if E is an n × n elementary matrix, then det EM = det E det M for any n × n matrix
+M since multiplication by E performs the elementary row operation on M. This
+result leads us to the following two important theorems.
+Theorem 3.19. An n × n matrix M is invertible if and only if det M ≠ 0.
+Proof. Suppose that M is invertible. Then M can be written as a product of elementary matrices, each having a nonzero determinant. Since the determinant of a
+
+3.4 Determinants
+
+51
+
+product of elementary matrices is equal to the product of the determinants of
+those matrices, the determinant of M cannot be zero. Now suppose that M is singular. Then M can be written as a product of elementary matrices and a matrix
+having a row of zeros because the rows of M must be linearly dependent. Since
+the determinant of a matrix possessing a row of zeros is zero, the determinant of
+the product is also zero. 
+Theorem 3.20. For any two n × n matrices F and G, det FG = det F det G.
+Proof. If either F or G is singular, then FG is singular and the equation holds
+since both sides are zero. Otherwise, both F and G can be factored completely
+into elementary matrices. Since the determinant of a product of elementary matrices is the product of the determinants, the equation holds. 
+Theorem 3.19 gives us a test for singularity. Once we know that the determinant of an n × n matrix M is not zero, we can use the following formula to calculate the entries of M −1.
+Theorem 3.21. Let F be an n × n matrix and define the entries of an n × n matrix
+G using the formula
+G ij =
+
+C ji ( F )
+,
+det F
+
+(3.62)
+
+where C ji ( F ) is the cofactor of ( F T ) ij . Then G = F −1.
+Proof. Using the multiplication formula for FG, we have
+n
+
+( FG ) ij =  Fik G kj
+k =1
+n
+
+=  Fik
+k =1
+
+=
+
+C jk ( F )
+det F
+
+1 n
+ Fik C jk ( F ).
+det F k =1
+
+(3.63)
+
+If i = j, then the summation gives the determinant of F equivalently to Equation
+(3.54), so multiplying by 1 det F gives us ( FG ) ij = 1. If i ≠ j , then the summation
+
+52
+
+3. Matrices
+
+gives the determinant of a matrix equal to F except that row j has been replaced
+by the entries in row i. Since the matrix has two identical rows, its determinant is
+zero, and thus ( FG ) ij = 0. Since the main diagonal entries of FG are 1 and all the
+remaining entries are 0, FG is the identity matrix. A similar argument proves that
+GF is the identity matrix, so G = F −1. 
+Using Equation (3.62), we can derive explicit formulas for the inverses of
+matrices having sizes that are commonly used in computer graphics. The inverse
+of a 2 × 2 matrix A is given by
+A −1 =
+
+1  A22
+det A  − A21
+
+− A12 
+.
+A11 
+
+(3.64)
+
+The inverse of a 3 × 3 matrix B is given by
+ B 22 B33 − B 23 B32
+1 
+B =
+B 23 B31 − B 21 B33
+det B 
+ B 21 B32 − B 22 B31
+−1
+
+B13 B32 − B12 B33
+B11 B33 − B13 B31
+B12 B31 − B11 B32
+
+B12 B23 − B13 B22 
+B13 B 21 − B11 B23  .
+
+B11 B 22 − B12 B 21 
+
+(3.65)
+
+The inverse of a matrix M can be expressed as M C det M , where the notation M C is used to denote the matrix of cofactors of the entries of M T . That is,
+the
+( M C ) ij = C ij ( M T ). Since calculating det M also requires that we calculate
+cofactor of every entry of M, we can use the entries of the matrix M C to evaluate
+the determinant of M more efficiently. Equation (3.55) can be written as
+n
+
+det M =  M kj C kj ( M )
+j =1
+n
+
+=  M kj C jk ( M T )
+j =1
+n
+
+=  M kj ( M C ) jk .
+
+(3.66)
+
+j =1
+
+Thus, the determinant can be evaluated by choosing any row k of the matrix M
+and summing the products with the entries of the k-th column of the matrix M C .
+For the 3 × 3 matrix B, we have the following expression for B −1 in which we
+have chosen k = 1.
+
+3.4 Determinants
+
+53
+
+ B 22 B33 − B 23 B32
+B =  B 23 B31 − B 21 B33
+
+ B 21 B32 − B 22 B31
+C
+
+B −1 =
+
+B13 B32 − B12 B33
+B11 B33 − B13 B31
+B12 B31 − B11 B32
+
+B12 B 23 − B13 B 22 
+B13 B 21 − B11 B 23 
+
+B11 B 22 − B12 B 21 
+
+BC
+n
+
+ B (B )
+1j
+
+C
+
+(3.67)
+j1
+
+j =1
+
+One final observation that we make in this section concerns linear systems of
+the form Mx = r , where x is a vector of n unknowns and r is a vector of n constants. If the matrix M is invertible, then the solution to this system is given by
+x = M −1r . Again using the notation M C to denote the matrix of cofactors of the
+entries of M T , we can write
+
+x=
+
+MC
+r.
+det M
+
+(3.68)
+
+The k-th component of x is thus given by the formula
+1 n
+ ( M C ) ki ri
+det M i =1
+1 n
+=
+ C ik ( M ) ri .
+det M i =1
+
+xk =
+
+(3.69)
+
+By the definition given in Equation (3.53), the quantity C ik ( M ) does not depend
+on any entries in the k-th column of the matrix M. Comparing the summation
+Σ in=1C ik ( M ) ri to Equation (3.54), we see that it is equal to the determinant of the
+matrix whose k-th column is equal to the vector r and whose other columns are
+equal to those of the matrix M. Defining the notation
+M k ( r ) ≡ [ M 1  M k −1 r M k +1  M n ],
+
+(3.70)
+
+where M j represents the j-th column of M, we can write Equation (3.69) as
+xk =
+
+det M k ( r )
+.
+det M
+
+(3.71)
+
+Equation (3.71) is known as Cramer’s rule. Since it requires a determinant
+calculation for each unknown in a linear system, using Cramer’s rule is far less
+
+54
+
+3. Matrices
+
+efficient than simply inverting the coefficient matrix and multiplying it by the
+constant vector. Cramer’s rule does, however, tell us that if the coefficients and
+constants in a linear system are all integers and det M = ±1, then the unknowns
+must all be integers.
+
+3.5 Eigenvalues and Eigenvectors
+For every invertible square matrix, there exist vectors that, when multiplied by
+the matrix, are changed only in magnitude and not in direction. That is, for an
+n × n matrix M, there exist nonzero n-dimensional vectors V1 , V2 ,, Vn such that
+
+MVi = λi Vi.
+
+(3.72)
+
+The scalars λi are called the eigenvalues of the matrix M, and the vectors Vi are
+called the eigenvectors that correspond to those eigenvalues.
+The eigenvalues of a matrix can be determined by first rearranging Equation
+(3.72) to read
+
+( M − λi I ) Vi = 0,
+
+(3.73)
+
+where I is the n × n identity matrix. For this equation to be true for nonzero vectors Vi , the matrix M − λi I must be singular. This is necessary because otherwise
+we could invert M − λi I and write
+Vi = ( M − λi I ) −10 = 0,
+
+(3.74)
+
+contradicting the assumption that Vi ≠ 0. Since M − λi I is singular, its determinant must be zero, so we can calculate the eigenvalues λi by solving the equation
+det ( M − λI ) = 0.
+
+(3.75)
+
+The degree n polynomial in λ given by Equation (3.75) is called the characteristic polynomial of the matrix M. The roots of this polynomial yield the eigenvalues of the matrix M.
+Example 3.22. Calculate the eigenvalues of the matrix
+1 1 
+M=
+.
+3 −1
+
+(3.76)
+
+3.5 Eigenvalues and Eigenvectors
+
+55
+
+Solution. The matrix M − λI is given by
+1 
+1 − λ
+.
+M − λI = 
+−1 − λ 
+ 3
+
+Evaluating the determinant of M − λI produces the characteristic polynomial
+
+(1 − λ )( −1 − λ ) − 3.
+
+(3.77)
+
+Simplifying this polynomial and setting it equal to zero gives us
+
+λ2 − 4 = 0,
+
+(3.78)
+
+from which it follows that the eigenvalues of M are λ1 = 2 and λ2 = −2. 
+Once the eigenvalues have been determined, the corresponding eigenvectors
+are calculated by solving the homogeneous system given by Equation (3.73).
+Since the matrix M − λi I is singular, its reduced form has at least one row of zeros, so there are infinitely many solutions. An obvious property of Equation
+(3.72) is that if Vi is an eigenvector corresponding to the eigenvalue λi, then any
+scalar multiple aVi is also an eigenvector. Thus, eigenvectors are always written
+in terms of an arbitrary constant, which if desired, may be chosen so that the eigenvector has unit length.
+Example 3.23. Calculate the eigenvectors of the matrix
+1 1 
+M=
+.
+3 −1
+
+(3.79)
+
+Solution. In Example 3.22, we found that the matrix M has the eigenvalues
+λ1 = 2 and λ2 = −2. Corresponding eigenvectors are found by solving the line</pre></div>                                                                    </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height:60px">
+                    <td id="footer" valign="top">
+                        <div class="container-fluid">
+<!-- footer begin -->
+<div class="row">
+    <div class="col-sm-8 footer-copyright">
+        <i>
+            Free ebooks since 2009.
+            <a class="footer-mailto" href="mailto: support@bookmail.org">
+                support@bookmail.org            </a>
+        </i>
+
+        <span class="hidden-xs" style="margin:0 0 0 15px;"> <a href="/faq.php">FAQ</a></span>
+        <span class="hidden-xs" style="margin:0 0 0 15px;"> <a href="/blog/">Blog</a></span>
+    </div>
+
+    <div class="col-sm-4">
+        <div class="pull-right footer-nav-right" role="navigation">
+            <ul class="nav navbar-nav">
+                <li class="visible-xs-block"><a href="/faq.php">FAQ</a></li>
+                <li class="visible-xs-block"><a href="/blog/">Blog</a></li>
+
+                <li><a href="/privacy.php">Privacy</a></li>
+                <li><a href="/dmca.php">DMCA</a></li>
+                <li class="dropup">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">English <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a onclick="setLanguage('en'); return false;" href="//en.b-ok2.org/book/1134865/217f87?dsource=recommend">English</a></li><li><a onclick="setLanguage('ru'); return false;" href="//ru.b-ok2.org/book/1134865/217f87?dsource=recommend">Русский</a></li><li><a onclick="setLanguage('ua'); return false;" href="//ua.b-ok2.org/book/1134865/217f87?dsource=recommend">Українська</a></li><li><a onclick="setLanguage('pl'); return false;" href="//pl.b-ok2.org/book/1134865/217f87?dsource=recommend">Polski</a></li><li><a onclick="setLanguage('it'); return false;" href="//it.b-ok2.org/book/1134865/217f87?dsource=recommend">Italiano</a></li><li><a onclick="setLanguage('es'); return false;" href="//es.b-ok2.org/book/1134865/217f87?dsource=recommend">Español</a></li><li><a onclick="setLanguage('zh'); return false;" href="//zh.b-ok2.org/book/1134865/217f87?dsource=recommend">汉语</a></li><li><a onclick="setLanguage('id'); return false;" href="//id.b-ok2.org/book/1134865/217f87?dsource=recommend">Bahasa Indonesia</a></li><li><a onclick="setLanguage('in'); return false;" href="//in.b-ok2.org/book/1134865/217f87?dsource=recommend">हिन्दी</a></li><li><a onclick="setLanguage('pt'); return false;" href="//pt.b-ok2.org/book/1134865/217f87?dsource=recommend">Português</a></li><li><a onclick="setLanguage('jp'); return false;" href="//jp.b-ok2.org/book/1134865/217f87?dsource=recommend">日本語</a></li><li><a onclick="setLanguage('de'); return false;" href="//de.b-ok2.org/book/1134865/217f87?dsource=recommend">Deutsch</a></li><li><a onclick="setLanguage('fr'); return false;" href="//fr.b-ok2.org/book/1134865/217f87?dsource=recommend">Français</a></li><li><a onclick="setLanguage('th'); return false;" href="//th.b-ok2.org/book/1134865/217f87?dsource=recommend">ภาษาไทย</a></li><li><a onclick="setLanguage('el'); return false;" href="//el.b-ok2.org/book/1134865/217f87?dsource=recommend">ελληνικά </a></li><li><a onclick="setLanguage('ar'); return false;" href="//ar.b-ok2.org/book/1134865/217f87?dsource=recommend">اللغة العربية</a></li>                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- ggAdditionalHtml -->
+        
+    <script>
+        var Config = {"currentLanguage":"en","L":{"89":"rub.","90":"The file is located on an external resource","91":"It is a folder","92":"File from disk storage","93":"File is aviable by direct link","94":"Popular","95":"Limitation of downloading: no more than 2 files at same time","96":"Size","97":" Language","98":"Category"}};
+    </script>
+    <!--LiveInternet counter--><script type="text/javascript">
+new Image().src = "//counter.yadro.ru/hit;bookzz?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();</script><!--/LiveInternet-->
+
+<iframe name="uploader" id="uploader" style="border:0px solid #ddd; width:90%; display:none;"></iframe>        <!-- /ggAdditionalHtml -->
+        
+                
+        <script>
+            if (typeof pagerOptions !== "undefined" && pagerOptions) {
+                $('div.paginator').paginator(pagerOptions);
+            }
+        </script>
+    </body>
+</html>
