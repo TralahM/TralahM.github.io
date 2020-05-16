@@ -1,35 +1,34 @@
 
-[![Build Status](https://travis-ci.com/TralahM/TralahM.svg?branch=master)](https://travis-ci.com/TralahM/TralahM)
-[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.com/TralahM/TralahM.github.io.svg?branch=master)](https://travis-ci.com/TralahM/TralahM.github.io)
+[![Documentation Status](https://readthedocs.org/projects/TralahM.github.io/badge/?version=latest)](https://TralahM.github.io.readthedocs.io/en/latest/?badge=latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Organization](https://img.shields.io/badge/Org-TralahTek-blue.svg)](https://github.com/TralahTek)
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![HitCount](http://hits.dwyl.io/TralahM/TralahM.svg)](http://dwyl.io/TralahM/TralahM)
-[![Inline Docs](http://inch-ci.org/github/TralahM/TralahM.svg?branch=master)](http://inch-ci.org/github/TralahM/TralahM)
-[![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/TralahM/pull/)
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Naereen/StrapDown.js.svg)](https://gitHub.com/TralahM/TralahM/pull/)
-[![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/TralahM/TralahM).
+[![Views](http://hits.dwyl.io/TralahM/TralahM.github.io.svg)](http://dwyl.io/TralahM/TralahM.github.io)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square)](https://github.com/TralahM/TralahM.github.io/pull/)
+[![GitHub pull-requests](https://img.shields.io/badge/Issues-pr-red.svg?style=flat-square)](https://github.com/TralahM/TralahM.github.io/pull/)
+[![Language](https://img.shields.io/badge/Language-ruby-701516.svg)](https://github.com/TralahM)
 
-# TralahM.
+# TralahM.github.io.
 
-# Description
 
+[![TralahTek](https://img.shields.io/badge/Organization-TralahTek-black.svg?style=for-the-badge)](https://github.com/TralahTek)
 [![TralahM](https://img.shields.io/badge/Engineer-TralahM-blue.svg?style=for-the-badge)](https://github.com/TralahM)
 [![TralahM](https://img.shields.io/badge/Maintainer-TralahM-green.svg?style=for-the-badge)](https://github.com/TralahM)
 
 # Documentation
 
-[Read the Docs](https://TralahM.readthedocs.io)
-# Dependencies
+[![Documentation](https://img.shields.io/badge/Docs-TralahM.github.io-blue.svg?style=for-the-badge)](https://github.com/TralahM/TralahM.github.io)
 
 # How to Install
-
+```bash
+# In terminal do:
+```
 
 ## Building from Source for Developers
 
-```Bash
-git clone https://github.com/TralahM/TralahM.git
-cd TralahM
+```console
+$ git clone https://github.com/TralahM/TralahM.github.io.git
+$ cd TralahM.github.io
 ```
 
 # Contributing
@@ -46,6 +45,13 @@ cd TralahM
 [Read the license here](LICENSE)
 
 
-# Acknowledgements
+# Self-Promotion
+
+[![TralahM](https://img.shields.io/badge/Twitter-TralahM-blue.svg?style=for-the-badge)](https://twitter.com/TralahM)
+[![TralahM](https://img.shields.io/badge/Github-TralahM-black.svg?style=for-the-badge)](https://github.com/TralahM)
+[![TralahM](https://img.shields.io/badge/Kaggle-TralahM-purple.svg?style=for-the-badge)](https://kaggle.com/TralahM)
+[![TralahM](https://img.shields.io/badge/LinkedIn-TralahM-red.svg?style=for-the-badge)](https://linkedin.com/in/TralahM)
+[![Blog](https://img.shields.io/badge/Blog-tralahm.tralahtek.com-blue.svg?style=for-the-badge)](https://tralahm.tralahtek.com)
+[![TralahTek](https://img.shields.io/badge/Organization-TralahTek-cyan.svg?style=for-the-badge)](https://tralahtek.com)
 
 
