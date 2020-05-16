@@ -1,0 +1,51 @@
+I"n<ul class="toc__menu">
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#framework-of-urban-computing">Framework of Urban Computing</a>
+    <ul>
+      <li><a href="#definition">Definition</a></li>
+      <li><a href="#general-framework">General Framework</a></li>
+      <li><a href="#key-challenges">Key Challenges</a>
+        <ul>
+          <li><a href="#urban-sensing-and-data-acquisition">Urban Sensing and Data Acquisition</a></li>
+          <li><a href="#computing-with-heterogeneous-data">Computing with Heterogeneous Data</a></li>
+          <li><a href="#hybrid-systems-blending-the-physical-and-virtual-worlds">Hybrid systems blending the physical and virtual worlds</a></li>
+        </ul>
+      </li>
+      <li><a href="#urban-data">Urban Data</a></li>
+    </ul>
+  </li>
+  <li><a href="#applications-in-urban-computing">Applications In Urban Computing</a>
+    <ul>
+      <li><a href="#urban-computing-for-urban-planning">Urban Computing for Urban Planning</a></li>
+      <li><a href="#urban-computing-for-transportation-systems">Urban Computing for Transportation Systems</a></li>
+      <li><a href="#urban-computing-for-the-environment">Urban Computing for the Environment</a></li>
+      <li><a href="#urban-computing-for-urban-energy-consumption">Urban Computing for Urban Energy Consumption</a></li>
+      <li><a href="#urban-computing-for-social-applications">Urban Computing for Social Applications</a></li>
+      <li><a href="#urban-computing-for-economy">Urban Computing for Economy</a></li>
+      <li><a href="#urban-computing-for-public-safety-and-security">Urban Computing for Public Safety and Security</a></li>
+    </ul>
+  </li>
+  <li><a href="#typical-technology">Typical Technology</a>
+    <ul>
+      <li><a href="#urban-sensing-and-data-acquisition-1">Urban Sensing and Data Acquisition.</a>
+        <ul>
+          <li><a href="#passive-crowd-sensing">Passive Crowd Sensing</a></li>
+          <li><a href="#passive-participatory-sensing">Passive Participatory Sensing</a></li>
+        </ul>
+      </li>
+      <li><a href="#urban-data-management-techniques">Urban Data Management Techniques</a>
+        <ul>
+          <li><a href="#stream-and-trajectory-data-management">Stream and Trajectory Data Management</a></li>
+          <li><a href="#graph-data-management">Graph Data Management</a></li>
+          <li><a href="#hybrid-indexing-structures">Hybrid Indexing Structures</a></li>
+        </ul>
+      </li>
+      <li><a href="#knowledge-fusion-across-heterogeneous-data-sources">Knowledge fusion across Heterogeneous Data Sources</a></li>
+      <li><a href="#techniques-dealing-with-data-sparsity">Techniques Dealing with Data Sparsity</a></li>
+      <li><a href="#visualizing-big-urban-data">Visualizing Big Urban Data</a></li>
+      <li><a href="#other-techniques">Other Techniques</a></li>
+      <li><a href="#future-directions">Future Directions</a></li>
+    </ul>
+  </li>
+</ul>
+:ET

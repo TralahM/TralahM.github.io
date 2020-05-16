@@ -1,0 +1,744 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.18.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>The Signal and the Noise- Why so many predictions fail and why some don’t |  TralahM</title>
+<meta name="description" content="How can we apply our judgment to the data—without succumbing to our biases? Information is no longer a scarce commodity; we have more of it than we know what to do with. But relatively little of it is useful. We perceive it selectively, subjectively, and without much self-regard for the distortions that this causes. We think we want information when we really want knowledge. The signal is the truth. The noise is what distracts us from the truth. ">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="TralahM">
+<meta property="og:title" content="The Signal and the Noise- Why so many predictions fail and why some don’t">
+<meta property="og:url" content="https://tralahm.tralahtek.com/technology/science/mathematics/A-Catastrophic-Failure-Of-Prediction/">
+
+
+  <meta property="og:description" content="How can we apply our judgment to the data—without succumbing to our biases? Information is no longer a scarce commodity; we have more of it than we know what to do with. But relatively little of it is useful. We perceive it selectively, subjectively, and without much self-regard for the distortions that this causes. We think we want information when we really want knowledge. The signal is the truth. The noise is what distracts us from the truth. ">
+
+
+
+  <meta property="og:image" content="https://tralahm.tralahtek.com/images/predictions.png">
+
+
+
+  <meta name="twitter:site" content="@TralahM">
+  <meta name="twitter:title" content="The Signal and the Noise- Why so many predictions fail and why some don’t">
+  <meta name="twitter:description" content="How can we apply our judgment to the data—without succumbing to our biases? Information is no longer a scarce commodity; we have more of it than we know what to do with. But relatively little of it is useful. We perceive it selectively, subjectively, and without much self-regard for the distortions that this causes. We think we want information when we really want knowledge. The signal is the truth. The noise is what distracts us from the truth. ">
+  <meta name="twitter:url" content="https://tralahm.tralahtek.com/technology/science/mathematics/A-Catastrophic-Failure-Of-Prediction/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+      <meta name="twitter:image" content="https://tralahm.tralahtek.com/images/predictions.png">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2020-04-27T00:00:00+03:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://tralahm.tralahtek.com/technology/science/mathematics/A-Catastrophic-Failure-Of-Prediction/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Tralah M Brian",
+      "url": "https://tralahm.tralahtek.com/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="TralahM Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    
+    <!-- start custom head snippets -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W94JLPP');</script>
+
+<script data-ad-client="ca-pub-5950289759015234" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- End Google Tag Manager -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/images/logo2.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          TralahM
+          <span class="site-subtitle">The African Tek Nerd</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/" >Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/" >About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/" >Categories</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+        <!-- <p style="margin-top:10px; margin-bottom:0; padding-bottom:0; text-align:center; line-height:0"><a target="_blank" href="http://feeds.feedburner.com/~r/Tralahm/~6/1"><img src="http://feeds.feedburner.com/Tralahm.1.gif" alt="The African Tek Nerd" style="border:0"></a></p><p style="margin-top:5px; padding-top:0; font-size:x-small; text-align:center"><a href="https://feedburner.google.com/fb/a/headlineanimator/install?id=qmjemsp1lhecpqg277irs6su3c&amp;w=1" onclick="window.open(this.href, 'haHowto', 'width=520,height=600,toolbar=no,address=no,resizable=yes,scrollbars'); return false" target="_blank">&uarr; Grab this Headline Animator</a></p> -->
+        <!-- <br> -->
+      
+
+
+
+<div id="main" role="main">
+  
+<div class="sidebar sticky">
+    
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name"></h3>
+    
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+    
+    <!-- Start of banner code -->
+    <a href="https://shrinkme.io/ref/TralahM"><img src="https://shrinkme.io/banners/ref/728x90.png" title="Make short links and earn the biggest money" /></a>
+    <!-- End of banner code -->
+</div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="The Signal and the Noise- Why so many predictions fail and why some don’t">
+    <meta itemprop="description" content="How can we apply our judgment to the data—without succumbing to our biases? Information is no longer a scarce commodity; we have more of it than we know what to do with. But relatively little of it is useful. We perceive it selectively, subjectively, and without much self-regard for the distortions that this causes. We think we want information when we really want knowledge. The signal is the truth. The noise is what distracts us from the truth.">
+    <meta itemprop="datePublished" content="2020-04-27T00:00:00+03:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">The Signal and the Noise- Why so many predictions fail and why some don’t
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  3 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Contents</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#more-information-more-problems">More Information, More Problems</a></li>
+  <li><a href="#the-promise-and-pitfalls-of-big-data">The Promise and Pitfalls of “Big Data”.</a></li>
+  <li><a href="#future-shocks">Future Shocks</a></li>
+  <li><a href="#the-prediction-solution">The Prediction Solution</a></li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="more-information-more-problems">More Information, More Problems</h2>
+<p>Exposure to so many new ideas is producing mass confusion.</p>
+
+<p>The amount of information is increasing much more rapidly than our understanding of what to do with it, or our ability to differentiate the useful information from the mistruths.</p>
+
+<p>The story the data tells us is often the one we’d like to hear, and we usually make sure that it has a happy ending.</p>
+
+<p><strong>The Productivity Paradox</strong></p>
+
+<p>Vast amounts of theory applied to extremely small amounts of data.</p>
+
+<h2 id="the-promise-and-pitfalls-of-big-data">The Promise and Pitfalls of “Big Data”.</h2>
+<p>The fashionable term now is “Big Data”.IBM estimates that we are generating 2.5 quintillion bytes of data each day, more than 90 percent of which was created in the last two years.</p>
+
+<p>The numbers have no way of speaking for themselves. We speak for them. We imbue them with meaning.
+We may construe them in self-serving ways that are detached from their objective reality.</p>
+
+<p>Data-driven predictions can succeed—and they can fail. It is when we deny our role in the process that the odds of failure rise. Before we demand more of our data, we need to demand more of ourselves.</p>
+
+<p>Our naïve trust in models, and our failure to realize how fragile they are to our choice of assumptions, will  yield disastrous results.</p>
+
+<p>Big Data will produce progress—eventually. How quickly it does, and whether we regress in the meantime, will depend on us.</p>
+
+<h2 id="future-shocks">Future Shocks</h2>
+<p>Consequences of what Alvin Toffler,writing his book Future Shock in 1970, called “information overload”.</p>
+
+<p>He thought our defense mechanism would be to simplify the world in ways that confirmed our biases, even as the world itself was growing more diverse and more complex.</p>
+
+<p>If the quantity of information is increasing by 2.5 quintillion bytes per day, the amount of useful information almost certainly isn’t. Most of it is just noise, and the noise is increasing faster than the signal.</p>
+
+<p>There are so many hypotheses to test, so many data sets to mine—but a relatively constant amount of objective truth.</p>
+
+<p>Complex systems like the World Wide Web have this property of reproducing mistakes times over when they are made, as in the case of the Wicked Bible. They may not fail as often as simpler ones, but when they fail they fail badly.</p>
+
+<p>Regulation is one approach to solving these problems. But I am suspicious that it is an excuse to avoid looking within ourselves for answers.
+We need to stop, and admit it: we have a prediction problem. We love to predict things—and we aren’t very good at it.</p>
+
+<h2 id="the-prediction-solution">The Prediction Solution</h2>
+<p>Prediction does play a particularly important role in science, however. Some of you
+may be uncomfortable with a premise that I have been hinting at and will now state
+explicitly: we can never make perfectly objective predictions. They will always be tainted by our subjective point of view.</p>
+
+<p>A belief in the objective truth—and a commitment to pursuing it—is the first prerequisite of making better predictions.</p>
+
+<p>Prediction is important because it connects subjective and objective reality.
+Karl Popper, the philosopher of science, recognized this view.For Popper, a hypothesis was not scientific unless it was falsifiable—meaning that it could be tested in the real world by means of a prediction.</p>
+
+<p>What should give us pause is that the few ideas we have tested aren’t doing so well, and many of our ideas have not or cannot be tested at all.</p>
+
+<p>In economics, it is much easier to test an unemployment rate forecast than a claim about the effectiveness of stimulus spending.</p>
+
+<p>In political science, we can test models that are used to predict the outcome of elections, but a theory about how changes to political institutions might affect policy outcomes could take decades to verify.</p>
+
+<p>The fact that the few theories we can test have produced quite poor results suggests that many of the ideas we haven’t tested are very wrong as well.</p>
+
+<p>We are undoubtedly living with many delusions that we do not even realize.</p>
+
+<p>But there is a way forward. It is not a solution that relies on half-baked policy ideas— particularly given that I have come to view our political system as a big part of the problem.
+Rather, the solution requires an attitudinal change.</p>
+
+<p>This attitude is embodied by something called Bayes’s theorem.
+Bayes’s theorem is nominally a mathematical formula.
+But it is really much more than that. It implies that we must think differently about our ideas—and how to test them.</p>
+
+<p>We must become more comfortable with probability and uncertainty. We must think more carefully about the assumptions and beliefs that we bring to a problem.</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#mathematics" class="page__taxonomy-item" rel="tag">mathematics</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#science" class="page__taxonomy-item" rel="tag">science</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#technology" class="page__taxonomy-item" rel="tag">technology</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#mathematics" class="page__taxonomy-item" rel="tag">mathematics</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/categories/#science" class="page__taxonomy-item" rel="tag">science</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/categories/#technology" class="page__taxonomy-item" rel="tag">technology</a>
+    
+    </span>
+  </p>
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-04-27T00:00:00+03:00">April 27, 2020</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=TralahM&text=The+Signal+and+the+Noise-+Why+so+many+predictions+fail+and+why+some+don%27t%20https%3A%2F%2Ftralahm.tralahtek.com%2Ftechnology%2Fscience%2Fmathematics%2FA-Catastrophic-Failure-Of-Prediction%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftralahm.tralahtek.com%2Ftechnology%2Fscience%2Fmathematics%2FA-Catastrophic-Failure-Of-Prediction%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Ftralahm.tralahtek.com%2Ftechnology%2Fscience%2Fmathematics%2FA-Catastrophic-Failure-Of-Prediction%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/covid19/health/technology/democracy/The-Implications-of-Corona-Virus-on-Democracy-and-Civil-Liberties/" class="pagination--pager" title="The Implications of the use of Technology in fighting Covid19 on Democracy and Civil Liberties
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/images/tekblogquote.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/covid19/health/technology/democracy/The-Implications-of-Corona-Virus-on-Democracy-and-Civil-Liberties/" rel="permalink">The Implications of the use of Technology in fighting Covid19 on Democracy and Civil Liberties
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Edward Snowden weighs in on the potential impacts of the use of technology in fighting the coronavirus pandemic and addresses himself to matters civil libert...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/images/coronavirus.jpg"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/covid19/coronavirus/health/politics/economics/The-Political-Economy-of-Coronavirus/" rel="permalink">The Political Economy of Coronavirus
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Renowned scholar and economist David Ndii weighs in on the political economy of the pandemic and life after the virus and matters development moving forward.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/images/urban_compute.jpg"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/computing/big-data/technology/Solving-Big-Challenges-in-Big-Cities-with-Big-Data/" rel="permalink">Urban Computing: Solving Big Challenges in Big Cities with Big Data
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  3 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">We explore this nascent area, therefore aid in generating quality research results and real systems than can eventually lead to greener and smarter cities.
+W...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/images/coronavirus.jpg"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/covid19/coronavirus/health/Preparing-for-CoronaVirus-Lockdown/" rel="permalink">Preparing for a corona virus Lockdown
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  3 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">We don’t realize just how social beings we are until that contact is reduced or diminished because we can’t leave our homes.
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/TralahM" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+      
+        
+          <li><a href="https://github.com/TralahM" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://gitlab.com/TralahM" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-gitlab" aria-hidden="true"></i> GitLab</a></li>
+        
+      
+        
+          <li><a href="https://bitbucket.com/TralahM" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Tralah M Brian.  </div>
+
+      </footer>
+    </div>
+
+    <script type='text/javascript'async
+        src="https:cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"772dd16877e2d934e565b009a","lid":"56c9b15d3b","uniqueMethods":true}) })</script>
+
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "https://tralahm.tralahtek.com/technology/science/mathematics/A-Catastrophic-Failure-Of-Prediction/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/technology/science/mathematics/A-Catastrophic-Failure-Of-Prediction"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://TralahM.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+<!-- <1!-- Latest compiled and minified JavaScript --1> -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+
+  </body>
+</html>

@@ -1,0 +1,986 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.18.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Reverse Engineering Software with Assembly Language |  TralahM</title>
+<meta name="description" content="So you have some program/software and you dont know exactly what it does, maybe the code is proprietary thus you cant read the code and figure it out, you want to inspect a piece of malicious software/virus. ">
+
+
+  <meta name="author" content="Tralah M Brian">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="TralahM">
+<meta property="og:title" content="Reverse Engineering Software with Assembly Language">
+<meta property="og:url" content="https://tralahm.tralahtek.com/reverse-engineering/debugging/programming/assembly/Reverse-Engineering-Software-With-Assembly/">
+
+
+  <meta property="og:description" content="So you have some program/software and you dont know exactly what it does, maybe the code is proprietary thus you cant read the code and figure it out, you want to inspect a piece of malicious software/virus. ">
+
+
+
+  <meta property="og:image" content="https://tralahm.tralahtek.com/images/reverse_engineering.png">
+
+
+
+  <meta name="twitter:site" content="@TralahM">
+  <meta name="twitter:title" content="Reverse Engineering Software with Assembly Language">
+  <meta name="twitter:description" content="So you have some program/software and you dont know exactly what it does, maybe the code is proprietary thus you cant read the code and figure it out, you want to inspect a piece of malicious software/virus. ">
+  <meta name="twitter:url" content="https://tralahm.tralahtek.com/reverse-engineering/debugging/programming/assembly/Reverse-Engineering-Software-With-Assembly/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+      <meta name="twitter:image" content="https://tralahm.tralahtek.com/images/reverse_engineering.png">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2020-02-15T00:00:00+03:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://tralahm.tralahtek.com/reverse-engineering/debugging/programming/assembly/Reverse-Engineering-Software-With-Assembly/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Tralah M Brian",
+      "url": "https://tralahm.tralahtek.com/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="TralahM Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    
+    <!-- start custom head snippets -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W94JLPP');</script>
+
+<script data-ad-client="ca-pub-5950289759015234" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- End Google Tag Manager -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/images/logo2.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          TralahM
+          <span class="site-subtitle">The African Tek Nerd</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/" >Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/" >About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/" >Categories</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+        <!-- <p style="margin-top:10px; margin-bottom:0; padding-bottom:0; text-align:center; line-height:0"><a target="_blank" href="http://feeds.feedburner.com/~r/Tralahm/~6/1"><img src="http://feeds.feedburner.com/Tralahm.1.gif" alt="The African Tek Nerd" style="border:0"></a></p><p style="margin-top:5px; padding-top:0; font-size:x-small; text-align:center"><a href="https://feedburner.google.com/fb/a/headlineanimator/install?id=qmjemsp1lhecpqg277irs6su3c&amp;w=1" onclick="window.open(this.href, 'haHowto', 'width=520,height=600,toolbar=no,address=no,resizable=yes,scrollbars'); return false" target="_blank">&uarr; Grab this Headline Animator</a></p> -->
+        <!-- <br> -->
+      
+
+
+
+<div id="main" role="main">
+  
+<div class="sidebar sticky">
+    
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="/images/TralahM.png" alt="Tralah M Brian" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Tralah M Brian</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Computer Scientist, Programmer, Writer, African. As our people say, a man who pays respect to the great paves way for his own greatness</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Nairobi, Kenya, Africa</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://www.tralahtek.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/TralahM" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          
+        
+          
+            <li><a href="https://github.com/TralahM" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+          
+            <li><a href="https://instagram.com/tralahm" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:briantralah@tralahtek.com">
+            <meta itemprop="email" content="briantralah@tralahtek.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+    
+    <!-- Start of banner code -->
+    <a href="https://shrinkme.io/ref/TralahM"><img src="https://shrinkme.io/banners/ref/728x90.png" title="Make short links and earn the biggest money" /></a>
+    <!-- End of banner code -->
+</div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Reverse Engineering Software with Assembly Language">
+    <meta itemprop="description" content="So you have some program/software and you dont know exactly what it does, maybe the code is proprietary thus you cant read the code and figure it out, you want to inspect a piece of malicious software/virus.">
+    <meta itemprop="datePublished" content="2020-02-15T00:00:00+03:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Reverse Engineering Software with Assembly Language
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  3 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Contents</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#why-reverse-engineer">WHY REVERSE ENGINEER?</a>
+    <ul>
+      <li><a href="#assumptions">Assumptions</a></li>
+    </ul>
+  </li>
+  <li><a href="#assembly-language">Assembly Language</a>
+    <ul>
+      <li><a href="#the-stack-data-structure">The Stack Data Structure</a></li>
+      <li><a href="#the-heap">The Heap</a></li>
+      <li><a href="#the-bss-section">The BSS Section</a></li>
+      <li><a href="#the-text-section">The Text Section</a></li>
+      <li><a href="#the-registers">The Registers</a>
+        <ul>
+          <li><a href="#general-purpose">General Purpose</a></li>
+          <li><a href="#segment-registers">Segment Registers</a></li>
+          <li><a href="#indexes-and-pointers">Indexes and Pointers</a></li>
+          <li><a href="#flags-register">Flags Register</a></li>
+        </ul>
+      </li>
+      <li><a href="#calling-conventions">Calling Conventions</a>
+        <ul>
+          <li><a href="#cdecl">CDECL</a></li>
+          <li><a href="#stdcall-aka-winapi">STDCALL (AKA WINAPI)</a></li>
+          <li><a href="#fastcall">FASTCALL</a></li>
+          <li><a href="#thiscall-c">THISCALL (C++)</a></li>
+        </ul>
+      </li>
+      <li><a href="#operand-types">OPERAND TYPES</a>
+        <ul>
+          <li><a href="#ops">OPS</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#recognizing-programming-constructs">Recognizing Programming Constructs</a>
+    <ul>
+      <li><a href="#about-call-and-ret">About CALL and RET</a></li>
+      <li><a href="#loops">LOOPS</a></li>
+      <li><a href="#switch-statements">SWITCH STATEMENTS</a></li>
+    </ul>
+  </li>
+  <li><a href="#winding-up">Winding Up</a></li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <h1 id="why-reverse-engineer">WHY REVERSE ENGINEER?</h1>
+<p>So you have some program/software and you don’t know exactly what it does, maybe
+the code is proprietary thus you cant read the code and figure it out, you want
+to inspect a piece of malicious software/virus.
+Here is why you might want to do some RE:</p>
+
+<ul>
+  <li>
+    <p>To achieve Interoperability Make some system work with software or
+hardware you already have</p>
+  </li>
+  <li>
+    <p>To figure out how it works</p>
+  </li>
+  <li>
+    <p>Keygen/Cracks</p>
+  </li>
+  <li>
+    <p>Exploit Development</p>
+  </li>
+  <li>
+    <p>Proprietary File Formats</p>
+  </li>
+</ul>
+
+<h2 id="assumptions">Assumptions</h2>
+<p>Before Proceeding It is important that the reader have some knowledge of the following concepts:</p>
+
+<ol>
+  <li>
+    <p>Endianness</p>
+  </li>
+  <li>
+    <p>Data structures</p>
+  </li>
+  <li>
+    <p>Hexadecimal notation</p>
+  </li>
+  <li>
+    <p>Intel Architecture</p>
+  </li>
+</ol>
+
+<h1 id="assembly-language">Assembly Language</h1>
+<p>A very low level programming language generated by compilers and translatable to
+machine code directly. Offers more control but less abstraction and would
+require alot of typing.</p>
+
+<p>The goal is not to write programs in assembly code though i have written some
+basic bootloaders with assembly you can check out the <a href="https://github.com/TralahM/explore_asm">project
+here</a> but to be able to read and
+understand disassembled code from a piece of software you want to reverse
+engineer.</p>
+
+<h2 id="the-stack-data-structure">The Stack Data Structure</h2>
+
+<ul>
+  <li>LIFO data structure</li>
+</ul>
+
+<div class="language-nasm highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">push</span> <span class="n">ebp</span>
+<span class="k">mov</span> <span class="n">esp</span><span class="p">,</span><span class="n">ebp</span>
+<span class="k">sub</span> <span class="n">esp</span><span class="p">,</span><span class="mh">0x08</span>
+<span class="k">mov</span> <span class="n">eax</span><span class="p">,</span><span class="mi">45</span>
+<span class="k">mov</span> <span class="n">ebx</span><span class="p">,</span><span class="mi">43</span>
+<span class="k">add</span> <span class="n">eax</span><span class="p">,</span><span class="n">ebx</span>
+<span class="k">call</span> <span class="n">sym_add</span>
+<span class="k">ret</span>
+</code></pre></div></div>
+
+<h2 id="the-heap">The Heap</h2>
+
+<p>Associated with Dynamic memory allocation</p>
+
+<h2 id="the-bss-section">The BSS Section</h2>
+
+<p>Contains all Uninitialized variables</p>
+
+<h2 id="the-text-section">The Text Section</h2>
+
+<p>Contains the actual executable instructions( code )</p>
+
+<h2 id="the-registers">The Registers</h2>
+
+<h3 id="general-purpose">General Purpose</h3>
+
+<ol>
+  <li><strong>EAX</strong> return values</li>
+  <li><strong>EBX</strong> Base register for memory access</li>
+  <li><strong>ECX</strong> Loop Counter</li>
+  <li><strong>EDX</strong> Data Register for I/O</li>
+</ol>
+
+<h3 id="segment-registers">Segment Registers</h3>
+
+<p>Usually are named with Two letter abbreviations</p>
+
+<ol>
+  <li>
+    <p><strong>CS</strong> Stores code segment</p>
+  </li>
+  <li><strong>DS</strong> Stores Data segment</li>
+  <li><strong>ES</strong>,<strong>FS</strong>,<strong>GS</strong> Far addressing (video mem etc)</li>
+  <li><strong>SS</strong> Stack segment usually same as <strong>EDX</strong></li>
+</ol>
+
+<h3 id="indexes-and-pointers">Indexes and Pointers</h3>
+
+<ol>
+  <li><strong>EDI</strong> Destination index register for array ops</li>
+  <li><strong>ESI</strong> Source index register array ops</li>
+  <li><strong>EBP</strong> Base Pointer bottom of stack frame</li>
+  <li><strong>ESP</strong> Stack Pointer top of stack frame</li>
+  <li><strong>EIP</strong> Instruction Pointer to next instruction to be executed</li>
+</ol>
+
+<p>The <strong>E</strong> prefix is for 32-bit, 16-bit and 8-bit are without the E prefix
+and finally for 64-bit the prefix is <strong>R</strong> instead of E however, forward
+compatibility is maintained</p>
+
+<h3 id="flags-register">Flags Register</h3>
+
+<p>Holds 32 registers in total One bit values</p>
+
+<ol>
+  <li><strong>ZF</strong> Zero Flag Set to 1 if result of previous op is 0</li>
+  <li><strong>SF</strong> Sign Flag Set to 1 if result of previous op is negative -</li>
+</ol>
+
+<h2 id="calling-conventions">Calling Conventions</h2>
+
+<h3 id="cdecl">CDECL</h3>
+
+<p>Arguments are passed on the stack in <strong>Right-to-Left</strong> order</p>
+
+<p>Return Values are passed to <strong>EAX</strong></p>
+
+<p>The Calling Function cleans the stack</p>
+
+<p>Allowing for Variadic functions as caller knows the number of arguments</p>
+
+<h3 id="stdcall-aka-winapi">STDCALL (AKA WINAPI)</h3>
+
+<p>Arguments are passed on the stack in <strong>Right-to-Left</strong> order</p>
+
+<p>Return Values are passed to <strong>EAX</strong></p>
+
+<p>The Called Function cleans the stack</p>
+
+<h3 id="fastcall">FASTCALL</h3>
+
+<p>The first 2 or 3 (32-bit or smaller ) arguments are passed directly in
+registers with the most commonly used registers being <strong>EDX</strong>, <strong>EAX</strong>, and <strong>ECX</strong> .</p>
+
+<p>The Calling Function (usually) cleans the stack</p>
+
+<h3 id="thiscall-c">THISCALL (C++)</h3>
+
+<p>Only Non-Static Member Functions. Also Non-Variadic</p>
+
+<p>The Pointer to the class object is passed in <strong>ECX</strong>, and return value is passed to <strong>EAX</strong>.</p>
+
+<p>The Called Function cleans the Stack</p>
+
+<h2 id="operand-types">OPERAND TYPES</h2>
+
+<ul>
+  <li>
+    <p><strong>Immediates</strong> :03xf</p>
+  </li>
+  <li>
+    <p><strong>Registers</strong> :EAX,.…ECX the values themselves</p>
+  </li>
+  <li>
+    <p><strong>Memory adrresses</strong> [0x80542a], [eax]</p>
+  </li>
+  <li>
+    <p><strong>Offset Types</strong> by bytes [eax + 0x4]</p>
+  </li>
+  <li>
+    <p><strong>Sibs</strong> which are offsets by multiplication and addition [ eax * 4 + ecx ] , [eax * 2 + ecx]</p>
+  </li>
+</ul>
+
+<h3 id="ops">OPS</h3>
+
+<ul>
+  <li>
+    <p><strong>mov</strong> Move destination, source reg,mem,immediate any combination</p>
+  </li>
+  <li>
+    <p><strong>add</strong>,sub addition and subtraction</p>
+  </li>
+  <li>
+    <p><strong>cmp</strong> compare subtract source from destination and assign a flag if ZF
+is 1 the destination and source are equivalent</p>
+  </li>
+  <li>
+    <p><strong>test</strong> test does bitwise and of source and destination and assigns a
+flag to ZF or SF depending on the result</p>
+  </li>
+  <li>
+    <p><strong>jcc</strong>/<strong>jmp</strong> conditional and regular jumps <strong>jz</strong>/<strong>jnz</strong> if <strong>ZF</strong> is zero or not
+<strong>jump</strong> <strong>ja</strong>/<strong>jae</strong> jump above and jump above equal <strong>jb</strong>/<strong>jbe</strong>/<strong>bjnb</strong> jump below
+and jump below equal</p>
+  </li>
+  <li>
+    <p><strong>push</strong>/<strong>pop</strong> one operand and operate on stack</p>
+  </li>
+  <li>
+    <p><strong>bitwise ops</strong> :   and, or , xor, not</p>
+  </li>
+</ul>
+
+<h1 id="recognizing-programming-constructs">Recognizing Programming Constructs</h1>
+
+<p><strong>Function Prologue and Epilogue</strong></p>
+
+<div class="language-nasm highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">push</span> <span class="n">ebp</span>
+<span class="k">mov</span> <span class="n">ebp</span><span class="p">,</span> <span class="n">esp</span>
+<span class="k">sub</span> <span class="n">esp</span><span class="p">,</span> <span class="n">N</span>
+
+<span class="p">...</span>
+<span class="k">mov</span> <span class="n">esp</span><span class="p">,</span><span class="n">ebp</span>
+<span class="k">pop</span> <span class="n">ebp</span>
+<span class="k">ret</span>
+</code></pre></div></div>
+
+<h2 id="about-call-and-ret">About CALL and RET</h2>
+<p>Have an Implicit Operation</p>
+
+<p><strong>Call</strong> will push EIP onto the Stack while  <strong>Return</strong> will
+pop the EIP pointer from the stack</p>
+
+<h2 id="loops">LOOPS</h2>
+
+<p><strong>ECX</strong> is usually loop counter conditional jumps based on loop counter
+easier to spot in call graphs</p>
+
+<h2 id="switch-statements">SWITCH STATEMENTS</h2>
+<p>jmp dwords endian formatted mem addressess with controlled offsets</p>
+
+<h1 id="winding-up">Winding Up</h1>
+<p>Hopefully now you are familiar with some basic assembly language syntax and are
+now able to identify common programming structures like loops, switches,
+functions etc from some disassembled binary code.</p>
+
+<p>In the future we will look at how to get this assembly code from compiled
+binaries as well as how to do some practical reverse engineering.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#assembly" class="page__taxonomy-item" rel="tag">assembly</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/categories/#debugging" class="page__taxonomy-item" rel="tag">debugging</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/categories/#programming" class="page__taxonomy-item" rel="tag">programming</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/categories/#reverse-engineering" class="page__taxonomy-item" rel="tag">reverse-engineering</a>
+    
+    </span>
+  </p>
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-02-15T00:00:00+03:00">February 15, 2020</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=TralahM&text=Reverse+Engineering+Software+with+Assembly+Language%20https%3A%2F%2Ftralahm.tralahtek.com%2Freverse-engineering%2Fdebugging%2Fprogramming%2Fassembly%2FReverse-Engineering-Software-With-Assembly%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftralahm.tralahtek.com%2Freverse-engineering%2Fdebugging%2Fprogramming%2Fassembly%2FReverse-Engineering-Software-With-Assembly%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Ftralahm.tralahtek.com%2Freverse-engineering%2Fdebugging%2Fprogramming%2Fassembly%2FReverse-Engineering-Software-With-Assembly%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/reverse-engineering/debugging/programming/c/Using-GDB-to-examine-C-software/" class="pagination--pager" title="Examining Memory, Stacks,Registers using the GNU Debugger
+">Previous</a>
+    
+    
+      <a href="/covid19/coronavirus/health/Preparing-for-CoronaVirus-Lockdown/" class="pagination--pager" title="Preparing for a corona virus Lockdown
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/images/predictions.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/technology/science/mathematics/A-Catastrophic-Failure-Of-Prediction/" rel="permalink">The Signal and the Noise- Why so many predictions fail and why some don’t
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  3 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">How can we apply our judgment to the data—without succumbing to our biases? Information is no longer a scarce commodity; we have more of it than we know what...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/images/tekblogquote.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/covid19/health/technology/democracy/The-Implications-of-Corona-Virus-on-Democracy-and-Civil-Liberties/" rel="permalink">The Implications of the use of Technology in fighting Covid19 on Democracy and Civil Liberties
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Edward Snowden weighs in on the potential impacts of the use of technology in fighting the coronavirus pandemic and addresses himself to matters civil libert...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/images/coronavirus.jpg"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/covid19/coronavirus/health/politics/economics/The-Political-Economy-of-Coronavirus/" rel="permalink">The Political Economy of Coronavirus
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Renowned scholar and economist David Ndii weighs in on the political economy of the pandemic and life after the virus and matters development moving forward.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/images/urban_compute.jpg"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/computing/big-data/technology/Solving-Big-Challenges-in-Big-Cities-with-Big-Data/" rel="permalink">Urban Computing: Solving Big Challenges in Big Cities with Big Data
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  4 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">We explore this nascent area, therefore aid in generating quality research results and real systems than can eventually lead to greener and smarter cities.
+W...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/TralahM" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+      
+        
+          <li><a href="https://github.com/TralahM" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://gitlab.com/TralahM" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-gitlab" aria-hidden="true"></i> GitLab</a></li>
+        
+      
+        
+          <li><a href="https://bitbucket.com/TralahM" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Tralah M Brian.  </div>
+
+      </footer>
+    </div>
+
+    <script type='text/javascript'async
+        src="https:cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"772dd16877e2d934e565b009a","lid":"56c9b15d3b","uniqueMethods":true}) })</script>
+
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "https://tralahm.tralahtek.com/reverse-engineering/debugging/programming/assembly/Reverse-Engineering-Software-With-Assembly/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/reverse-engineering/debugging/programming/assembly/Reverse-Engineering-Software-With-Assembly"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://TralahM.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+<!-- <1!-- Latest compiled and minified JavaScript --1> -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+
+  </body>
+</html>

@@ -1,0 +1,27 @@
+I"	<ul class="toc__menu">
+  <li><a href="#getting-started-with-the-git-version-control-system">Getting Started with the GIT Version Control System</a>
+    <ul>
+      <li><a href="#what-is-git">What is Git?</a>
+        <ul>
+          <li><a href="#installation">Installation</a>
+            <ul>
+              <li><a href="#linux">Linux</a></li>
+              <li><a href="#macosx">MacOSX</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#basic-commands">Basic commands</a></li>
+      <li><a href="#basic-configuration">Basic Configuration</a>
+          - {:.} <a href="#or-edit-the-gitconfig-file-on-unix-based-platforms">Or Edit the ~/.gitconfig file on unix-based platforms</a>
+        <ul>
+          <li><a href="#creating-a-new-repository">Creating a new repository</a></li>
+          <li><a href="#commits">Commits</a></li>
+          <li><a href="#commit-history">Commit History</a></li>
+          <li><a href="#branching">Branching</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+:ET
