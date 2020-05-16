@@ -1,7 +1,4 @@
-
-docs/* linguist-documentation
-
+*.js linguist-detectable=false
 *.css linguist-detectable=false
-
+*.scss linguist-detectable=false
 *.html linguist-detectable=false
-
