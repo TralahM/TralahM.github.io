@@ -1,4 +1,14 @@
 # Django & DRF Microservices
+
+## MicroServices
+- Single Bounded Context
+- UI and Services
+- Independent
+- Self-Contained
+- Local Storage
+- Share nothing
+
+## Django Components
 - middleware
 - request & response pipeline
 - Celery
@@ -33,3 +43,6 @@ Measurement Profiling
 - Deferred tasks
 - Celery Queues
 
+
+# Tips for Failing at Microservices
+- make a polyglot a zoo of technology different languages,tech stacks

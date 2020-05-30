@@ -1,0 +1,16 @@
+.primary{
+    color: #005eef; /* Brandeis Blue */
+    font-color: #337ef2; /* closest websafe color Brandeis Blue */
+}
+.secondary{
+    color: #05694c; /* Bangladesh Green*/
+    text-color: #378770;
+    font-color: #ed008c; /* mexican pink*/
+}
+.tertiary{
+    color: #f9d001; /* cyber yellow */
+    font-color: #fad934; /* websafe yellow */
+}
+.contrast{
+    color: #000000; /*black*/
+}
