@@ -46,3 +46,6 @@ Measurement Profiling
 
 # Tips for Failing at Microservices
 - make a polyglot a zoo of technology different languages,tech stacks
+- The Data Monolith Mum said we should Share
+- The Event Monolith
+- The Home Grown Monolith Making your own Frameworks that every service requires
