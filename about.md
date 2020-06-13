@@ -25,7 +25,7 @@ It gives me great joy to be able to take seemingly not very useful data and extr
 ## *Credentials*
 <table>
 <tr class='row'>
-<td class="col-md-4">
+<td class="col-md-3">
 <p> Applied Data Science with Python from IBM (June 2018 - August 2018)</p>
 <div data-iframe-width="150" data-iframe-height="270"
 data-share-badge-id="bd35716f-5655-40ca-acb8-6135cdcfaeac"></div>
@@ -40,7 +40,11 @@ o.parentNode.insertBefore(s, o);
 })();
 </script>
 </td>
-<td class='col-md-4'>
+<td class="col-md-3">
+<p> Scala Programming for Data Science Level 1 from IBM</p>
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="7314f7ea-d393-4633-993c-1c4ba96c6b0c" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+</td>
+<td class='col-md-3'>
 <p> Data Science Foundations Level 1 from IBM</p>
 <div data-iframe-width="150" data-iframe-height="270"
 data-share-badge-id="a22e6a16-eb86-43d9-b60a-c697e2c228b1"></div>
