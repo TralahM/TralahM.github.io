@@ -13,12 +13,10 @@ tags: technology data science
     # 	provider: youtube
 ---
 
-# content
-
 What exactly is data science.
 =============================
 
-The definition of data scientist is fairly broad and there\'s generally no common
+The definition of data science is fairly broad and there\'s generally no common
 consensus among the academia community; it is still in the process of being defined as an academic field.
 
 The central tenets,concepts,knowledge,skills, and
@@ -60,7 +58,7 @@ Computing hardware and software for data science.
 Data scientists who manage the platforms on which data science models
 are created focus on understanding and maintaining a computing
 environment that meets the demand for big data, fast(sometimes real time
-or near real time) model generation, and data interrogation - upto and
+or near real time) model generation, and data interrogation - up to and
 including the demands of real-time data collection(i.e streaming) and
 complex data visualizations. A significant challenge of this job is
 remaining current on the latest computing hardware and software.
@@ -70,8 +68,9 @@ analysts that can be used across a range of computing platforms. This
 requires that they understand the changing programming languages used
 for data science, the supporting libraries, and many types of data
 storage systems, as well as how to keep all these components operational
-and secure. It required that they have training in database
-maintainence, security,programming hardware, and operating systems.
+and secure.
+
+It required that they have training in database maintenance, security,programming hardware, and operating systems.
 
 Data storage and access.
 ------------------------
@@ -100,9 +99,9 @@ position, as is coordinating teams. Often these data scientists require
 considerable domain expertise in the field for which the data science
 models are being developed.
 
-For example, an individual devoloping a model for clinical trial
+For example, an individual developing a model for clinical trial
 analysis for drug development would need to have significant
-unerstanding of pharmacology and clinical data collection. It is a broad
+understanding of pharmacology and clinical data collection. It is a broad
 and complex position and requires significant training.
 
 Data Visualization
@@ -110,9 +109,9 @@ Data Visualization
 
 Ideally, data visualization experts combine development and design
 skills with the ability to understand the meaning of the analyses. These
-data scientists are adept at visual storytelling woth data. They can
+data scientists are adept at visual storytelling with data. They can
 examine large datasets and create, clear, efficient, compelling online
-layouts, images, dashboards, and interactive feautures that can stand on
+layouts, images, dashboards, and interactive features that can stand on
 their own or complement narrative text. At their core, they are
 effective translators between technical and statistical specialists and
 superior communicators with multiple non-technical audiences. They are
@@ -129,7 +128,7 @@ Business Analysts
 -----------------
 
 These data scientists are involved in making sense of and communicating
-about data without neccessarily relying on programming skills. These
+about data without necessarily relying on programming skills. These
 jobs are built around assembling and presenting data to inform a
 decision making process. Common in many business areas.
 
@@ -153,25 +152,28 @@ I really do not have a specific time that i can say i began practising
 data science. However i generally loved solving problems and puzzles
 from early on in my childhood. The point at which i would say i began
 data science was when i was in high school, learning basic statistics,
-then more so after i finished my high school and taught myself how to
-program in python. After picking up some basic skills i found myself
+then more so after i graduated from high school and taught myself how to
+program in python.
+
+After picking up some basic skills i found myself
 interested in hacking, which on further self education i realized that
 hacking generally involved gathering information about a target and
 performing some analysis then using the knowledge gathered to prepare an
-attack strategy. This led me to the Linux operating system which was
+attack strategy.
+
+This led me to the Linux operating system which was
 very handy in gathering information, i was now exposing myself to
 networked environments and dealing with small amounts of network data. I
 realized that it required a more in depth understanding of networks and
-so i enrolled for a bachelors degree in [[mathematics and computer
-science]{.underline}]{.underline} at the [Jommo Kenyatta University of
-Agriculture and Technology](https://jkuat.ac.ke).
+so i enrolled for a bachelors degree in mathematics and computer
+science at the [Jommo Kenyatta University of Agriculture and Technology](https://jkuat.ac.ke).
 
 It was here that i was formally introduced to mathematical and
 computational thinking which opened my eyes to a whole new world.
 Computer Science is generally about problem solving using computational
 tools. I gained an understanding and appreciation of computational
-complexity in algorithms, data structutes, data mining, data storage and
-retrieval techniques and their tradeoffs. With also a rigorous schooling
+complexity in algorithms, data structures, data mining, data storage and
+retrieval techniques and their trade-offs. With also a rigorous schooling
 in mathematics especially in the branches of statistics, linear algebra,
 calculus and Analytics i widened my horizon and perception of data,
 computation and analytics. I was now able to handle large data intensive
@@ -186,7 +188,7 @@ the data. From predicting sports outcomes, to predicting stock prices,
 house prices, categorizing flowers. I would generate visualizations in
 charts, maps, graphs and simulations using datasets.
 
-Upto now i am still learning and sharpening my skills with emerging
+Up to now i am still learning and sharpening my skills with emerging
 technologies and ideas in academic research papers and the process never
 ends as there\'s no limit.
 
@@ -201,7 +203,7 @@ have the right skills, determination and are passionate, a degree won't
 hold a barrier to your dream. That being said a degree would not hurt
 just to be safe.
 
-I would say if you have the right skills or if you can develop the
+I would say if you have the right skills or if you have the will to develop the
 skills and have passion for Data Science, you can become a Data
 Scientist.
 
