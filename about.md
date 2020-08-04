@@ -150,7 +150,8 @@ o.parentNode.insertBefore(s, o);
 
 - *The Clean Coder A code of conduct for professional programmers*  - **Robert C Martin**
 - *Clean Code A Handbook of Agile Software Craftsmanship*  - **Robert C Martin**
-- *Clean Architecture A Craftsman’s Guide to Software Structure and Design *  - **Robert C Martin**
+- *Clean Architecture A Craftsman's Guide to Software Structure and Design *  - **Robert C Martin**
+<br/>
 * *Bad Samaritans* - Hajoong Chang
 * *The Art of War* - Sun Tzu
 * *Quiet: The Power of Introverts in a World That Can't Stop Talking* - Susan Cain
