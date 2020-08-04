@@ -1,29 +1,36 @@
 ---
-title: "About"
+title: "About Me"
 permalink: /about/
 header:
     image: "/images/headerme.png"
 ---
-<div class='intro container-fluid'>
-<p>
 I am a **Programmer**, come *Data Scientist* with a background in Mathematics and Computer Science.
 
+<div class='intro container-fluid'>
+<p>
 I design and develop Software Systems across a wide range of domains from Finance, Healthcare, Entertainment, to Academic.
+<br/>
 
-Designing, writing, and testing *algorithms* forms a major part of my job besides maintaining and refactoring existing code bases, leading a development team and attending management and client meetings.
+Designing, writing, and testing <b>algorithms</b> forms a major part of my job besides maintaining and refactoring existing code bases, leading a development team and attending management and client meetings.
 
+<br/>
 I love Open Source and the philosophy of community driven software development and also contribute to Open Source projects whenever I can.
 
+<br/>
 My main interest is solving problems using data and mathematics.
 
+<br/>
 </p>
 <p>
 I believe in collaboration in problem solving and its merits in yielding effective and scalable solutions.
 </p>
+<br/>
 <p>
 
+<br/>
 It gives me great joy to be able to take seemingly not very useful data and extract actionable insights and tell a story thereof.
 </p>
+<br/>
 </div>
 
 # The Programmers Oath and Code of Conduct
