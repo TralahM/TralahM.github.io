@@ -8,7 +8,7 @@ There is no reasonable excuse for doing anything less than your best."
 ---
 
 # The Oath:
-In order to defend and honor the profession of computer programs I promise that:
+In order to defend and honor the profession of computer programmers I promise that:
 
 1. I will not produce harmful code.
 
