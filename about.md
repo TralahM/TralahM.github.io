@@ -6,22 +6,54 @@ header:
 ---
 <div class='intro container-fluid'>
 <p>
-I am a Data Scientist with a background in Mathematics and Computer Science from <a href="https://jkuat.ac.ke/">JKUAT</a>.
-I design and write algorithms for the most part of my job besides leading a development
-team and attending management and client meetings.
-I love Open Source and the philosophy of community driven software development and also
-contribute to Open Source projects whenever i can.
-My main focus is solving problems using data and mathematics.
-</p>
-<p>
-I am passionate about solving problems and love playing with numbers.
-Vim is my editor of choice and Linux is my operating system of choice.
+I am a **Programmer**, come *Data Scientist* with a background in Mathematics and Computer Science.
+
+I design and develop Software Systems across a wide range of domains from Finance, Healthcare, Entertainment, to Academic.
+
+Designing, writing, and testing *algorithms* forms a major part of my job besides maintaining and refactoring existing code bases, leading a development team and attending management and client meetings.
+
+I love Open Source and the philosophy of community driven software development and also contribute to Open Source projects whenever I can.
+
+My main interest is solving problems using data and mathematics.
+
 </p>
 <p>
 I believe in collaboration in problem solving and its merits in yielding effective and scalable solutions.
+</p>
+<p>
+
 It gives me great joy to be able to take seemingly not very useful data and extract actionable insights and tell a story thereof.
 </p>
 </div>
+
+# The Programmers Oath and Code of Conduct
+**Writing clean code is what you must do in order to call yourself a professional.
+There is no reasonable excuse for doing anything less than your best.**
+
+## The Oath:
+In order to defend and honor the profession of computer programs I promise that:
+
+1. I will not produce harmful code.
+
+2. The code that I produce will alway be my best work.
+
+3. I will provide with each release a quick, sure, and repeatable proof that every element of the code works as it supposed to.
+
+4. I will make frequent small releases, I will not impede progress.
+
+5. I will fearlessly and relentlessly improve the code at every opportunity, I will never make the code worse.
+
+6. I will keep productivity mine and that of my team high, I will do nothing that decreases that productivity.
+
+7. I will continuously ensure that others can cover for me and that I can cover for them.
+
+8. I will produce estimates that are honest both in magnitude and precision, I will not make promises without certainty.
+
+9. I will never stop learning and improving my craft.
+
+
+
+
 ## *Credentials*
 <table>
 <tr class='row'>
@@ -109,6 +141,9 @@ o.parentNode.insertBefore(s, o);
 
 ## Books I'd Highly Recommend
 
+- *The Clean Coder A code of conduct for professional programmers*  - **Robert C Martin**
+- *Clean Code A Handbook of Agile Software Craftsmanship*  - **Robert C Martin**
+- *Clean Architecture A Craftsman’s Guide to Software Structure and Design *  - **Robert C Martin**
 * *Bad Samaritans* - Hajoong Chang
 * *The Art of War* - Sun Tzu
 * *Quiet: The Power of Introverts in a World That Can't Stop Talking* - Susan Cain
