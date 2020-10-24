@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "Tralah M Brian"
 permalink: /about/
 header:
     image: "/images/teaser.png"
@@ -36,8 +36,17 @@ It gives me great joy to be able to take seemingly not very useful data and extr
 </div>
 
 # The Programmers Oath and Code of Conduct
+## The Premise for the Need of a body of Ethics
+Society does not yet understand just how dependent it is on software.
 
-**Writing clean code is what you must do in order to call yourself a professional.There is no reasonable excuse for doing anything less than your best.**
+The point at which they will is when something bad happens, probably some programmer does something stupid and gets people killed.
+
+When the event occurs,politician will rise and try to do something about it, probably some regulation, i.e legislate. Tell us what languages we have to use, what frameworks we have to use, what books we must read, what certifications we will require.
+
+In order to be prepared for this eventuality we need a set of ethics, codes of conduct, a professional ethic.
+It is what the doctors,engineers, et.al professional did.
+
+
 
 ## The Oath:
 
@@ -62,6 +71,7 @@ In order to defend and honor the profession of computer programs I promise that:
 9. I will never stop learning and improving my craft.
 
 
+**Writing clean code is what you must do in order to call yourself a professional.There is no reasonable excuse for doing anything less than your best.**
 
 
 ## Academic Fêtes

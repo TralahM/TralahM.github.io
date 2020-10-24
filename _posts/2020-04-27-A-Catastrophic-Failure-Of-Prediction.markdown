@@ -1,5 +1,5 @@
 ---
-title: The Signal and the Noise- Why so many predictions fail and why some don't
+title: Why so many predictions fail and why some don't
 author: Tralah M Brian
 excerpt: "How can we apply our judgment to the data—without succumbing to our biases? Information is no longer a scarce commodity; we have more of it than we know what to do with. But relatively little of it is useful. We perceive it selectively, subjectively, and without much self-regard for the distortions that this causes. We think we want information when we really want knowledge. The signal is the truth. The noise is what distracts us from the truth."
 categories: technology science mathematics
@@ -17,7 +17,7 @@ Exposure to so many new ideas is producing mass confusion.
 
 The amount of information is increasing much more rapidly than our understanding of what to do with it, or our ability to differentiate the useful information from the mistruths.
 
-The story the data tells us is often the one we’d like to hear, and we usually make sure that it has a happy ending.
+The story the data tells us is often the one we'd like to hear, and we usually make sure that it has a happy ending.
 
 **The Productivity Paradox**
 
@@ -41,7 +41,7 @@ Consequences of what Alvin Toffler,writing his book Future Shock in 1970, called
 He thought our defense mechanism would be to simplify the world in ways that confirmed our biases, even as the world itself was growing more diverse and more complex.
 
 
-If the quantity of information is increasing by 2.5 quintillion bytes per day, the amount of useful information almost certainly isn’t. Most of it is just noise, and the noise is increasing faster than the signal.
+If the quantity of information is increasing by 2.5 quintillion bytes per day, the amount of useful information almost certainly isn't. Most of it is just noise, and the noise is increasing faster than the signal.
 
 There are so many hypotheses to test, so many data sets to mine—but a relatively constant amount of objective truth.
 
@@ -61,21 +61,21 @@ A belief in the objective truth—and a commitment to pursuing it—is the first
 Prediction is important because it connects subjective and objective reality.
 Karl Popper, the philosopher of science, recognized this view.For Popper, a hypothesis was not scientific unless it was falsifiable—meaning that it could be tested in the real world by means of a prediction.
 
-What should give us pause is that the few ideas we have tested aren’t doing so well, and many of our ideas have not or cannot be tested at all.
+What should give us pause is that the few ideas we have tested aren't doing so well, and many of our ideas have not or cannot be tested at all.
 
 In economics, it is much easier to test an unemployment rate forecast than a claim about the effectiveness of stimulus spending.
 
 In political science, we can test models that are used to predict the outcome of elections, but a theory about how changes to political institutions might affect policy outcomes could take decades to verify.
 
-The fact that the few theories we can test have produced quite poor results suggests that many of the ideas we haven’t tested are very wrong as well.
+The fact that the few theories we can test have produced quite poor results suggests that many of the ideas we haven't tested are very wrong as well.
 
 We are undoubtedly living with many delusions that we do not even realize.
 
 But there is a way forward. It is not a solution that relies on half-baked policy ideas— particularly given that I have come to view our political system as a big part of the problem.
 Rather, the solution requires an attitudinal change.
 
-This attitude is embodied by something called Bayes’s theorem.
-Bayes’s theorem is nominally a mathematical formula.
+This attitude is embodied by something called Bayes's theorem.
+Bayes's theorem is nominally a mathematical formula.
 But it is really much more than that. It implies that we must think differently about our ideas—and how to test them.
 
 We must become more comfortable with probability and uncertainty. We must think more carefully about the assumptions and beliefs that we bring to a problem.
