@@ -1,5 +1,5 @@
 ---
-title: My Journey into Data Science and Why You Should Care
+title: Into Data Science
 author: Tralah M Brian
 excerpt: ""
 categories: technology data science
