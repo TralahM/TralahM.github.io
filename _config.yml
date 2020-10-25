@@ -18,9 +18,9 @@ masthead_title           : "TralahM"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus"
+  provider               : # "disqus"
   disqus:
-    shortname            : "TralahM"
+    shortname            : # "TralahM"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -77,7 +77,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/images/logo2.png"
+og_image                 : "/images/completelogo.svg"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
