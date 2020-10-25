@@ -48,7 +48,8 @@ permalink: /projects/
     const octokit=new Octokit();
     octokit.repos.listForOrg({
     org: "tralahtek",
-    type: "public"
+    type: "public",
+    sort: "created",
     }).then(({ data })=>{
       console.log(data);
       // const repos=$("#repos");
@@ -64,7 +65,7 @@ permalink: /projects/
     octokit.repos.listForUser({
     username: "TralahM",
     type: "all",
-    sort: "pushed",
+    sort: "created",
     }).then(({ data })=>{
       console.log(data);
       // const repos=$("#repos");
