@@ -1,8 +1,6 @@
 ---
 title: "Tralah M Brian"
 permalink: /about/
-header:
-    image: "/images/teaser.png"
 ---
 I am a **Programmer**, come *Data Scientist* with a background in Mathematics and Computer Science.
 
