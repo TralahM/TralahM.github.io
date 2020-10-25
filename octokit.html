@@ -1,0 +1,91 @@
+---
+layout: none
+permalink: /octokit/
+---
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <title>Octokit</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" title="" type="text/css">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@octokit/rest@18.0.6/dist-node/index.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  <body style="margin:2;">
+    <br/>
+    <br/>
+    <h2 class='text-center'>My Open Source Projects</h2>
+    <div id="user_repos"> </div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <br/>
+    <hr/>
+    <h2 class='text-center'>TralahTek Open Source Projects</h2>
+    <div id="repos"> </div>
+    <br/>
+    <br/>
+    <script type="module">
+      // import {Octokit} from "//cdn.jsdelivr.net/npm/@octokit/rest@18.0.6/dist-src/index.js";
+      import {Octokit} from "https://cdn.skypack.dev/@octokit/rest";
+      function build_repo_card(name,html_url,description,avatar){
+        // to do
+        // var cardstr=`<div class='card'><img class='card-img-top' src='${avatar}'></img><div class='card-body'><h5 class='card-title'>${name}</h5><p class='card-text'>${description}</p><a href='${html_url}' class='btn btn-secondary'><i class='fab fa-github'> </i>  Github</a></div></div></div>`;
+        var cardstr=`<div class='card text-center'><div class='card-body'><h5 class='card-title'>${name}</h5><p class='card-text'>${description}</p><a href='${html_url}' class='btn btn-secondary'><i class='fab fa-github'> </i>  Github</a></div></div></div>`;
+        return cardstr;
+      };
+      function traverse_repos (data){
+        var rows=[];
+        var i,j,repos,chunk=3;
+        for (i=0,j=data.length;i<j;i+=chunk){
+          repos=data.slice(i,i+chunk);
+          var row=$("<div class='card-deck'></div>");
+          for (var repo of repos){
+            var name=repo['name'];
+            var description=repo['description'];
+            var url=repo['html_url'];
+            var avatar=repo['owner']['avatar_url'];
+            var card=build_repo_card(name,url,description,avatar);
+            //console.log(card);
+            row.append(card);
+          };
+          rows.push(row);
+        };
+        return rows;
+      };
+      $(document).ready(function(){
+        const octokit=new Octokit();
+        octokit.repos.listForOrg({
+        org: "tralahtek",
+        type: "public"
+        }).then(({ data })=>{
+          console.log(data);
+          // const repos=$("#repos");
+          var rows=traverse_repos(data);
+          // console.log(rows);
+          for (const row of rows){
+            $("#repos").append(row);
+          };
+        });
+      });
+      $(document).ready(function(){
+        const octokit=new Octokit();
+        octokit.repos.listForUser({
+        username: "TralahM",
+        type: "all",
+        sort: "pushed",
+        }).then(({ data })=>{
+          console.log(data);
+          // const repos=$("#repos");
+          var rows=traverse_repos(data);
+          // console.log(rows);
+          for (const row of rows){
+            $("#user_repos").append(row);
+          };
+        });
+      });
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>

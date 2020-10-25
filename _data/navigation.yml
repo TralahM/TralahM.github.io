@@ -6,6 +6,8 @@ main:
     url: /about/
   - title: "Categories"
     url: /categories/
+  - title: "Projects"
+    url: /projects/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
