@@ -2,7 +2,7 @@ Increase your perceived value.
 
 If you want money solve problems.
 If its a million-dollar problem it gets you a million.
-Dont chase money, look for problems and solutions.
+Don't chase money, look for problems and solutions.
 What people wish existed, what troubles them.
 Your solution should be infinitely scalable, unlimited scalability.
 The Reward, acquisition of the solution by someone else.

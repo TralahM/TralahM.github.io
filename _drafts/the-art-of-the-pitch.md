@@ -1,5 +1,4 @@
-To move from a backend developer to a front office role you have to learn how to
-sell and that is where the art of the pitch comes in.
+To move from a backend developer to a front office role you have to learn how to sell and that is where the art of the pitch comes in.
 Solving Africa's|Kenya's Problems.
 
 Design and Engineering
