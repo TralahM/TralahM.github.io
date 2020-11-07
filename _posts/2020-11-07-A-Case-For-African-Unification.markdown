@@ -5,11 +5,11 @@ excerpt: "Despite all the sacrifices paid over half a millennia through a histor
 The national question cannot be entrusted to officialdom."
 toc_sticky: true
 header:
-    overlay_color: "#332"
+    overlay_color: "#005eef"
     overlay_filter: 0.5
     actions:
         - label: "Read More"
-          url: ""
+          url: "#the-case-for-african-unification"
 ---
 
 
@@ -19,7 +19,8 @@ Human existence itself demands that freedom is a necessary condition for that hu
 I anticipate an insurrection of second nationalism.
 A liberated Africa unification-nation founded on a radical Pan-African historical imagination.
 
-In this paper I shall develop an integrated conceptual framework combining in a single dialect: the idea of the African, with the idea of the Africa Unification Nation and both the African citizen and the nation - to Pan-Africanism and the African Renaissance to make good the hitherto elusive such for a trajectory for bringing about the accelerated structural transformation of Africa's social economy in the 21st century.
+In this article I shall attempt to develop an integrated conceptual framework combining in a single dialect:
+the idea of the African, with the idea of the Africa Unification Nation and both the African citizen and the nation - to Pan-Africanism and the African Renaissance to make good the hitherto elusive such for a trajectory for bringing about the accelerated structural transformation of Africa's social economy in the 21st century.
 
 However disconcerting to admit, the state-elite dilution of the Pan-African ideal through the official process will continue to bite.
 This means despite all the sacrifices paid over half a millennia through a history of prolonged African resistance, Africa's national liberation is still not settled.
@@ -59,7 +60,24 @@ Of the major political and economic consequences of colonialism the following re
 
 7. The post-colonial state  was seen more as a sign of enrichment and accumulation. It distorted political development in Africa, turning it into a major prize for political contest.
 
-![Economic Outcomes](/images/economic_outcomes_colonialism.png)
+8. The destruction of regional economic ties.
+9. The export-oriented, mono-crop or mono-mineral economies perpetuate African
+   dependence on the external world and reduce opportunities to
+   create,interlink, and diversify an all African economic, communication and
+   training infrastructure.
+10. Mineral extractive and agricultural monopolies dominate African enclave
+    economies.
+
+These problems are still with us.The imposed nation-state is a case of
+inheriting a perverse political system as burden on Africa.
+
+Colonialism continues to live in Africa through its political and economic
+legacies that it left behind. We have in Africa colonial powers without the need
+to be physically present in Africa for the purpose of ruling and controlling it.
+
+The longer Africa fails to manifest a clear strategy for shaking off its
+dependence, the more the ex-colonial powers can relax as long as Africa does no
+threaten them.
 
 We must say with courage and anger that even if the heavens fall, Africa must have justice. That means reviving and positioning Pan-Africanism as the national emancipatory project to recompose Africa on a fresh basis.
 There is a need to build a united identity to a common form of oppression in order to thwart the plans of the current muscular, unilateralist and resurgent imperialism.
@@ -84,6 +102,7 @@ The key challenge remains to this day: the creation of Africa as a sovereign ent
 </div>
 
 We echo the Pan-African call that Africa must unite in order to realize its renaissance.
+By:
 * Increasing agricultural production; investments in science, technology, research and innovation; gender equality, youth empowerment and the provision of basic services including health, nutrition, education, shelter, water and sanitation.
 * Africa's stolen culture, heritage and artefacts will be fully repatriated and safeguarded.
 * The continent will continue to oppose all forms of politicization of religion and religious extremism.
