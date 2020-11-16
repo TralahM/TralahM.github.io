@@ -139,7 +139,7 @@ you have the attitude, you have to really believe the attitude.
 
 But if you think of cultivating hacker attitudes as just a way to gain
 acceptance in the culture, you'll miss the point. Becoming the kind of
-person who believes these things is important for [*you*] ---
+person who believes these things is important for **you** ---
 for helping you learn and keeping you motivated. As with all creative
 arts, the most effective way to become a master is to imitate the
 mind-set of masters --- not just intellectually but emotionally as well.
@@ -188,7 +188,7 @@ problems waiting out there.
 To behave like a hacker, you have to believe that the thinking time of
 other hackers is precious --- so much so that it's almost a moral duty
 for you to share information, solve problems and then give the solutions
-away just so other hackers can solve [*new*] problems instead
+away just so other hackers can solve **new** problems instead
 of having to perpetually re-address old ones.
 
 Note, however, that "No problem should ever have to be solved twice."
@@ -198,11 +198,11 @@ learn a lot about the problem that we didn't know before by studying
 the first cut at a solution. It's OK, and often necessary, to decide
 that we can do better. What's not OK is artificial technical, legal, or
 institutional barriers (like closed-source code) that prevent a good
-solution from being re-used and [*force*] people to re-invent
+solution from being re-used and **force** people to re-invent
 wheels.
 
 (You don't have to believe that you're obligated to give
-[*all*] your creative product away, though the hackers that
+**all** your creative product away, though the hackers that
 do are the ones that get most respect from other hackers. It's
 consistent with hacker values to sell enough of it to keep you in food
 and rent and computers. It's fine to use your hacking skills to support
@@ -313,7 +313,7 @@ has changed my mind (search for ["[The Pitfalls of Java as a First
 Programming Language] within it). A hacker cannot, as
 they devastatingly put it ["[approach problem-solving like a plumber in
 a hardware store]; you have to know what the
-components actually [*do*]. Now I think it is probably best
+components actually **do**. Now I think it is probably best
 to learn C and Lisp first, then Java.
 
 There is perhaps a more general point here. If a language does too much
@@ -345,7 +345,7 @@ low-level code is complex and bug-prone, and will soak up huge amounts
 of your time on debugging. With today's machines as powerful as they
 are, this is usually a bad tradeoff --- it's smarter to use a language
 that uses the machine's time less efficiently, but your time much
-[*more*] efficiently. Thus, Python.
+**more** efficiently. Thus, Python.
 
 Other languages of particular importance to hackers include
 [Perl](http://www.perl.com/) and
@@ -381,13 +381,13 @@ several very different languages.
 
 I can't give complete instructions on how to learn to program here ---
 it's a complex skill. But I can tell you that books and courses won't
-do it --- many, maybe [*most*] of the best hackers are
+do it --- many, maybe **most** of the best hackers are
 self-taught. You can learn language features --- bits of knowledge ---
 from books, but the mind-set that makes that knowledge into living skill can be learned only by practice and apprenticeship.
 
 What will do it is
-1. [*reading code*] and
-2. [*writing code*].
+1. **reading code** and
+2. **writing code**.
 
 Peter Norvig, who is one of Google's top hackers and the co-author of
 the most widely used textbook on AI, has written an excellent essay called [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html). His "recipe for programming success" is worth careful attention.
@@ -438,7 +438,7 @@ Unix and the Internet has become strong enough that even Microsoft's
 muscle doesn't seem able to seriously dent it.)
 
 So, bring up a Unix --- I like Linux myself but there are other ways
-(and yes, you [*can*] run both Linux and Microsoft Windows on
+(and yes, you **can** run both Linux and Microsoft Windows on
 the same machine). Learn it. Run it. Tinker with it. Talk to the
 Internet with it. Read the code. Modify the code. You'll get better
 programming tools (including C, LISP, Python, and Perl) than any
@@ -489,7 +489,7 @@ Most of the things the hacker culture has built do their work out of
 sight, helping run factories and offices and universities without any
 obvious impact on how non-hackers live. The Web is the one big
 exception, the huge shiny hacker toy that even
-[*politicians*] admit has changed the world. For this reason
+**politicians** admit has changed the world. For this reason
 alone (and a lot of other good ones as well) you need to learn how to
 work the Web.
 
@@ -503,7 +503,7 @@ zero-content sludge --- very snazzy-looking sludge, mind you, but sludge
 all the same (for more on this see [The HTML Hell
 Page](http://catb.org/~esr/html-hell.html)).
 
-To be worthwhile, your page must have [*content*] --- it must
+To be worthwhile, your page must have **content** --- it must
 be interesting and/or useful to other hackers. And that brings us to the next topic\...
 
 ### 4. If you don't have functional English, learn it.
@@ -565,7 +565,7 @@ a hacker-cultural taboo (gradually decaying since the late 1990s but
 still potent) against admitting that ego or external validation are
 involved in one's motivation at all.
 
-Specifically, hackerdom is what anthropologists call a [*gift culture*]. You gain status and reputation in it not by
+Specifically, hackerdom is what anthropologists call a **gift culture**. You gain status and reputation in it not by
 dominating other people, nor by being beautiful, nor by having things
 other people want, but rather by giving things away. Specifically, by
 giving away your time, your creativity, and the results of your skill.
@@ -741,7 +741,7 @@ likely to be quite skilled at script programming and web design. Hackers
 don't do things by halves; if they invest in a skill at all, they tend
 to get very good at it.
 
-Finally, a few things [*not*] to do.
+Finally, a few things **not** to do.
 
 -   Don't use a silly, grandiose user ID or screen name.
 
@@ -760,7 +760,7 @@ The problem with screen names or handles deserves some amplification.
 Concealing your identity behind a handle is a juvenile and silly
 behavior characteristic of crackers, warez d00dz, and other lower life
 forms. Hackers don't do this; they're proud of what they do and want
-it associated with their [*real*] names. So if you have a
+it associated with their **real** names. So if you have a
 handle, drop it. In the hacker culture it will only mark you as a loser.
 
 
@@ -844,30 +844,24 @@ which he speaks much wisdom.
 Younger hackers might find [Things Every Hacker Once Knew](http://catb.org/~esr/faqs/things-every-hacker-once-knew)
 interesting and useful.
 
-I have also written [*A Brief History Of Hackerdom*](http://catb.org/~esr/writings/hacker-history/hacker-history.html).
+I have also written [**A Brief History Of Hackerdom**](http://catb.org/~esr/writings/hacker-history/hacker-history.html).
 
-I have written a paper, [*The Cathedral and the Bazaar*](http://catb.org/~esr/writings/cathedral-bazaar/index.html),
+I have written a paper, [**The Cathedral and the Bazaar**](http://catb.org/~esr/writings/cathedral-bazaar/index.html),
 which explains a lot about how the Linux and open-source cultures work.
 I have addressed this topic even more directly in its sequel
-[*Homesteading the
-Noosphere*](http://catb.org/~esr/writings/homesteading/).
+[**Homesteading the Noosphere**](http://catb.org/~esr/writings/homesteading/).
 
-Rick Moen has written an excellent document on [how to run a Linux user
-group](http://linuxmafia.com/faq/Linux_PR/newlug.html).
+Rick Moen has written an excellent document on [how to run a Linux user group](http://linuxmafia.com/faq/Linux_PR/newlug.html).
 
 Rick Moen and I have collaborated on another document on [How To Ask Smart Questions](http://catb.org/~esr/faqs/smart-questions.html). This will help you seek assistance in a way that makes it more likely that you will actually get it.
 
 If you need instruction in the basics of how personal computers, Unix,
-and the Internet work, see [The Unix and Internet Fundamentals
-HOWTO](http://en.tldp.org/HOWTO//Unix-and-Internet-Fundamentals-HOWTO/).
+and the Internet work, see [The Unix and Internet Fundamentals HOWTO](http://en.tldp.org/HOWTO//Unix-and-Internet-Fundamentals-HOWTO/).
 
 When you release software or write patches for software, try to follow
-the guidelines in the [Software Release Practice
-HOWTO](http://en.tldp.org/HOWTO/Software-Release-Practice-HOWTO/index.html).
+the guidelines in the [Software Release Practice HOWTO](http://en.tldp.org/HOWTO/Software-Release-Practice-HOWTO/index.html).
 
-If you enjoyed the Zen poem, you might also like [Rootless Root: The
-Unix Koans of Master
-Foo](http://catb.org/~esr//writings/unix-koans).
+If you enjoyed the Zen poem, you might also like [Rootless Root: The Unix Koans of Master Foo](http://catb.org/~esr//writings/unix-koans).
 
 Frequently Asked Questions
 ----------------------------------
