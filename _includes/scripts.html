@@ -43,5 +43,24 @@
     <script src="{{ script_path }}"></script>
   {% endfor %}
 {% endif %}
+<script src="https://www.paypal.com/sdk/js?client-id=Adddb5qSUIgjdHw68bamluopNV2vBtwsOPr6hasPzhUVQh1rNj1IBBevhWwkPZM1bDWMhQE50lRJKdq7&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'rect',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          'plan_id': 'P-7A467213EW668932JL62ZNVI'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID);
+      }
+  }).render('#paypal-button-container');
+</script>
 <!-- <1!-- Latest compiled and minified JavaScript --1> -->
 <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
