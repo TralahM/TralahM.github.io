@@ -24,20 +24,42 @@ permalink: /projects/
     var cardstr=`<div class='card text-center'><div class='card-body'><h5 class='card-title'>${name}</h5><p class='card-text'>${description}</p><a href='${html_url}' class='btn btn-primary'><i class='fab fa-github'> </i>  Github</a></div></div></div>`;
     return cardstr;
   };
+  function prepare_repos(data){
+    var featured_repos=["docrepo","tekrepodoc","thesportsdb","django-firebase-orm","mydotfiles","blackhat-go"];
+    var filtered_repos=[];
+    for (var repo of data){
+      var name=repo['name'];
+      var description=repo['description'];
+      const condArr=[
+        featured_repos.indexOf(name)!=-1 && description != null || name.startsWith("py") && description != null,
+      ];
+      // console.log(name+" .startsWith('py') ="+(name.startsWith('py'))+name+" in featured_repos "+(name in featured_repos)+" && description!=null == "+description!=null)
+      // console.log(condArr);
+      if (condArr.indexOf(false) === -1){
+        filtered_repos.push(repo);
+        // console.log(name+" in featured_repos.");
+      };
+    };
+    console.log(filtered_repos);
+    return filtered_repos;
+  };
   function traverse_repos (data){
     var rows=[];
     var i,j,repos,chunk=3;
-    for (i=0,j=data.length;i<j;i+=chunk){
-      repos=data.slice(i,i+chunk);
+    var frepos=prepare_repos(data);
+    for (i=0,j=frepos.length;i<j;i+=chunk){
+      var repos=frepos.slice(i,i+chunk);
       var row=$("<div class='card-deck'></div>");
       for (var repo of repos){
         var name=repo['name'];
         var description=repo['description'];
         var url=repo['html_url'];
+        var stargazers=repo['stargazers_count'];
         var avatar=repo['owner']['avatar_url'];
         var card=build_repo_card(name,url,description,avatar);
-        //console.log(card);
+        console.log(name+" in featured_repos.");
         row.append(card);
+        //console.log(card);
       };
       rows.push(row);
       rows.push("<br/>");
@@ -49,7 +71,8 @@ permalink: /projects/
     octokit.repos.listForOrg({
     org: "tralahtek",
     type: "public",
-    sort: "created",
+    sort: "updated",
+    per_page: 100,
     }).then(({ data })=>{
       console.log(data);
       // const repos=$("#repos");
@@ -65,9 +88,10 @@ permalink: /projects/
     octokit.repos.listForUser({
     username: "TralahM",
     type: "all",
-    sort: "created",
+    sort: "updated",
+    per_page: 21,
     }).then(({ data })=>{
-      console.log(data);
+      // console.log(data);
       // const repos=$("#repos");
       var rows=traverse_repos(data);
       // console.log(rows);
