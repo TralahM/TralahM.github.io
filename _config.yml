@@ -32,14 +32,21 @@ comments:
     theme                : "github-dark" # (default)= "github-light"
     issue_term           : "pathname" # (default)
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
+  allowedFields          :
+    - 'name'
+    - 'email'
+    - 'url'
+    - 'message'
   branch                 : "master"
   commitMessage          : # "New comment by {fields.name}"
   filename               : # comment-{@timestamp}
   format                 : # "yml"
   moderation             : true
-  path                   : "/_data/comments/{options.slug}" (default)
-  requiredFields         : ['name', 'email', 'message']
+  path                   : "/_data/comments/{options.slug}" # (default)
+  requiredFields         :
+    - 'name'
+    - 'email'
+    - 'message'
   transforms:
     email                : "md5"
   generatedFields:
@@ -210,7 +217,7 @@ sass:
 
 
 # Outputting
-permalink: /:date/:title/ #/:categories/:title/
+permalink: /:title/ #/:categories/:title/
 paginate: 7 # amount of posts to show
 paginate_path: /page:num/
 timezone: 'Africa/Nairobi'
