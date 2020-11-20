@@ -52,16 +52,16 @@ comments:
   moderation: true
 
   # Akismet spam detection.
-  # akismet:
-  #   enabled: true
-  #   author: "name"
-  #   authorEmail: "email"
-  #   authorUrl: "url"
-  #   content: "message"
-  #   type: "comment"
+  akismet:
+    enabled: false
+    author: "Tralah M Brian"
+    authorEmail: "briantralah@gmail.com"
+    authorUrl: "https://tralahm.tralahtek.com"
+    content: "message"
+    type: "comment"
 
   # Name of the site. Used in notification emails.
-  # name: "Your Site"
+  name: "Tralah M Brian"
 
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
@@ -98,7 +98,7 @@ comments:
   # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
   reCaptcha:
     enabled: true
-    siteKey: "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
+    siteKey: "6LeXjeYZAAAAAI3uIvVpEQu7yr34iXN0WT3AMGAM"
     # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
     # For more information, https://staticman.net/docs/encryption
-    secret: "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
+    secret: "V3NQ1MJ0fquGuK5suKC3tWXozf2X+O8BDIlgz6zTO6vI/JKx0t5MD2lyZrZD+DfGPxzTFV6a+Mk008Vktn9RbVmtrV/uz9T/KUgCy31Jcx17p0xG7QaZ7a1mY0xpXKZPNMBPXOfcxoDt5VkUaPAVqH9dEF5Cr4cv8pAYuArubOY="

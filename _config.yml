@@ -7,7 +7,7 @@ locale                   : "en-US"
 title                    : "TralahM"
 title_separator          : "| "
 subtitle                 : "The African Tek Nerd"
-name                     : "Tralah M Brian"
+name                     : "The African Tek Nerd"
 description              : "Mathematician and Computer Scientist ,Programmer, Author, Pan-African,Kenyan,Systems Engineer, Researcher, Machine Learning Engineer, NLP , Robotics, UNIX, Linux, VIM, Blockchain, "
 url                      : "https://tralahm.tralahtek.com"
 baseurl                  : ""
@@ -29,43 +29,43 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                : "github-dark" # (default)= "github-light"
+    issue_term           : "pathname" # (default)
 staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "master"
   commitMessage          : # "New comment by {fields.name}"
   filename               : # comment-{@timestamp}
   format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
+  moderation             : true
+  path                   : "/_data/comments/{options.slug}" (default)
+  requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : # "md5"
+    email                : "md5"
   generatedFields:
     date:
-      type               : # "date"
+      type               : "date"
       options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format           : "iso8601" # (default), "timestamp-seconds", "timestamp-milliseconds"
   endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey                : "6LeXjeYZAAAAAI3uIvVpEQu7yr34iXN0WT3AMGAM"
+  secret                 : "V3NQ1MJ0fquGuK5suKC3tWXozf2X+O8BDIlgz6zTO6vI/JKx0t5MD2lyZrZD+DfGPxzTFV6a+Mk008Vktn9RbVmtrV/uz9T/KUgCy31Jcx17p0xG7QaZ7a1mY0xpXKZPNMBPXOfcxoDt5VkUaPAVqH9dEF5Cr4cv8pAYuArubOY="
 atom_feed:
-  path                   : # blank (default) uses feed.xml
+  path                   : feed.xml # blank (default) uses feed.xml
 search                   : true
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search_full_content      : true # true, false (default)
+search_provider          : google # (default) lunr, algolia
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  search_engine_id       : "2bd7f4d612e244c74"
+  instant_search         : true
 # SEO Related
-google_site_verification :
+google_site_verification : "WurxhKVwJmUJaZQGvMiHw1prU1ZTDivvleRk5xpCRM0"
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
@@ -105,7 +105,7 @@ author:
     #   url: mailto:briantralah@tralatek.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://www.tralahtek.com"
+      url: "https://tralahm.tralahtek.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/TralahM"
@@ -137,6 +137,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/tralahm"
       # url:
 
 
@@ -209,8 +210,8 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
-paginate: 6 # amount of posts to show
+permalink: /:date/:title/ #/:categories/:title/
+paginate: 7 # amount of posts to show
 paginate_path: /page:num/
 timezone: 'Africa/Nairobi'
 
@@ -280,7 +281,7 @@ defaults:
             layout: single
             author_profile: true
             read_time: true
-            comments:  true
+            comments:  false
             share: true
             related: true
             toc: true
