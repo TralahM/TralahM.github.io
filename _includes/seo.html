@@ -158,4 +158,44 @@
 {% if site.naver_site_verification %}
   <meta name="naver-site-verification" content="{{ site.naver_site_verification }}">
 {% endif %}
+
+{% if page.rating == 5 %}
+  <meta name="rating" content="{{ page.rating }}"/>
+  <meta name="audience" content="developers"/>
+{% else %}
+  <meta name="rating" content="{{ page.rating }}"/>
+  <meta name="audience" content="all"/>
+{% endif %}
+
+<!-- Structured Data -->
+{% if page.date %}
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": {{ seo_title|default: site.title | jsonify }},
+      "image": [
+        {{ page_teaser_image|jsonify }},
+        {{ site_og_image|jsonify }},
+       ],
+      {% if page.date %}
+      "datePublished": {{ page.date|jsonify }},
+      "dateModified": {{ page.date|jsonify }},
+      {% endif %}
+      "author": {
+        "@type": "Person",
+        "name": {{ site.author|jsonify }}
+      },
+       "publisher": {
+        "@type": "Organization",
+        "name": "TralahTek",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://tralahm.tralahtek.com/images/logo.png"
+        }
+      }
+    }
+</script>
+{% endif %}
+<!-- END Structured Data -->
 <!-- end _includes/seo.html -->

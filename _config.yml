@@ -291,6 +291,7 @@ defaults:
             comments:  false
             share: true
             related: true
+            rating: 5
             toc: true
             toc_label: "Contents"
 
