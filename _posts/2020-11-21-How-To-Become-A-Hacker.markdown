@@ -1,5 +1,6 @@
 ---
 title: "How To Become A Hacker"
+toc_sticky: true
 categories: unix programming hacker hacking open-source how-to linux
 tags: unix programming hacker hacking open-source how-to linux
 excerpt: "Hackers solve problems and build things, and they believe in freedom and voluntary mutual help. To be accepted as a hacker, you have to behave as though you have this kind of attitude yourself. And to behave as though you have the attitude, you have to really believe the attitude."

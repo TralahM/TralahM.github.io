@@ -1,5 +1,6 @@
 ---
 title: The Crypto Anarchist Manifesto by Tim May
+toc_sticky: true
 
 ---
 

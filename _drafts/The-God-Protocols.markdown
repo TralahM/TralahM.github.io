@@ -1,12 +1,12 @@
 ---
 title: The God Protocols - Satoshi Nakamoto Institute
+toc_sticky: true
 excerpt: "Imagine the ideal protocol. It would have the most trustworthy third party imaginable, a deity who is on **everybody's** side."
 
 ---
 
 
 #### Originally published in 1997
-
 
 Imagine the ideal protocol. It would have the most trustworthy third
 party imaginable, a deity who is on **everybody's** side. All
@@ -21,11 +21,8 @@ deities.Yet, too often we are forced to treat people in a nearly
 theological manner, because our infrastructure lacks the security
 needed to protect ourselves.
 
-Trusted Third Party
--------------------
-
-![](https://nakamotoinstitute.org/static/img/docs/the-god-protocols/mutually.gif)
-
+## Trusted Third Party
+![](https://nakamotoinstitute.org/static/img/docs/the-god-protocols/mutually.gif) 
 Network security theorists have recently solved this problem to an
 astonishing extent. They have developed protocols which create virtual
 machines between two or more parties. Multi party secure computation
@@ -44,11 +41,8 @@ private data into our input cells. Alice could only learn only as much
 about the other participants' input cells as she could infer from her
 own inputs and the output cells.
 
-Mathematically Trustworthy Protocol
------------------------------------
-
-![](https://nakamotoinstitute.org/static/img/docs/the-god-protocols/virtual.gif)
-
+## Mathematically Trustworthy Protocol
+![](https://nakamotoinstitute.org/static/img/docs/the-god-protocols/virtual.gif) 
 There are three major limitations. The first is that this virtual
 computer is very slow: in some cases, one arithmetic calculation per
 network message. Currently it is at best practical only for small
@@ -127,4 +121,4 @@ These would provide the basis for solid [reputation systems](http://szabo.best.v
 
 Knowing that mutually confidential auditing can be accomplished in principle will hopefully lead us to practical solutions to these important problems.
 
-------------------------------------------------------------------------
+-------------------
