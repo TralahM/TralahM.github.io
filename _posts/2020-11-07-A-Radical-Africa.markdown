@@ -1,6 +1,8 @@
 ---
 title: The Need For A Radical Africa
 author: Tralah M Brian
+categories: politics africa africans pan-africanism history liberation black slavery colonialism
+tags: politics africa africans pan-africanism history liberation black slavery colonialism
 excerpt: "If you cannot keep up with men who are walking how much more with men on horses?"
 toc_sticky: true
 header:

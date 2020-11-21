@@ -1,7 +1,7 @@
 ---
 title: The Implications of the use of Technology in fighting Covid19 on Democracy and Civil Liberties
 categories: covid19 health technology democracy
-tags: covid19 health technology
+tags: covid19 health technology democracy
 author: Tralah M Brian
 excerpt: "Edward Snowden weighs in on the potential impacts of the use of technology in fighting the coronavirus pandemic and addresses himself to matters civil liberties post covid19.
 He also describes what he calls the construction of an architecture of oppression and how this mechanized surveillance system has become an unstoppable monster."

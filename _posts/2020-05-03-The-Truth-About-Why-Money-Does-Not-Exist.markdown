@@ -2,8 +2,8 @@
 title: The Truth About Money And Why It Does Not Exist
 author: Tralah M Brian
 excerpt: " If you look at how the world has been acquired - it has been done by a banking scam where you lend people money that doesn't exist and charge them interest, and if they don't pay the money back plus interest you take their real physical wealth that does exist; their house, their land , their business or whatever. "
-categories: banking money
-tags: banking money
+categories: banking money truth conspiracy
+tags: banking money truth conspiracy
 header:
     overlay_image: /images/money_truths.jpeg
     overlay_filter: 0.5

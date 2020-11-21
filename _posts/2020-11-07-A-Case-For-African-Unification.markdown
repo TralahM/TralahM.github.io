@@ -1,6 +1,8 @@
 ---
 title: A Case for African Unification
 author: Tralah M Brian
+categories: politics africa africans pan-africanism history liberation black slavery colonialism
+tags: politics africa africans pan-africanism history liberation black slavery colonialism
 excerpt: "Despite all the sacrifices paid over half a millennia through a history of prolonged African resistance, Africa's national liberation is still not settled.
 The national question cannot be entrusted to officialdom."
 toc_sticky: true

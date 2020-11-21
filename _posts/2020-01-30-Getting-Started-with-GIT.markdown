@@ -1,5 +1,6 @@
 ---
-categories: git vcs
+categories: git vcs math python programming science scripting
+tags: git vcs math python programming science scripting
 excerpt: "Getting Started with the GIT Version Control System"
 ---
 

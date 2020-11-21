@@ -2,8 +2,8 @@
 title: A Long Rant About Data Science
 author: Tralah M Brian
 excerpt: " The definition of data science is fairly broad and there's generally no common consensus among the academia community; it is still in the process of being defined as an academic field."
-categories: technology data science
-tags: technology data science
+categories: technology data science data-science
+tags: technology data science data-science
 toc_sticky: true
 ---
 

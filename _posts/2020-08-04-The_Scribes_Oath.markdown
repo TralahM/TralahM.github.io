@@ -1,9 +1,10 @@
 ---
 title: Why We Programmers Need a Body of Ethics
-categories: programming professional ethics
+categories: programming professional ethics data oath standards agile manifesto
+tags: programming professional ethics data oath standards agile manifesto
 toc_sticky: true
 header:
-    teaser: ../images/tekblogquote.png
+    teaser: /images/tekblogquote.png
 excerpt: "Society does not yet understand just how dependent it is on software. The point at which they will is when something bad happens, probably some programmer does something stupid and gets people killed."
 ---
 

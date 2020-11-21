@@ -1,6 +1,7 @@
 ---
 title: "Urban Computing: Solving Big Challenges in Big Cities with Big Data"
-categories: computing big-data technology
+categories: computing big-data technology tek programming
+tags: computing big-data technology tek programming
 excerpt: "
 We explore this nascent area, therefore aid in generating quality research results and real systems than can eventually lead to greener and smarter cities.
 

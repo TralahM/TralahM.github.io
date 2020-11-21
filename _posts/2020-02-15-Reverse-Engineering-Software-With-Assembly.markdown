@@ -1,6 +1,7 @@
 ---
 title: "Reverse Engineering Software with Assembly Language"
 categories: reverse-engineering debugging programming assembly
+tags: debugging programming reverse-engineering C GNU GDB
 excerpt: "
 So you have some program/software and you dont know exactly what it does, maybe
 the code is proprietary thus you cant read the code and figure it out, you want

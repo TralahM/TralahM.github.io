@@ -3,7 +3,7 @@ title: Why so many predictions fail and why some don't
 author: Tralah M Brian
 excerpt: "How can we apply our judgment to the data—without succumbing to our biases? Information is no longer a scarce commodity; we have more of it than we know what to do with. But relatively little of it is useful. We perceive it selectively, subjectively, and without much self-regard for the distortions that this causes. We think we want information when we really want knowledge. The signal is the truth. The noise is what distracts us from the truth."
 categories: technology science mathematics
-tags: technology science mathematics
+tags: technology science mathematics statistics predictions
 header:
     overlay_image: /images/predictions.png
     overlay_filter: 0.5

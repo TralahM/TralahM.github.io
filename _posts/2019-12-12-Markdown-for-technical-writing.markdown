@@ -1,6 +1,7 @@
 ---
 title:  "Markdown for Technical Writing"
 categories: markdown blogging
+tags: markdown blogging
 mathjax: true
 header:
     overlay_image: "/images/mdblog.png"

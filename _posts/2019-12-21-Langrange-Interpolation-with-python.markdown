@@ -1,6 +1,7 @@
 ---
 title: "Lagrange Interpolation Implementation In Python"
 categories: math python
+tags: math python programming science scripting
 mathjax: true
 excerpt: "A look at the Langrange Interpolation Technique for finding missing values
 in equ-spaced data."

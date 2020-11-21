@@ -1,11 +1,10 @@
 ---
 title: Data Science in a Big Data World
+categories: computing big-data technology tek programming
+tags: computing big-data technology tek programming
 author: Tralah M Brian
 excerpt: "It's in all of us. Data science is what makes us humans what we are today.No not the computer driven data science,but the ability of our brains to see connections, draw conclusions from facts, and learn from our past experiences.
 The quest for knowledge is in our genes."
-header:
-    image: image
-    teaser: teaser
 ---
 
 # Benefits and uses of data science and big data
