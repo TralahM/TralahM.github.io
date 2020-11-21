@@ -294,6 +294,7 @@ defaults:
             rating: 5
             toc: true
             toc_label: "Contents"
+            toc_sticky: true
 
     # _pages
     -
