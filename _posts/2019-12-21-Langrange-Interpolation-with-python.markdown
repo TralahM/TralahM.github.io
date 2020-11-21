@@ -1,5 +1,5 @@
 ---
-title: "Lagrange Interpolation With Python"
+title: "Lagrange Interpolation Implementation In Python"
 categories: math python
 mathjax: true
 excerpt: "A look at the Langrange Interpolation Technique for finding missing values
@@ -13,6 +13,7 @@ header:
 This technique is useful for un-equspaced data points and if you've taken a
 course in Numerical Analysis you probably are familiar with this technique among
 other interpolation methods like the
+
 - *Netwon's Forward Difference Interpolating Polynomial*  and
 - *Netwon's Backward Difference Interpolating Polynomial*
 

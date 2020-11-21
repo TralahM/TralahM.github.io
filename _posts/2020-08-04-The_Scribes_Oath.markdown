@@ -1,23 +1,29 @@
 ---
-title: Why Programmers Need a Body of Ethics
+title: Why We Programmers Need a Body of Ethics
 categories: programming professional ethics
+toc_sticky: true
 header:
     teaser: ../images/tekblogquote.png
 excerpt: "Society does not yet understand just how dependent it is on software. The point at which they will is when something bad happens, probably some programmer does something stupid and gets people killed."
 ---
 
-# The Premise for the Need of a body of Ethics
+## The Premise for the Need of a body of Ethics
+
 Society does not yet understand just how dependent it is on software.
 
 The point at which they will is when something bad happens, probably some programmer does something stupid and gets people killed.
 
-When the event occurs,politician will rise and try to do something about it, probably some regulation, i.e legislate. Tell us what languages we have to use, what frameworks we have to use, what books we must read, what certifications we will require.
+When the event occurs,politician will rise and try to do something about it, probably some regulation, i.e legislate.
+
+Tell us what languages we have to use, what frameworks we have to use, what books we must read, what certifications we will require.
 
 In order to be prepared for this eventuality we need a set of ethics, codes of conduct, a professional ethic.
+
 It is what the doctors,engineers, et.al professional did.
 
+----
 
-# The Oath:
+### The Scribes Oath:
 In order to defend and honor the profession of computer programmers I promise that:
 
 1. I will not produce harmful code.
@@ -38,3 +44,4 @@ In order to defend and honor the profession of computer programmers I promise th
 
 9. I will never stop learning and improving my craft.
 
+----

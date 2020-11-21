@@ -1,27 +1,17 @@
 ---
-title: Into Data Science
+title: A Long Rant About Data Science
 author: Tralah M Brian
-excerpt: ""
+excerpt: " The definition of data science is fairly broad and there's generally no common consensus among the academia community; it is still in the process of being defined as an academic field."
 categories: technology data science
 tags: technology data science
-#header:
-#overlay_image: image
-#overlay_filter: 0.5
-#teaser: teaser
-    # video:
-    # 	id: AXSID
-    # 	provider: youtube
+toc_sticky: true
 ---
 
-What exactly is data science.
-=============================
 
-The definition of data science is fairly broad and there\'s generally no common
+The definition of data science is fairly broad and there's generally no common
 consensus among the academia community; it is still in the process of being defined as an academic field.
 
-The central tenets,concepts,knowledge,skills, and
-ethics powering this emerging discipline remain points of active
-discussion and continue to evolve.
+The central tenets,concepts,knowledge,skills, and ethics powering this emerging discipline remain points of active discussion and continue to evolve.
 
 However data science is a field that has emerged from the
 multidisciplinary principles of mathematics, statistics,information
@@ -41,19 +31,20 @@ using computational tools, mathematical methods and algorithms to
 produce meaningful results, predictions, recommendations, descriptions
 and explanations about the data being examined.
 
-With billions of autonomous sensors and devices continually delivering
-data to cloud based databases, which record the states and activities of
-vehicles, buildings, customers, patients and citizens, there is more
-data today in the world than ever was before.
+-------
+
+>
+    With billions of autonomous sensors and devices continually delivering
+    data to cloud based databases, which record the states and activities of
+    vehicles, buildings, customers, patients and citizens, there is more
+    data today in the world than ever was before.
 
 
-What does a data scientist do.
-==============================
+### What does a data scientist do?
 
 Some current areas of focus for data scientists include the following:
 
-Computing hardware and software for data science.
--------------------------------------------------
+#### Computing hardware and software for data science.
 
 Data scientists who manage the platforms on which data science models
 are created focus on understanding and maintaining a computing
@@ -72,8 +63,9 @@ and secure.
 
 It required that they have training in database maintenance, security,programming hardware, and operating systems.
 
-Data storage and access.
 ------------------------
+
+#### Data storage and access.
 
 Data scientists who focus on managing data storage solutions as well as
 extracting,transforming and loading data for modelling should have the
@@ -87,8 +79,9 @@ interpolation - even, in some cases creating data models to clean and
 reduce errors in downstream model development performance. Some domain
 knowledge is likely needed.
 
-Statistical modeling and Machine learning
------------------------------------------
+------------------------
+
+#### Statistical modeling and Machine learning
 
 Experts in statistical modelling and machine learning interface with
 stakeholders to capture requirements and develop the scope of work for
@@ -104,8 +97,9 @@ analysis for drug development would need to have significant
 understanding of pharmacology and clinical data collection. It is a broad
 and complex position and requires significant training.
 
-Data Visualization
-------------------
+-----------------------------------------
+
+#### Data Visualization
 
 Ideally, data visualization experts combine development and design
 skills with the ability to understand the meaning of the analyses. These
@@ -124,8 +118,9 @@ statistical and data management methods. They understand APIs, how to
 parse them and, ideally, how to build them and are closely aligned with
 the data management functions performed by others on a team.
 
-Business Analysts
------------------
+------------------
+
+#### Business Analysts
 
 These data scientists are involved in making sense of and communicating
 about data without necessarily relying on programming skills. These
@@ -139,69 +134,88 @@ skills that some data science jobs require. There are also commonalities
 among the varied types of data scientists. All data scientists need to
 learn how to tackle questions with real data.
 
-An effective data science workflow involves formulating good questions,
-considering whether the available data are appropriate for addressing a
-problem, choosing from a set of different tools, undertaking analyses in
-a reproducible manner, assessing analytic methods, drawing appropriate
-conclusions, and communicating results.
+-------
+>
+    An effective data science workflow involves formulating good questions,
+    considering whether the available data are appropriate for addressing a
+    problem, choosing from a set of different tools, undertaking analyses in
+    a reproducible manner, assessing analytic methods, drawing appropriate
+    conclusions, and communicating results.
 
-How i found myself in data science.
-===================================
+-------
 
-I really do not have a specific time that i can say i began practising
-data science. However i generally loved solving problems and puzzles
-from early on in my childhood. The point at which i would say i began
-data science was when i was in high school, learning basic statistics,
-then more so after i graduated from high school and taught myself how to
+### How I ended up in data science.
+
+I really do not have a specific time that I can say I began practising
+data science. However I generally loved solving problems and puzzles
+from early on in my childhood. The point at which I would say I began
+data science was when I was in high school, learning basic statistics,
+then more so after I graduated from high school and taught myself how to
 program in python.
 
-After picking up some basic skills i found myself
-interested in hacking, which on further self education i realized that
+After picking up some basic skills I found myself
+interested in hacking, which on further self education I realized that
 hacking generally involved gathering information about a target and
 performing some analysis then using the knowledge gathered to prepare an
 attack strategy.
 
-This led me to the Linux operating system which was
-very handy in gathering information, i was now exposing myself to
-networked environments and dealing with small amounts of network data. I
-realized that it required a more in depth understanding of networks and
-so i enrolled for a bachelors degree in mathematics and computer
+This led me to Linux, the operating system which was
+very handy in gathering information, I was now exposing myself to
+networked environments and dealing with small amounts of network data.
+
+#### College
+
+I realized that it required a more in depth understanding of networks and
+so I enrolled for a bachelors degree in mathematics and computer
 science at the [Jommo Kenyatta University of Agriculture and Technology](https://jkuat.ac.ke).
 
-It was here that i was formally introduced to mathematical and
+It was here that I was formally introduced to mathematical and
 computational thinking which opened my eyes to a whole new world.
+
 Computer Science is generally about problem solving using computational
-tools. I gained an understanding and appreciation of computational
-complexity in algorithms, data structures, data mining, data storage and
-retrieval techniques and their trade-offs. With also a rigorous schooling
-in mathematics especially in the branches of statistics, linear algebra,
-calculus and Analytics i widened my horizon and perception of data,
-computation and analytics. I was now able to handle large data intensive
+tools.
+I gained an understanding and appreciation of computational complexity in algorithms, data structures, data mining, data storage and
+retrieval techniques and their trade-offs.
+
+With also a rigorous schooling in mathematics especially in the branches of statistics, linear algebra,
+calculus and Analytics I widened my horizon and perception of data,
+computation and analytics.
+
+I was now able to handle large data intensive
 and complex problems as well as the ability to develop programs and
 software to perform advanced scientific computing and implement machine
 learning algorithms to a wide variety of problems.
 
-With a formal introduction i was now able to take my skills a notch
+#### Learning on My own
+
+With a formal introduction I was now able to take my skills a notch
 higher on my own. I would collect some real world data and apply my
 learnt skills and tools to the datasets and develop a useful tool from
 the data. From predicting sports outcomes, to predicting stock prices,
 house prices, categorizing flowers. I would generate visualizations in
 charts, maps, graphs and simulations using datasets.
 
-Up to now i am still learning and sharpening my skills with emerging
+Up to now I am still learning and sharpening my skills with emerging
 technologies and ideas in academic research papers and the process never
-ends as there\'s no limit.
+ends as there's no limit.
 
-So do you need a math or computer science degree to become a data scientist?
-============================================================================
+
+----------------
+
+### So do you need a math or computer science degree to become a data scientist?
 
 You can become a data analyst without a college degree. In my experience
-of 4yrs, I have witnessed many people with a master's degree who failed
+of over 5yrs, I have witnessed many people with a master's degree who failed
 to make a successful career in Data Science whereas some people without
-a specialised degree in data science succeed. In this modern era if you
-have the right skills, determination and are passionate, a degree won't
-hold a barrier to your dream. That being said a degree would not hurt
-just to be safe.
+a specialised degree in data science succeed.
+
+In this modern era if you have the right skills, determination and are passionate, a degree won't hold a barrier to your dream.
+
+That being said a degree would not hurt just to be safe.
+
+----------------
+
+### Skills
 
 I would say if you have the right skills or if you have the will to develop the
 skills and have passion for Data Science, you can become a Data
@@ -210,8 +224,7 @@ Scientist.
 I can list out few of the skills that are essential to become a Data
 Scientist.
 
-Technical Skills
-----------------
+#### Technical Skills
 
 -   Math (e.g. linear algebra, calculus and probability)
 -   Statistics (e.g. hypothesis testing and summary statistics)
@@ -229,8 +242,7 @@ Technical Skills
 -   Big data platforms like Hadoop, Hive & Pig
 -   Cloud tools like Amazon S3
 
-Business Skills
----------------
+#### Business Skills
 
 -   Analytic Problem-Solving: Approaching high-level challenges with a
     clear eye on what is important; employing the right approach/methods
@@ -243,18 +255,19 @@ Business Skills
 -   Industry Knowledge: Understanding the way your chosen industry
     functions and how data are collected, analyzed and utilized.
 
-Actions to Take
-===============
+-------
 
-Acquire Basic skills
---------------------
+### Actions to Take
+If your are considering getting into data science and becoming a data scientist,
+here are a few recommendations based on industry knowledge and personal experience:
+
+#### Acquire Basic skills
 
 One can start from the basics i.e. normal distribution, central limit
 theorem, hypothesis testing and then move on to advanced techniques viz.
 linear regression, logistics regression, decision trees, cluster
 analysis, generalized additive models, etc. A recommended book for this
-would be [[The elements of statistical learning (by Hastie, Tibshirani
-and Friedman)]{.underline}]{.underline}.
+would be **The elements of statistical learning (by Hastie, Tibshirani and Friedman)**.
 
 It is expected that an aspiring data scientist should have some
 familiarity with various statistics or machine learning methodologies
@@ -265,8 +278,8 @@ learning would be going for MOOCs. There are a lot of free statistics/
 data mining courses available via [Coursera](https://coursera.com), edX,
 [MIT open](https://mitocw.org), Stanford online, NPTEL, etc.
 
-Learn the Tools of the Trade
-----------------------------
+
+#### Learn the Tools of the Trade
 
 As far as the tools in analytics industry is concerned, SAS and SPSS
 used to be popular before the open source revolution took the industry
@@ -300,8 +313,7 @@ retailers, how cluster analysis can be used for customer segmentation
 for a new product launch, how logistic regression can be used for fraud
 detection in banking/ insurance sector, etc.
 
-Practice, Go out there
-----------------------
+#### Practice, Go out there
 
 The last but not the least would be -- practice, practice and practice.
 One way to do it would be by participating in various data science
@@ -320,3 +332,5 @@ enthusiasts can be helpful.
 
 Put your work out there and see what others are doing like on github,
 bitbucket, gitlab and the like. Fear not.
+
+-------
