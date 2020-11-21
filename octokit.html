@@ -1,27 +1,28 @@
 ---
 layout: default
 permalink: /projects/
+title: "Projects and Works"
 ---
 
 <br/>
 <br/>
-<h2 class='text-center'>My Open Source Projects</h2>
+<h2 class='text-center'>Open Source Projects</h2>
 <div id="user_repos"> </div>
 <div class="row"></div>
 <div class="row"></div>
 <br/>
 <hr/>
-<h2 class='text-center'>TralahTek Open Source Projects</h2>
+<h2 class='text-center'>Organization Projects</h2>
 <div id="repos"> </div>
 <br/>
 <br/>
 <script type="module">
   // import {Octokit} from "//cdn.jsdelivr.net/npm/@octokit/rest@18.0.6/dist-src/index.js";
   import {Octokit} from "https://cdn.skypack.dev/@octokit/rest";
-  function build_repo_card(name,html_url,description,avatar){
+  function build_repo_card(name,html_url,description,avatar,stars){
     // to do
     // var cardstr=`<div class='card'><img class='card-img-top' src='${avatar}'></img><div class='card-body'><h5 class='card-title'>${name}</h5><p class='card-text'>${description}</p><a href='${html_url}' class='btn btn-secondary'><i class='fab fa-github'> </i>  Github</a></div></div></div>`;
-    var cardstr=`<div class='card text-center'><div class='card-body'><h5 class='card-title'>${name}</h5><p class='card-text'>${description}</p><a href='${html_url}' class='btn btn-primary'><i class='fab fa-github'> </i>  Github</a></div></div></div>`;
+    var cardstr=`<div class='card text-center'><div class='card-body'><h5 class='card-title'>${name} ${stars}</h5><p class='card-text'>${description}</p><a href='${html_url}' class='btn btn-primary'><i class='fab fa-github'> </i>  Github</a></div></div></div>`;
     return cardstr;
   };
   function prepare_repos(data){
@@ -54,9 +55,9 @@ permalink: /projects/
         var name=repo['name'];
         var description=repo['description'];
         var url=repo['html_url'];
-        var stargazers=repo['stargazers_count'];
+        var stars=repo['stargazers_count'];
         var avatar=repo['owner']['avatar_url'];
-        var card=build_repo_card(name,url,description,avatar);
+        var card=build_repo_card(name,url,description,avatar,stars);
         console.log(name+" in featured_repos.");
         row.append(card);
         //console.log(card);
