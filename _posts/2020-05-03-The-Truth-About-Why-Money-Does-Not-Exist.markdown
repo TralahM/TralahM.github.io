@@ -10,7 +10,7 @@ header:
     teaser: /images/money_truths.jpeg
 ---
 
-## Money doesn't really exist- it a theory.
+
 
 
 If you look at how the world has been acquired - it has been done by a banking scam where you lend people money that doesn't exist and charge them interest, and if they don't pay the money back plus interest you take their real physical wealth that does exist; their house, their land , their business or whatever.
