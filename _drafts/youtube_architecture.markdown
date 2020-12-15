@@ -13,8 +13,12 @@ YouTube grew incredibly fast, to over 100 million video views per day, with only
 - MySQL
 - psyco, a dynamic python->C compiler
 - lighttpd for video instead of Apache
+
+
 # What's Inside?
+
 ## The Stats
+
 - Supports the delivery of over 100 million videos per day.
 - Founded 2/2005
 - 3/2006 30 million video views/day
@@ -49,6 +53,8 @@ This loop runs many times a day.
 - Row level caching in the database.
 - Fully formed Python objects are cached.
 - Some data are calculated and sent to each application so the values are cached in local memory. This is an underused strategy. The fastest cache is in your application server and it doesn't take much time to send pre calculated data to all your servers. Just have an agent that watches for changes, pre calculates, and sends.
+
+
 ### Video Serving
 + Costs include bandwidth, hardware, and power consumption.
 + Each video hosted by a mini-cluster. Each video is served by more than one machine.
@@ -68,12 +74,14 @@ Less popular content (1-20 views per day) uses YouTube servers in various colo s
 - Caching doesn't do a lot of good in this scenario, so spending money on more cache may not make sense. This is a very interesting point. If you have a long tail product caching won't always be your performance savior.
 - Tune RAID controller and pay attention to other lower level issues to help.
 - Tune memory on each machine so there's not too much and not too little.
+
 #### Serving Video Key Points
 1. Keep it simple and cheap.
 2. Keep a simple network path. Not too many devices between content and users. Routers, switches, and other appliances may not be able to keep up with so much load.
 3. Use commodity hardware. More expensive hardware gets the more expensive everything else gets too (support contracts). You are also less likely find help on the net.
 4. Use simple common tools. They use most tools build into Linux and layer on top of those.
 5. Handle random seeks well (SATA, tweaks).
+
 ### Serving Thumbnails
 + Surprisingly difficult to do efficiently.
 + There are a like 4 thumbnails for each video so there are a lot more thumbnails than videos.
@@ -92,7 +100,9 @@ Less popular content (1-20 views per day) uses YouTube servers in various colo s
 - Fast, fault tolerant. Assumes its working on a unreliable network.
 - Lower latency because it uses a distributed multilevel cache. This cache works across different collocation sites.
 - For more information on BigTable take a look at Google Architecture, GoogleTalk Architecture, and BigTable.
+
 ## Databases
+
 ### The Early Years
 - Use MySQL to store meta data like users, tags, and descriptions.
 - Served data off a monolithic RAID 10 Volume with 10 disks.
@@ -102,6 +112,7 @@ Less popular content (1-20 views per day) uses YouTube servers in various colo s
 - Updates cause cache misses which goes to disk where slow I/O causes slow replication.
 - Using a replicating architecture you need to spend a lot of money for incremental bits of write performance.
 - One of their solutions was prioritize traffic by splitting the data into two clusters: a video watch pool and a general cluster. The idea is that people want to watch video so that function should get the most resources. The social networking features of YouTube are less important so they can be routed to a less capable cluster.
+
 ### The later years:
 - Went to database partitioning.
 - Split into shards with users assigned to different shards.
@@ -110,6 +121,7 @@ Less popular content (1-20 views per day) uses YouTube servers in various colo s
 - Resulted in a 30% hardware reduction.
 - Reduced replica lag to 0.
 - Can now scale database almost arbitrarily.
+
 # Data Center Strategy
 1. Used manage hosting providers at first. Living off credit cards so it was the only way.
 2. Managed hosting can't scale with you. You can't control hardware or make favorable networking agreements.
@@ -120,6 +132,8 @@ Less popular content (1-20 views per day) uses YouTube servers in various colo s
 7. For images latency matters, especially when you have 60 images on a page.
 8. Images are replicated to different data centers using BigTable. Code
 looks at different metrics to know who is closest.
+
+
 # Lessons Learned
 1. Stall for time. Creative and risky tricks can help you cope in the short term while you work out longer term solutions.
 2. Prioritize. Know what's essential to your service and prioritize your resources and efforts around those priorities.
