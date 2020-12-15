@@ -8,9 +8,9 @@ State management is a hot topic in Flutter right now.
 
 Over the last year, various state management techniques were proposed.
 
-The Flutter team and community have not (yet) settled on a single “go-to” solution.
+The Flutter team and community have not (yet) settled on a single "go-to" solution.
 
-This makes sense, because different apps have different requirements. And choosing the most appropriate technique depends on what we’re trying to build.
+This makes sense, because different apps have different requirements. And choosing the most appropriate technique depends on what we're trying to build.
 
 Truth be told, some state management techniques have proven very popular.
 
@@ -21,10 +21,10 @@ Having multiple choices can be a good thing.
 
 But it can also be confusing. And choosing a technique that will work and scale well as our apps grow is important.
 
-What’s more, making the right choice early on can save us a lot of time and effort.
+What's more, making the right choice early on can save us a lot of time and effort.
 
 My take on state management and app architecture
-Over the last year I’ve been building a lot of Flutter apps, big and small.
+Over the last year I've been building a lot of Flutter apps, big and small.
 
 During this time, I have encountered and solved many problems.
 
@@ -79,7 +79,7 @@ NOTE: aside from the Widget item, the BLoC and Service items are both optional.
 
 In other words: you can use or omit them as appropriate on a case-by-case basis.
 
-Now, let’s explore the full implementation with a more detailed diagram:
+Now, let's explore the full implementation with a more detailed diagram:
 
 
 
@@ -88,7 +88,7 @@ First of all, this diagram defines three application layers:
 The UI layer: this is always necessary as it is where our widgets live.
 The data layer (optional): this is where we add our logic and modify state.
 The service layer (optional): this is what we use to communicate to external services.
-Next, let’s define some rules for what each layer can (and cannot) do.
+Next, let's define some rules for what each layer can (and cannot) do.
 
 Rules of play
 UI Layer
@@ -106,9 +106,9 @@ Note how the diagram above connects a single widget to both the input and output
 
 
 
-In other words, we can implement a producer → consumer data flow.
+In other words, we can implement a producer  consumer data flow.
 
-The WABS pattern encourages us to move any state management logic to the data layer. So let’s take a look at it.
+The WABS pattern encourages us to move any state management logic to the data layer. So let's take a look at it.
 
 Data Layer
 In this layer we can define local or global application state, as well as the code to modify it.
@@ -154,7 +154,7 @@ I recommend having multiple streams in a single BLoC if they need to be combined
 
 I discourage having multiple StreamControllers in a single BLoC. Instead, I prefer breaking up the code in two or more BLoC classes, for better separation of concerns.
 
-Things we should/shouldn’t do in the data layer / BLoCs
+Things we should/shouldn't do in the data layer / BLoCs
 
 BLoCs should only contain pure Dart code. No UI code, no importing Flutter files, or using a BuildContext inside BLoCs.
 BLoCs should not call 3rd party code directly. This is the job of service classes.
@@ -165,7 +165,7 @@ Service classes have the same input/output interface as BLoCs.
 However, there is one fundamental distinction between services and BLoCs.
 
 BLoCs can hold and modify state.
-Services can’t.
+Services can't.
 In other words, we can think of services as pure, functional components.
 
 They can modify and transform data they receive from 3rd party libraries.
@@ -175,9 +175,9 @@ Example: Firestore service
 We can implement a FirestoreDatabase service as a domain-specific API-wrapper for Firestore.
 Data in (read): This transforms streams of key-value pairs from Firestore documents into strongly-typed immutable data models.
 Data out (write): This converts data models back to key-value pairs for writing to Firestore.
-In this case, the service class performs simple data manipulation. Unlike BLoCs, it doesn’t hold any state.
+In this case, the service class performs simple data manipulation. Unlike BLoCs, it doesn't hold any state.
 
-A note about terminology: Other articles use the term Repository when referring to classes that talk to 3rd party libraries. Even the definition of the Repository pattern has evolved over time (see this article for more info). In this article, I don’t make a clear distinction between Service and Repository.
+A note about terminology: Other articles use the term Repository when referring to classes that talk to 3rd party libraries. Even the definition of the Repository pattern has evolved over time (see this article for more info). In this article, I don't make a clear distinction between Service and Repository.
 
 Putting things together: the Provider package
 Once we have defined our BLoCs and services, we need to make them available to our widgets.
@@ -205,11 +205,11 @@ Provider gives us a simple and flexible API that we can use to add anything we w
 
 
 
-I’ll talk in more detail about how to use Provider in some of my upcoming articles. For now, I highly recommend this talk from Google I/O:
+I'll talk in more detail about how to use Provider in some of my upcoming articles. For now, I highly recommend this talk from Google I/O:
 
-Pragmatic State Management in Flutter (Google I/O’19)
+Pragmatic State Management in Flutter (Google I/O'19)
 A real-world example: Sign-In Page
-Now that we have seen how WABS works conceptually, let’s use it to build a sign in flow with Firebase authentication.
+Now that we have seen how WABS works conceptually, let's use it to build a sign in flow with Firebase authentication.
 
 Here is a sample interaction from my Reference Authentication Flow with Flutter & Firebase:
 
@@ -254,7 +254,7 @@ Stream<bool> get isLoadingStream;
 Future<void> signInWithGoogle();
 This is in line with our definition of Async BLoC.
 
-All the magic happens in the signInWithGoogle() method. So let’s review this again with comments:
+All the magic happens in the signInWithGoogle() method. So let's review this again with comments:
 
 Future<void> signInWithGoogle() async {
   try {
@@ -287,7 +287,7 @@ Future<void> _signInWithGoogle(BuildContext context) async {
 }
 This code looks simple enough. And it should be, because all we need here is async/await and try/catch.
 
-And yet, this is not possible with the “strict” version of BLoC that only uses a sink and a stream. For reference, implementing something like this in Redux is… uhm… not fun! 😅
+And yet, this is not possible with the "strict" version of BLoC that only uses a sink and a stream. For reference, implementing something like this in Redux is… uhm… not fun! 😅
 
 Async-BLoC may seem like a small improvement to BLoC, but it makes all the difference.
 
@@ -337,7 +337,7 @@ However, this is bad for two reasons:
 
 It shows a dialog inside the builder of the StreamBuilder. This is not great because the builder is only supposed to return a widget, and not execute any imperative code.
 This code lacks clarity. The place where we show the error is completely different from the place where we sign in.
-So, don’t do this, and use try/catch as shown above. 😉
+So, don't do this, and use try/catch as shown above. 😉
 
 Moving on…
 
@@ -345,10 +345,10 @@ Can we use WABS to create an Async-Service?
 Of course. As I said before:
 
 BLoCs can hold and modify state.
-Services can’t.
+Services can't.
 However, their public-facing APIs obey the same rules.
 
-Here’s an example of a service class for a database API:
+Here's an example of a service class for a database API:
 
 abstract class Database {
   // CRUD operations for Job
@@ -419,7 +419,7 @@ In this scenario, it is common to combine streams or perform transformations wit
 Conclusion
 This article was an in-depth introduction to WABS, an architectural pattern that I have been using for some time in multiple projects.
 
-Truth be told, I have been been refining this over time, and I didn’t even have a name for it until I wrote this article.
+Truth be told, I have been been refining this over time, and I didn't even have a name for it until I wrote this article.
 
 As I said before, architectural patterns are just tools to get our job done. My advice: choose the tools that make more sense for you and your projects.
 
@@ -436,7 +436,7 @@ In turn, this project complements all the in-depth material from my Flutter & Fi
 Flutter & Firebase: Build a Complete App for iOS & Android
 References
 Provider package
-Pragmatic State Management in Flutter (Google I/O’19)
+Pragmatic State Management in Flutter (Google I/O'19)
 RxVMS a practical architecture for Flutter Apps
 RxVMS foundations: RxCommand and GetIt
 Flutter / AngularDart – Code sharing, better together (DartConf 2018)
@@ -449,7 +449,7 @@ Email Address
 
 We use this field to detect spam bots. If you fill this in, you will be marked as a spammer.
 No Spam. Ever. Unsubscribe at any time.
-← PREVIOUS POSTNEXT POST →
+ PREVIOUS POSTNEXT POST
 
 
 Copyright © Andrea Bizzotto 2019
