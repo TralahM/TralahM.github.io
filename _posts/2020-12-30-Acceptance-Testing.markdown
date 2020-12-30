@@ -101,7 +101,7 @@ Developers write these tests before writing production code as a way to specify 
 They are executed as part of Continuous Integration to ensure that the intent of the programmers’ is upheld.
 
 ## Component Tests 50%
-These are some of the acceptance tests mentioned in the previous chapter.
+These are some of the acceptance tests aforementioned.
 Generally they are written against individual components of the system.
 The components of the system encapsulate the business rules, so the tests for those components are the acceptance tests for those business rules.
 
