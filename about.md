@@ -2,7 +2,7 @@
 title: "Tralah M Brian"
 permalink: /about/
 ---
-I am a **Programmer**, come *Data Scientist* with a background in Mathematics and Computer Science.
+I am a **Programmer**, Academic Writer, come *Data Scientist* with a background in Mathematics and Computer Science.
 
 <div class='intro container-fluid'>
 <p>
@@ -39,16 +39,17 @@ Society does not yet understand just how dependent it is on software.
 
 The point at which they will is when something bad happens, probably some programmer does something stupid and gets people killed.
 
-When the event occurs,politician will rise and try to do something about it, probably some regulation, i.e legislate. Tell us what languages we have to use, what frameworks we have to use, what books we must read, what certifications we will require.
+When the event occurs,politician will rise and try to do something about it, probably some regulation, i.e legislate.
+Tell us what languages we have to use, what frameworks we have to use, what books we must read, what certifications we will require.
 
 In order to be prepared for this eventuality we need a set of ethics, codes of conduct, a professional ethic.
-It is what the doctors,engineers, et.al professional did.
+It is what the doctors,engineers, et.al professionals did.
 
 
 
 ## The Oath:
 
-In order to defend and honor the profession of computer programs I promise that:
+In order to defend and honor the profession of computer programming I promise that:
 
 1. I will not produce harmful code.
 
