@@ -67,6 +67,14 @@ layout: default
       {% include comments.html %}
     {% endif %}
   </article>
+<script id="diffblog-plugin-script" async="false" src="https://diff.blog/static/js/diffblog_plugin_v1.js"></script>
+<script>
+        document.getElementById("diffblog-plugin-script").addEventListener("load", function () {
+            DiffBlog(
+                "ji3jaexcgve0l8rio3yjdj05hvs0i1pf8amnd0b8gat1fx56ke"
+            );
+        });
+</script>
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
