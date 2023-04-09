@@ -2,7 +2,7 @@
 title: Acceptance Testing FYI
 toc_sticky: true
 categories: technology test-driven-development programming software
-tags: tdd testing software technology clean-code
+tags: TDD testing software technology clean-code
 excerpt: "One of the most common ambiguities we face as software professionals is the ambiguity of “done”."
 ---
 
@@ -19,14 +19,14 @@ One of the most common ambiguities we face as software professionals is the ambi
 When a developer says he’s done with a task, what does that mean?
 Is the developer done in the sense that he’s ready to deploy the feature with full confidence?
 Or does he mean that he’s ready for QA?
-Or perhaps he’s done writing it and has gotten it to run once but hasn’t really tested it yet.
+Or perhaps he’s done writing it and has gotten it to run once but hasn't really tested it yet.
 
 Professional developers have a single definition of done: Done means done.
 Done means all code written, all tests pass, QA and the stakeholders have accepted.
 Done.
 
 
-But how can you get this level of done-ness and still make quick progress from iteration to iteration? You create a set of automated tests that, when they pass, meet all of the above criteria! When the acceptance tests for your feature pass, you are done.
+But how can you get this level of "doneness" and still make quick progress from iteration to iteration? You create a set of automated tests that, when they pass, meet all of the above criteria! When the acceptance tests for your feature pass, you are done.
 
 Professional developers drive the definition of their requirements all the way to automated acceptance tests.
 They work with stakeholder’s and QA to ensure that these automated tests are a complete specification of done.
@@ -40,7 +40,7 @@ Professional developers make it their responsibility to work with stakeholders a
 
 ## Automation
 Acceptance tests should always be automated.
-There is a place for manual testing elsewhere in the software lifecycle, but these kinds of tests should never be manual.
+There is a place for manual testing elsewhere in the software life cycle, but these kinds of tests should never be manual.
 The reason is simple: cost.
 
 
