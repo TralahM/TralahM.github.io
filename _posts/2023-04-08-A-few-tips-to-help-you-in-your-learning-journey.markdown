@@ -1,7 +1,7 @@
 ---
 date: 2023-04-08
 title: "A few Tips to help you on your learning journey"
-categories: math python
+categories: math learning computer-science
 tags: programming money wealth
 mathjax: true
 excerpt: "Here are 7 tips to help in your learning journey."
