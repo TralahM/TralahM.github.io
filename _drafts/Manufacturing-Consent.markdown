@@ -2,9 +2,9 @@
 
 ---
 
-They who have put out the people's eyes reproach them of their blindness.
+> They who have put out the people's eyes reproach them of their blindness.
 
- ~Milton 1642.
+> ~Milton 1642.
 
 Thought control in democratic societies.
 

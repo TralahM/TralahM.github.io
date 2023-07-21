@@ -6,16 +6,16 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale                   : "en-US"
 title                    : "TralahM"
 title_separator          : "| "
-subtitle                 : "The African Tek Nerd"
+subtitle                 : "Data Scientist, Software Craftsman, Toolsmith, Thinker, Scholar."
 name                     : "Tralah M Brian"
-description              : "Mathematician and Computer Scientist ,Programmer, Author, Pan-African,Kenyan,Systems Engineer, Researcher, Machine Learning Engineer, NLP , Robotics, UNIX, Linux, VIM, Blockchain, "
+description              : "Computer Scientist, Programmer, Software Craftsman, Scholar, Pan-African, Systems Engineer, Computer Science Researcher, Linux Systems Administrator, Vim Wizard, Pythonista, Gopher, Scala Programmer, Flutter App Coder."
 url                      : "https://blog.tralahm.com"
 baseurl                  : ""
 repository               : "TralahM/TralahM.github.io"
 teaser                   : "/images/tekblogquote.png"
 logo                     : "/images/completelogo.svg"
 masthead_title           : "TralahM"
-breadcrumbs              : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # "disqus"
@@ -91,6 +91,9 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - https://instagram.com/tralahm
+    - https://github.com/TralahM
+    - https://twitter.com/TralahM
 
 # Analytics
 analytics:
@@ -105,11 +108,11 @@ author:
   avatar           : "/images/TralahM.png"
   bio              : "Computer Scientist, Programmer, Writer, African. As our people say, a man who pays respect to the great paves way for his own greatness"
   location         : "Nairobi, Kenya, Africa"
-  email            : "musyoki.brian@tralahtek.com"
+  email            : "briantralah@gmail.com"
   links:
-    # - label: "Email"
-    #   icon: "fas fa-fw fa-envelope-square"
-    #   url: mailto:briantralah@tralatek.com
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:briantralah@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://tralahm.tralahtek.com"
@@ -129,8 +132,8 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/TralahM"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -219,7 +222,7 @@ sass:
 
 # Outputting
 permalink: /:title/ #/:categories/:title/
-paginate: 7 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: 'Africa/Nairobi'
 
