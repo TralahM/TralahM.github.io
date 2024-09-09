@@ -6,39 +6,45 @@ title: "Projects and Works"
 
 <br/>
 <br/>
-<h2 class='text-center'>Open Source Projects</h2>
+<h2 class='text-center project-title'>My Open Source Projects</h2>
 <div id="user_repos"> </div>
 <div class="row"></div>
 <div class="row"></div>
 <br/>
-<hr/>
-<h2 class='text-center'>Organization Projects</h2>
-<div id="repos"> </div>
-<br/>
-<br/>
 <script type="module">
-  // import {Octokit} from "//cdn.jsdelivr.net/npm/@octokit/rest@18.0.6/dist-src/index.js";
-  import {Octokit} from "https://cdn.skypack.dev/@octokit/rest";
-  function build_repo_card(name,html_url,description,avatar,stars){
-    // to do
-    // var cardstr=`<div class='card'><img class='card-img-top' src='${avatar}'></img><div class='card-body'><h5 class='card-title'>${name}</h5><p class='card-text'>${description}</p><a href='${html_url}' class='btn btn-secondary'><i class='fab fa-github'> </i>  Github</a></div></div></div>`;
-    var cardstr=`<div class='card text-center'><div class='card-body'><h5 class='card-title'>${name} ${stars}</h5><p class='card-text'>${description}</p><a href='${html_url}' class='btn btn-primary'><i class='fab fa-github'> </i>  Github</a></div></div></div>`;
+  import {Octokit} from "https://esm.sh/@octokit/rest";
+  function build_repo_card(name,html_url,description,forks,stars){
+    var cardstr=`
+<div class='card text-center'>
+<div class='card-header'>
+<h5 class='card-title project-subtitle'>
+${name} 
+<i class='fas fa-star star-icon'></i> <span class='icon-value-text'>${stars}</span>
+<i class='fas fa-code-branch fork-icon'></i> <span class='icon-value-text'>${forks}</span>
+</h5>
+</div>
+<div class='card-body'>
+<p class='card-text project-description'>${description}</p>
+</div>
+<div class='card-footer text-muted'>
+<a href='${html_url}' class='btn btn'><i class='fab fa-github'></i> View on GitHub</a>
+</div>
+</div>
+`;
     return cardstr;
   };
   function prepare_repos(data){
-    var featured_repos=["docrepo","tekrepodoc","thesportsdb","django-firebase-orm","mydotfiles","blackhat-go"];
     var filtered_repos=[];
     for (var repo of data){
       var name=repo['name'];
       var description=repo['description'];
+      var stars=repo['stargazers_count'];
+      var forked=repo['fork'];
       const condArr=[
-        featured_repos.indexOf(name)!=-1 && description != null || name.startsWith("py") && description != null,
+        description != null && stars > 1 && forked === false,
       ];
-      // console.log(name+" .startsWith('py') ="+(name.startsWith('py'))+name+" in featured_repos "+(name in featured_repos)+" && description!=null == "+description!=null)
-      // console.log(condArr);
       if (condArr.indexOf(false) === -1){
         filtered_repos.push(repo);
-        // console.log(name+" in featured_repos.");
       };
     };
     console.log(filtered_repos);
@@ -48,19 +54,19 @@ title: "Projects and Works"
     var rows=[];
     var i,j,repos,chunk=3;
     var frepos=prepare_repos(data);
+    frepos.sort((a,b)=>b['stargazers_count']-a['stargazers_count']);
     for (i=0,j=frepos.length;i<j;i+=chunk){
       var repos=frepos.slice(i,i+chunk);
-      var row=$("<div class='card-deck'></div>");
+      var row=$("<div class='card-deck project-cards-row'></div>");
       for (var repo of repos){
         var name=repo['name'];
         var description=repo['description'];
         var url=repo['html_url'];
         var stars=repo['stargazers_count'];
+        var forks=repo['forks_count'];
         var avatar=repo['owner']['avatar_url'];
-        var card=build_repo_card(name,url,description,avatar,stars);
-        console.log(name+" in featured_repos.");
+        var card=build_repo_card(name,url,description,forks,stars);
         row.append(card);
-        //console.log(card);
       };
       rows.push(row);
       rows.push("<br/>");
@@ -69,33 +75,13 @@ title: "Projects and Works"
   };
   $(document).ready(function(){
     const octokit=new Octokit();
-    octokit.repos.listForOrg({
-    org: "tralahtek",
-    type: "public",
-    sort: "updated",
-    per_page: 100,
-    }).then(({ data })=>{
-      console.log(data);
-      // const repos=$("#repos");
-      var rows=traverse_repos(data);
-      // console.log(rows);
-      for (const row of rows){
-        $("#repos").append(row);
-      };
-    });
-  });
-  $(document).ready(function(){
-    const octokit=new Octokit();
     octokit.repos.listForUser({
     username: "TralahM",
     type: "all",
     sort: "updated",
-    per_page: 21,
+    per_page: 50,
     }).then(({ data })=>{
-      // console.log(data);
-      // const repos=$("#repos");
       var rows=traverse_repos(data);
-      // console.log(rows);
       for (const row of rows){
         $("#user_repos").append(row);
       };
