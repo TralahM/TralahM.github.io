@@ -121,12 +121,13 @@ author:
   bio: "Software Craftsman, Programmer, Writer, Pan-African. As Linus would say, Talk is cheap, show me the code."
   location: "Nairobi, Kenya, Africa"
   email: "briantralah@gmail.com"
+  youtube: tralahm12
   links:
-    - label: "Website"
+    - label: "Websitbe"
       icon: "fas fa-fw fa-link"
       url: "https://tralahm.github.io"
-    - label: "X"
-      icon: "fab fa-fw fa-brands fa-square-x-twitter"
+    - label: "X (Twitter)"
+      icon: "fa-brands fa-square-x-twitter"
       url: "https://x.com/TralahM"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -145,7 +146,7 @@ author:
 footer:
   links:
     - label: "X (Twitter)"
-      icon: "fab fa-fw fa-brands fa-square-x-twitter"
+      icon: "fa-brands fa-square-x-twitter"
       url: "https://x.com/TralahM"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -163,7 +164,7 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/tralahm/"
     - label: "Stack Overflow"
-      icon: "fas fa-fw fa-stack-overflow"
+      icon: "fab fa-fw fa-stack-overflow"
       url: "https://stackoverflow.com/users/12521832/tralahm"
 
 

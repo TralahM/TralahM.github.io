@@ -84,7 +84,7 @@
       {% if author.twitter %}
         <li>
           <a href="https://twitter.com/{{ author.twitter }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-brands fa-x-twitter" aria-hidden="true"></i>
+            <i class="fab fa-fw fa-twitter" aria-hidden="true"></i>
             X
           </a>
         </li>
@@ -211,7 +211,7 @@
           </li>
         {% else author.youtube %}
           <li>
-            <a href="https://www.youtube.com/user/{{ author.youtube }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <a href="https://www.youtube.com/@{{ author.youtube }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
               <i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube
             </a>
           </li>
