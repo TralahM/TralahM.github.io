@@ -1,140 +1,152 @@
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+---
+# theme: "minimal-mistakes-jekyll"
+# remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air"
+# "air", "aqua", "contrast", "dark", "dirt", "neon",
+# "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "TralahM"
-title_separator          : "| "
-subtitle                 : "Data Scientist, Software Craftsman, Toolsmith, Thinker, Scholar."
-name                     : "Tralah M Brian"
-description              : "Computer Scientist, Programmer, Software Craftsman, Scholar, Pan-African, Systems Engineer, Computer Science Researcher, Linux Systems Administrator, Vim Wizard, Pythonista, Gopher, Scala Programmer, Flutter App Coder."
-url                      : "https://blog.tralahm.com"
-baseurl                  : ""
-repository               : "TralahM/TralahM.github.io"
-teaser                   : "/images/tekblogquote.png"
-logo                     : "/images/completelogo.svg"
-masthead_title           : "TralahM"
-breadcrumbs              : true # true, false (default)
-words_per_minute         : 200
+locale: "en-US"
+title: "TralahM"
+title_separator: "| "
+subtitle: "Software Craftsman, Data Scientist, Toolsmith, Scholar."
+name: "Tralah M Brian"
+description: "Programmer aka. Software Craftsman, Scholar, Systems Engineer, Computer Science Researcher, Linux Sys Admin, Vim/Neovim Wizard, Pythonista, Rustacean, Gopher, Scala Programmer, Flutter (Dart) App Dev."
+url: "https://tralahm.github.io"
+baseurl: ""
+repository: "TralahM/TralahM.github.io"
+teaser: "/images/tekblogquote.png"
+logo: "/images/completelogo.svg"
+masthead_title: "TralahM"
+breadcrumbs: true  # true, false (default)
+words_per_minute: 200
 comments:
-  provider               : # "disqus"
+  provider:  # "disqus"
   disqus:
-    shortname            : # "TralahM"
+    shortname:  # "TralahM"
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server:
+    # meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963
+    # , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    appid:
+    num_posts:  # 5 (default)
+    colorscheme:  # "light" (default), "dark"
   utterances:
-    theme                : "github-dark" # (default)= "github-light"
-    issue_term           : "pathname" # (default)
+    theme: "github-dark"  # (default)= "github-light"
+    issue_term: "pathname"  # (default)
 staticman:
-  allowedFields          :
+  allowedFields:
     - 'name'
     - 'email'
     - 'url'
     - 'message'
-  branch                 : "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : true
-  path                   : "/_data/comments/{options.slug}" # (default)
-  requiredFields         :
+  branch: "master"
+  commitMessage:  # "New comment by {fields.name}"
+  filename:  # comment-{@timestamp}
+  format:  # "yml"
+  moderation: true
+  path: "/_data/comments/{options.slug}"  # (default)
+  requiredFields:
     - 'name'
     - 'email'
     - 'message'
   transforms:
-    email                : "md5"
+    email: "md5"
   generatedFields:
     date:
-      type               : "date"
+      type: "date"
       options:
-        format           : "iso8601" # (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+        format: "iso8601"
+        # (default), "timestamp-seconds", "timestamp-milliseconds"
+  endpoint:
+  # URL of your own deployment with trailing slash,
+  # will fallback to the public instance
 reCaptcha:
-  siteKey                : "6LeXjeYZAAAAAI3uIvVpEQu7yr34iXN0WT3AMGAM"
-  secret                 : "V3NQ1MJ0fquGuK5suKC3tWXozf2X+O8BDIlgz6zTO6vI/JKx0t5MD2lyZrZD+DfGPxzTFV6a+Mk008Vktn9RbVmtrV/uz9T/KUgCy31Jcx17p0xG7QaZ7a1mY0xpXKZPNMBPXOfcxoDt5VkUaPAVqH9dEF5Cr4cv8pAYuArubOY="
+  siteKey: "6LeXjeYZAAAAAI3uIvVpEQu7yr34iXN0WT3AMGAM"
+  secret: "V3NQ1MJ0fquGuK5suKC3tWXozf2X+O8BDIlgz6zTO6vI/JKx0t5MD2lyZrZD+DfGPxzTFV6a+Mk008Vktn9RbVmtrV/uz9T/KUgCy31Jcx17p0xG7QaZ7a1mY0xpXKZPNMBPXOfcxoDt5VkUaPAVqH9dEF5Cr4cv8pAYuArubOY="
 atom_feed:
-  path                   : feed.xml # blank (default) uses feed.xml
-search                   : true
-search_full_content      : true # true, false (default)
-search_provider          : google # (default) lunr, algolia
+  path: feed.xml  # blank (default) uses feed.xml
+search: true
+search_full_content: true  # true, false (default)
+search_provider: google  # (default) lunr, algolia
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  application_id:  # YOUR_APPLICATION_ID
+  index_name:  # YOUR_INDEX_NAME
+  search_only_api_key:  # YOUR_SEARCH_ONLY_API_KEY
+  powered_by:  # true (default), false
 google:
-  search_engine_id       : "2bd7f4d612e244c74"
-  instant_search         : true
+  search_engine_id: "2bd7f4d612e244c74"
+  instant_search: true
+
 # SEO Related
-google_site_verification : "WurxhKVwJmUJaZQGvMiHw1prU1ZTDivvleRk5xpCRM0"
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
+google_site_verification: "WurxhKVwJmUJaZQGvMiHw1prU1ZTDivvleRk5xpCRM0"
+bing_site_verification:
+yandex_site_verification:
+naver_site_verification:
 
 # Social Sharing
 twitter:
-  username               : 'TralahM'
+  username: 'TralahM'
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : "/images/completelogo.svg"
+  username:
+  app_id:
+  publisher:
+og_image: "/images/completelogo.svg"
+
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-    - https://instagram.com/tralahm
+  type:  # Person or Organization (defaults to Person)
+  name:  # If the user or organization name differs from the site's name
+  links:  # An array of links to social media profiles
     - https://github.com/TralahM
-    - https://twitter.com/TralahM
+    - https://x.com/TralahM
+    - https://linkedin.com/in/tralahm/
+    - https://stackoverflow.com/users/12521832/tralahm
+    - https://instagram.com/tralahm
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
+  provider: "google"  # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "G-Z18GN96M4L"
+    tracking_id: "G-Z18GN96M4L"
 
 
 # Site Author
 author:
-  name             : "Tralah M Brian"
-  avatar           : "/images/TralahM.png"
-  bio              : "Computer Scientist, Programmer, Writer, African. As our people say, a man who pays respect to the great paves way for his own greatness"
-  location         : "Nairobi, Kenya, Africa"
-  email            : "briantralah@gmail.com"
+  name: "Tralah M Brian"
+  avatar: "/images/TralahM.png"
+  bio: "Software Craftsman, Programmer, Writer, Pan-African. As Linus would say, Talk is cheap, show me the code."
+  location: "Nairobi, Kenya, Africa"
+  email: "briantralah@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:briantralah@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://tralahm.tralahtek.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/TralahM"
+      url: "https://tralahm.github.io"
+    - label: "X"
+      icon: "fab fa-fw fa-brands fa-square-x-twitter"
+      url: "https://x.com/TralahM"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/TralahM"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/tralahm"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/tralahm/"
+    - label: "Stack Overflow"
+      icon: "fab fa-fw fa-stack-overflow"
+      url: "https://stackoverflow.com/users/12521832/tralahm"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/TralahM"
-    # - label: "Facebook"
-    #   icon: "fab fa-fw fa-facebook-square"
-      # url:
+    - label: "X (Twitter)"
+      icon: "fab fa-fw fa-brands fa-square-x-twitter"
+      url: "https://x.com/TralahM"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/TralahM"
@@ -144,11 +156,15 @@ footer:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       url: "https://bitbucket.com/TralahM"
-      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/tralahm"
-      # url:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/tralahm/"
+    - label: "Stack Overflow"
+      icon: "fas fa-fw fa-stack-overflow"
+      url: "https://stackoverflow.com/users/12521832/tralahm"
 
 
 # Reading Files
@@ -185,8 +201,8 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+  - /docs  # ignore Minimal Mistakes /docs
+  - /test  # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -214,15 +230,16 @@ kramdown:
   enable_coderay: false
 
 
-# Sass/SCSS
+  # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
+  # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
-# Outputting
-permalink: /:title/ #/:categories/:title/
-paginate: 10 # amount of posts to show
+  # Outputting
+permalink: /:title/  # /:categories/:title/
+paginate: 13  # amount of posts to show
 paginate_path: /page:num/
 timezone: 'Africa/Nairobi'
 
@@ -235,7 +252,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-# mimic GitHub Pages with --safe
+  # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
@@ -246,13 +263,15 @@ whitelist:
 
 # Archives
 #  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - GitHub Pages compatible archive pages built with Liquid
+#  ~> type: liquid (default)
 #  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
 #  Path (examples)
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/categories/my-awesome-category/index.html
+#  ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
@@ -260,7 +279,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
+  # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled:
     - categories
@@ -283,29 +302,29 @@ compress_html:
 
 # Defaults
 defaults:
-    # _posts
-    -
-        scope:
-            path: ""
-            type: posts
-        values:
-            layout: single
-            author_profile: true
-            read_time: true
-            comments:  false
-            share: true
-            related: true
-            rating: 5
-            toc: true
-            toc_label: "Contents"
-            toc_sticky: true
+  # _posts
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      rating: 5
+      toc: true
+      toc_label: "Contents"
+      toc_sticky: true
 
-    # _pages
-    -
-        scope:
-            path: ""
-            type: pages
-        values:
-            layout: single
-            author_profile: true
-            share: true
+  # _pages
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      share: true
