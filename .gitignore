@@ -117,3 +117,7 @@ _site
 drafts/*
 .directory
 pkg
+
+/.quarto/
+.virtual_documents/
+.*.ipynb.layout
