@@ -1,0 +1,12 @@
+---
+project:
+  output-dir: _pages
+  render:
+    - "*.qmd"
+    - "*.ipynb"
+    - "notebooks/"
+  post-render:
+    - prepend_yaml_frontmatter.py
+
+format: gfm
+echo: true

@@ -121,3 +121,5 @@ pkg
 /.quarto/
 .virtual_documents/
 .*.ipynb.layout
+.RData
+.Rhistory
