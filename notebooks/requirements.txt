@@ -1,5 +1,0 @@
-openpyxl
-beautifulsoup4
-pandas
-requests
-csv
