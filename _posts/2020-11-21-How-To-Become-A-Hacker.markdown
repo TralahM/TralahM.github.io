@@ -468,7 +468,7 @@ the process.
 Most of the things the hacker culture has built do their work out of
 sight, helping run factories and offices and universities without any
 obvious impact on how non-hackers live. The Web is the one big
-exception, the huge shiny hacker toy that even
+exception, the huge shiny hacker toy that evenb
 **politicians** admit has changed the world. For this reason
 alone (and a lot of other good ones as well) you need to learn how to
 work the Web.
@@ -482,6 +482,8 @@ But just having a home page isn't anywhere near good enough to make you a hacker
 zero-content sludge --- very snazzy-looking sludge, mind you, but sludge
 all the same (for more on this see [The HTML Hell
 Page](http://catb.org/~esr/html-hell.html)).
+
+Emma, a friend, recommended to me the [Html Guide for Beginners](http://www.websiteplanet.com/blog/html-guide-beginners) at Website Planet. It's a good place to start.
 
 To be worthwhile, your page must have **content** --- it must
 be interesting and/or useful to other hackers. And that brings us to the next topic\...
