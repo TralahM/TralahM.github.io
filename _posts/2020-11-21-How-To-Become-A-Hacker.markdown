@@ -5,10 +5,11 @@ categories: unix programming hacker hacking open-source how-to linux
 tags: unix programming hacker hacking open-source how-to linux
 excerpt: "Hackers solve problems and build things, and they believe in freedom and voluntary mutual help. To be accepted as a hacker, you have to behave as though you have this kind of attitude yourself. And to behave as though you have the attitude, you have to really believe the attitude."
 header:
-    teaser: /images/glider.png
+  teaser: /images/glider.png
 ---
 
--------------------------------
+---
+
 Copyright © 2001 Eric S. Raymond
 
 ## Why This Document?
@@ -44,7 +45,7 @@ and
 Note that since this document changes occasionally, they may be out of
 date to varying degrees.
 
---------
+---
 
 ![glider](/images/glider.png)
 
@@ -58,9 +59,10 @@ mysterious-seeming, but a gateway to a whole world with an intricate
 logic of its own. Read more about the glider emblem
 [here](http://www.catb.org/~esr/hacker-emblem/).
 
---------
+---
 
 ## What Is a Hacker?
+
 The [Jargon File](http://www.catb.org/jargon) contains a bunch
 of definitions of the term 'hacker', most having to do with technical
 adeptness and a delight in solving problems and overcoming limits. If
@@ -105,7 +107,7 @@ you think you are. And that's all I'm going to say about crackers.
 
 ![](/images/glider.png)
 
---------------------------------
+---
 
 ## The Hacker Attitude
 
@@ -118,7 +120,6 @@ you think you are. And that's all I'm going to say about crackers.
 [4. Freedom is good.](#4-freedom-is-good)
 
 [5. Attitude is no substitute for competence.](#5-attitude-is-no-substitute-for-competence)
-
 
 Hackers solve problems and build things, and they believe in freedom and
 voluntary mutual help. To be accepted as a hacker, you have to behave as
@@ -134,14 +135,12 @@ mind-set of masters --- not just intellectually but emotionally as well.
 
 Or, as the following modern Zen poem has it:
 
->
-    To follow the path:\
-    look to the master,\
-    follow the master,\
-    walk with the master,\
-    see through the master,\
-    become the master.
-
+>     To follow the path:\
+>     look to the master,\
+>     follow the master,\
+>     walk with the master,\
+>     see through the master,\
+>     become the master.
 
 So, if you want to be a hacker, repeat the following things until you
 believe them:
@@ -161,9 +160,10 @@ find your hacking energy is sapped by distractions like sex, money, and
 social approval.
 
 >
+
     You also have to develop a kind of faith in your own learning capacity --- a belief that even though you may not know all of what you need to solve a problem, if you tackle just a piece of it and learn from that, you'll learn enough to solve the next piece --- and so on, until you're done.
 
---------
+---
 
 ### 2. No problem should ever have to be solved twice.
 
@@ -188,9 +188,10 @@ solution from being re-used and **force** people to re-invent
 wheels.
 
 >
+
     You don't have to believe that you're obligated to give **all** your creative product away, though the hackers that do are the ones that get most respect from other hackers. It's consistent with hacker values to sell enough of it to keep you in food and rent and computers. It's fine to use your hacking skills to support a family or even get rich, as long as you don't forget your loyalty to your art and your fellow hackers while doing it.
 
---------
+---
 
 ### 3. Boredom and drudgery are evil.
 
@@ -205,10 +206,10 @@ automate away the boring bits as much as possible, not just for yourself
 but for everybody else (especially other hackers).
 
 >
+
     There is one apparent exception to this. Hackers will sometimes do things that may seem repetitive or boring to an observer as a mind-clearing exercise, or in order to acquire a skill or have some particular kind of experience you can't have otherwise. But this is by choice --- nobody who can think should ever be forced into a situation that bores them.
 
-
-------
+---
 
 ### 4. Freedom is good.
 
@@ -220,6 +221,7 @@ has to be fought wherever you find it, lest it smother you and other
 hackers.
 
 >
+
     This isn't the same as fighting all authority. Children need to be guided and criminals restrained. A hacker may agree to accept some kinds of authority in order to get something he wants more than the time he spends following orders. But that's a limited, conscious bargain; the kind of personal surrender authoritarians want is not on offer.
 
 Authoritarians thrive on censorship and secrecy. And they distrust
@@ -229,7 +231,7 @@ develop an instinctive hostility to censorship, secrecy, and the use of
 force or deception to compel responsible adults. And you have to be
 willing to act on that belief.
 
----------
+---
 
 ### 5. Attitude is no substitute for competence.
 
@@ -246,6 +248,7 @@ master is especially good, and competence at demanding skills that
 involve mental acuteness, craft, and concentration is best.
 
 >
+
     If you revere competence, you'll enjoy developing it in yourself ---
     the hard work and dedication will become a kind of intense play rather
     than drudgery. That attitude is vital to becoming a hacker.
@@ -269,7 +272,6 @@ This toolkit changes slowly over time as technology creates new skills
 and makes old ones obsolete. For example, it used to include programming
 in machine language, and didn't until recently involve HTML. But right
 now it pretty clearly includes the following:
-
 
 ### 1. Learn how to program.
 
@@ -363,6 +365,7 @@ self-taught. You can learn language features --- bits of knowledge ---
 from books, but the mind-set that makes that knowledge into living skill can be learned only by practice and apprenticeship.
 
 What will do it is
+
 1. **reading code** and
 2. **writing code**.
 
@@ -392,6 +395,7 @@ available. Which brings me neatly to our next topic\...
 I'll assume you have a personal computer or can get access to one.
 
 >
+
     Take a moment to appreciate how much that means. The hacker culture originally evolved back when computers were so expensive that individuals could not own them.
 
 The single most important step any newbie can take toward acquiring hacker skills is to get a copy of Linux
@@ -483,8 +487,6 @@ zero-content sludge --- very snazzy-looking sludge, mind you, but sludge
 all the same (for more on this see [The HTML Hell
 Page](http://catb.org/~esr/html-hell.html)).
 
-Emma, a friend, recommended to me the [Html Guide for Beginners](http://www.websiteplanet.com/blog/html-guide-beginners) at Website Planet. It's a good place to start.
-
 To be worthwhile, your page must have **content** --- it must
 be interesting and/or useful to other hackers. And that brings us to the next topic\...
 
@@ -514,7 +516,6 @@ does not invariably mean sloppy thinking, we've generally found the
 correlation to be strong --- and we have no use for sloppy thinkers. If
 you can't yet write competently, learn to.
 
-
 ## Status in the Hacker Culture
 
 [1. Write open-source software](#1-write-open-source-software)
@@ -527,7 +528,7 @@ you can't yet write competently, learn to.
 
 [5. Serve the hacker culture itself](#5-serve-the-hacker-culture-itself)
 
------------
+---
 
 Like most cultures without a money economy, hackerdom runs on
 reputation. You're trying to solve interesting problems, but how
@@ -627,7 +628,6 @@ visibly reaching for this kind of fame is dangerous. Rather than
 striving for it, you have to sort of position yourself so it drops in
 your lap, and then be modest and gracious about your status.
 
-
 ## The Hacker/Nerd Connection
 
 Contrary to popular myth, you don't have to be a nerd to be a hacker.
@@ -654,7 +654,6 @@ If you're attracted to hacking because you don't have a life, that's
 OK too --- at least you won't have trouble concentrating. Maybe you'll
 get a life later on.
 
-
 ## Points For Style
 
 Again, to be a hacker, you have to enter the hacker mindset. There are
@@ -663,39 +662,39 @@ They're not substitutes for hacking (nothing is) but many hackers do
 them, and feel that they connect in some basic way with the essence of
 hacking.
 
--   Learn to write your native language well. Though it's a common
-    stereotype that programmers can't write, a surprising number of
-    hackers (including all the most accomplished ones I know of) are
-    very able writers.
+- Learn to write your native language well. Though it's a common
+  stereotype that programmers can't write, a surprising number of
+  hackers (including all the most accomplished ones I know of) are
+  very able writers.
 
--   Read science fiction. Go to science fiction conventions (a good way
-    to meet hackers and proto-hackers).
+- Read science fiction. Go to science fiction conventions (a good way
+  to meet hackers and proto-hackers).
 
--   Join a hackerspace and make things (another good way to meet hackers and proto-hackers).
+- Join a hackerspace and make things (another good way to meet hackers and proto-hackers).
 
--   Train in a martial-arts form. The kind of mental discipline required for martial arts seems to be similar in important ways to what
-    hackers do. The most popular forms among hackers are definitely
-    Asian empty-hand arts such as Tae Kwon Do, various forms of Karate,
-    Kung Fu, Aikido, or Ju Jitsu. Western fencing and Asian sword arts
-    also have visible followings. In places where it's legal, pistol
-    shooting has been rising in popularity since the late 1990s. The
-    most hackerly martial arts are those which emphasize mental
-    discipline, relaxed awareness, and precise control, rather than raw
-    strength, athleticism, or physical toughness.
+- Train in a martial-arts form. The kind of mental discipline required for martial arts seems to be similar in important ways to what
+  hackers do. The most popular forms among hackers are definitely
+  Asian empty-hand arts such as Tae Kwon Do, various forms of Karate,
+  Kung Fu, Aikido, or Ju Jitsu. Western fencing and Asian sword arts
+  also have visible followings. In places where it's legal, pistol
+  shooting has been rising in popularity since the late 1990s. The
+  most hackerly martial arts are those which emphasize mental
+  discipline, relaxed awareness, and precise control, rather than raw
+  strength, athleticism, or physical toughness.
 
--   Study an actual meditation discipline. The perennial favorite among
-    hackers is Zen (importantly, it is possible to benefit from Zen
-    without acquiring a religion or discarding one you already have).
-    Other styles may work as well, but be careful to choose one that
-    doesn't require you to believe crazy things.
+- Study an actual meditation discipline. The perennial favorite among
+  hackers is Zen (importantly, it is possible to benefit from Zen
+  without acquiring a religion or discarding one you already have).
+  Other styles may work as well, but be careful to choose one that
+  doesn't require you to believe crazy things.
 
--   Develop an analytical ear for music. Learn to appreciate peculiar
-    kinds of music. Learn to play some musical instrument well, or how
-    to sing.
+- Develop an analytical ear for music. Learn to appreciate peculiar
+  kinds of music. Learn to play some musical instrument well, or how
+  to sing.
 
--   Develop your appreciation of puns and wordplay.
+- Develop your appreciation of puns and wordplay.
 
----------
+---
 
 The more of these things you already do, the more likely it is that you
 are natural hacker material. Why these things in particular is not
@@ -718,16 +717,16 @@ to get very good at it.
 
 Finally, a few things **not** to do.
 
--   Don't use a silly, grandiose user ID or screen name.
+- Don't use a silly, grandiose user ID or screen name.
 
--   Don't get in flame wars on Usenet (or anywhere else).
+- Don't get in flame wars on Usenet (or anywhere else).
 
--   Don't call yourself a 'cyberpunk', and don't waste your time on
-    anybody who does.
+- Don't call yourself a 'cyberpunk', and don't waste your time on
+  anybody who does.
 
--   Don't post or email writing that's full of spelling errors and bad grammar.
+- Don't post or email writing that's full of spelling errors and bad grammar.
 
--------
+---
 
 The only reputation you'll make doing any of these things is as a twit. Hackers have long memories --- it could take you years to live your early blunders down enough to be accepted.
 
@@ -737,7 +736,6 @@ behavior characteristic of crackers, warez d00dz, and other lower life
 forms. Hackers don't do this; they're proud of what they do and want
 it associated with their **real** names. So if you have a
 handle, drop it. In the hacker culture it will only mark you as a loser.
-
 
 ## Historical Note: Hacking, Open Source, and Free Software
 
@@ -806,7 +804,7 @@ these categories, and it seems unlikely that will change in the future.
 
 It is worth remembering, however, that this was not always so.
 
------------
+---
 
 ## Other Resources
 
@@ -835,6 +833,8 @@ When you release software or write patches for software, try to follow
 the guidelines in the [Software Release Practice HOWTO](http://en.tldp.org/HOWTO/Software-Release-Practice-HOWTO/index.html).
 
 If you enjoyed the Zen poem, you might also like [Rootless Root: The Unix Koans of Master Foo](http://catb.org/~esr//writings/unix-koans).
+
+Emma Carey also suggested that I include the [Html Guide for Beginners](http://www.websiteplanet.com/blog/html-guide-beginners) at Website Planet.
 
 ## Frequently Asked Questions
 
@@ -879,4 +879,3 @@ Q: [Do I need to hate and bash Microsoft?](http://www.catb.org/~esr/faqs/hacker-
 Q: [But won't open-source software leave programmers unable to make a living?](http://www.catb.org/~esr/faqs/hacker-howto.html#no_living)
 
 Q: [Where can I get a free Unix?](http://www.catb.org/~esr/faqs/hacker-howto.html#problems)
-
