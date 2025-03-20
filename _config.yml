@@ -18,12 +18,12 @@ repository: "TralahM/TralahM.github.io"
 teaser: "/images/tekblogquote.png"
 logo: "/images/completelogo.svg"
 masthead_title: "TralahM"
-breadcrumbs: true  # true, false (default)
+breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
-  provider:  # "disqus"
+  provider: # "disqus"
   disqus:
-    shortname:  # "TralahM"
+    shortname: # "TralahM"
   discourse:
     server:
     # meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963
@@ -31,27 +31,27 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid:
-    num_posts:  # 5 (default)
-    colorscheme:  # "light" (default), "dark"
+    num_posts: # 5 (default)
+    colorscheme: # "light" (default), "dark"
   utterances:
-    theme: "github-dark"  # (default)= "github-light"
-    issue_term: "pathname"  # (default)
+    theme: "github-dark" # (default)= "github-light"
+    issue_term: "pathname" # (default)
 staticman:
   allowedFields:
-    - 'name'
-    - 'email'
-    - 'url'
-    - 'message'
+    - "name"
+    - "email"
+    - "url"
+    - "message"
   branch: "master"
-  commitMessage:  # "New comment by {fields.name}"
-  filename:  # comment-{@timestamp}
-  format:  # "yml"
+  commitMessage: # "New comment by {fields.name}"
+  filename: # comment-{@timestamp}
+  format: # "yml"
   moderation: true
-  path: "/_data/comments/{options.slug}"  # (default)
+  path: "/_data/comments/{options.slug}" # (default)
   requiredFields:
-    - 'name'
-    - 'email'
-    - 'message'
+    - "name"
+    - "email"
+    - "message"
   transforms:
     email: "md5"
   generatedFields:
@@ -67,15 +67,15 @@ reCaptcha:
   siteKey: "6LeXjeYZAAAAAI3uIvVpEQu7yr34iXN0WT3AMGAM"
   secret: "V3NQ1MJ0fquGuK5suKC3tWXozf2X+O8BDIlgz6zTO6vI/JKx0t5MD2lyZrZD+DfGPxzTFV6a+Mk008Vktn9RbVmtrV/uz9T/KUgCy31Jcx17p0xG7QaZ7a1mY0xpXKZPNMBPXOfcxoDt5VkUaPAVqH9dEF5Cr4cv8pAYuArubOY="
 atom_feed:
-  path: feed.xml  # blank (default) uses feed.xml
+  path: feed.xml # blank (default) uses feed.xml
 search: true
-search_full_content: true  # true, false (default)
-search_provider: google  # (default) lunr, algolia
+search_full_content: true # true, false (default)
+search_provider: google # (default) lunr, algolia
 algolia:
-  application_id:  # YOUR_APPLICATION_ID
-  index_name:  # YOUR_INDEX_NAME
-  search_only_api_key:  # YOUR_SEARCH_ONLY_API_KEY
-  powered_by:  # true (default), false
+  application_id: # YOUR_APPLICATION_ID
+  index_name: # YOUR_INDEX_NAME
+  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
 google:
   search_engine_id: "2bd7f4d612e244c74"
   instant_search: true
@@ -88,7 +88,7 @@ naver_site_verification:
 
 # Social Sharing
 twitter:
-  username: 'TralahM'
+  username: "TralahM"
 facebook:
   username:
   app_id:
@@ -98,9 +98,9 @@ og_image: "/images/completelogo.svg"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type:  # Person or Organization (defaults to Person)
-  name:  # If the user or organization name differs from the site's name
-  links:  # An array of links to social media profiles
+  type: # Person or Organization (defaults to Person)
+  name: # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
     - https://github.com/TralahM
     - https://x.com/TralahM
     - https://linkedin.com/in/tralahm/
@@ -109,64 +109,62 @@ social:
 
 # Analytics
 analytics:
-  provider: "google"  # false (default), "google", "google-universal", "custom"
+  provider: "google" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id: "G-Z18GN96M4L"
-
 
 # Site Author
 author:
   name: "Tralah M Brian"
   avatar: "/images/TralahM.png"
-  bio: "Software Craftsman, Programmer, Writer, Pan-African. As Linus would say, Talk is cheap, show me the code."
-  location: "Nairobi, Kenya, Africa"
+  bio: "Software Craftsman, Toolsmith, Writer. As Linus would say, Talk is cheap, show me the code."
+  location: "Nairobi, KE, Africa"
   email: "briantralah@gmail.com"
   youtube: tralahm12
   links:
-    - label: "Websitbe"
+    - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://tralahm.github.io"
-    - label: "X (Twitter)"
+    - label: "X"
       icon: "fa-brands fa-square-x-twitter"
       url: "https://x.com/TralahM"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/TralahM"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/tralahm"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/tralahm/"
     - label: "Stack Overflow"
       icon: "fab fa-fw fa-stack-overflow"
       url: "https://stackoverflow.com/users/12521832/tralahm"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/tralahm"
 
 # Site Footer
 footer:
   links:
-    - label: "X (Twitter)"
+    - label: "@TralahM"
       icon: "fa-brands fa-square-x-twitter"
       url: "https://x.com/TralahM"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/TralahM"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/tralahm/"
+    - label: "Stack Overflow"
+      icon: "fab fa-fw fa-stack-overflow"
+      url: "https://stackoverflow.com/users/12521832/tralahm"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       url: "https://gitlab.com/TralahM"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       url: "https://bitbucket.com/TralahM"
-    - label: "Instagram"
+    - label: "@tralahm"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/tralahm"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/tralahm/"
-    - label: "Stack Overflow"
-      icon: "fab fa-fw fa-stack-overflow"
-      url: "https://stackoverflow.com/users/12521832/tralahm"
-
 
 # Reading Files
 include:
@@ -202,14 +200,13 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs  # ignore Minimal Mistakes /docs
-  - /test  # ignore Minimal Mistakes /test
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
@@ -217,7 +214,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -230,20 +226,17 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
   # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed
   # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-
   # Outputting
-permalink: /:title/  # /:categories/:title/
-paginate: 13  # amount of posts to show
+permalink: /:title/ # /:categories/:title/
+paginate: 13 # amount of posts to show
 paginate_path: /page:num/
-timezone: 'Africa/Nairobi'
-
+timezone: "Africa/Nairobi"
 
 # Plugins (previously gems:)
 plugins:
@@ -260,7 +253,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
 
 # Archives
 #  Type
@@ -292,7 +284,6 @@ jekyll-archives:
     category: /categories/:name/
     tag: /tags/:name/
 
-
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
@@ -300,12 +291,10 @@ compress_html:
   ignore:
     envs: development
 
-
 # Defaults
 defaults:
   # _posts
-  -
-    scope:
+  - scope:
       path: ""
       type: posts
     values:
@@ -321,8 +310,7 @@ defaults:
       toc_sticky: true
 
   # _pages
-  -
-    scope:
+  - scope:
       path: ""
       type: pages
     values:
